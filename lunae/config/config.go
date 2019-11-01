@@ -26,6 +26,7 @@ var (
 		"png": "sxiv,g",
 		"gif": "sxiv,g",
 		"tiff": "sxiv,g",
+		"pdf": "mupdf,g",
 	}
 
 	FileColors = map[string]tcell.Style {
@@ -35,5 +36,8 @@ var (
 		"png": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
 		"gif": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
 		"tiff": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
+		"go": tcell.StyleDefault.Foreground(tcell.GetColor("#00add8")),
+		"sh": tcell.StyleDefault.Foreground(tcell.GetColor("#90e051")),
+
 	}
 )
