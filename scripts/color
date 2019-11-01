@@ -1,0 +1,17 @@
+#!/usr/bin/python -B
+
+from curses import *
+
+s = initscr()
+
+start_color()
+use_default_colors()
+
+for i in range(0, 255):
+    init_pair(i + 1, i, -1)
+
+for i in range (0, 255):
+    s.addstr(" " + str(i) + " ", color_pair(i))
+
+s.getch()
+endwin()
