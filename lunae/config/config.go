@@ -9,14 +9,14 @@ var (
 
 	Selected []string
 
-	BarBg tcell.Color = tcell.GetColor("#ff0000")
-	BarFg tcell.Color = tcell.GetColor("#0000ff")
+	BarBg tcell.Color = tcell.ColorDefault
+	BarFg tcell.Color = tcell.GetColor("#ff0000")
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
-		"2size": tcell.StyleDefault.Background(BarBg),
-		"3mode": tcell.StyleDefault.Background(BarBg),
-		//"3[file @]": tcell.StyleDefault.Background(tcell.GetColor(BarBg)),
+		"1cwd": tcell.StyleDefault.Foreground(BarFg).Bold(true),
+		"2size": tcell.StyleDefault.Foreground(BarFg),
+		"3mode": tcell.StyleDefault.Foreground(BarFg),
+		//"3[file @]": tcell.StyleDefault.Background(BarBg),
 	}
 
 	FileOpen = map[string]string {

@@ -1,4 +1,0 @@
-#!/bin/bash
-vim .todo
-yaki add todo/ $(cat ".todo")
-rm .todo

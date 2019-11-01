@@ -1,8 +1,0 @@
-#!/bin/bash
-
-mv config/config.go config/tmp
-
-cp ~/repos/rice/lunae/config/config.go config/config.go
-go build
-rm config/config.go
-mv config/tmp config/config.go
