@@ -1,7 +1,0 @@
-#!/bin/bash
-
-scrot /tmp/lock.png
-
-convert /tmp/lock.png -spread 1 /tmp/lock.png
-
-i3lock -u -i /tmp/lock.png

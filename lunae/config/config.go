@@ -7,15 +7,26 @@ var (
 	YBuffTop int = 0
 	YBuffBottom int = 2
 
-	Selected []string
+	KeyRefresh rune = 'f'
+	KeyQuit rune = 'q'
+	KeyDelete rune = 'd'
+	KeyGroupDelete rune = 'D'
+	KeyCopy rune = 'C'
+	KeyMove rune = 'M'
+	KeySelect rune = ' '
+	KeyDotToggle rune = '.'
+	KeyLeft rune = 'h'
+	KeyDown rune = 'j'
+	KeyUp rune = 'k'
+	KeyRight rune = 'l'
 
-	BarBg tcell.Color = tcell.ColorDefault
-	BarFg tcell.Color = tcell.GetColor("#ff0000")
+	BarFg tcell.Color = tcell.ColorDefault
+	BarBg tcell.Color = tcell.GetColor("#ff0000")
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		"1cwd": tcell.StyleDefault.Foreground(BarFg).Bold(true),
-		"2size": tcell.StyleDefault.Foreground(BarFg),
-		"3mode": tcell.StyleDefault.Foreground(BarFg),
+		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
+		"2size": tcell.StyleDefault.Background(BarBg),
+		"3mode": tcell.StyleDefault.Background(BarBg),
 		//"3[file @]": tcell.StyleDefault.Background(BarBg),
 	}
 
@@ -36,8 +47,14 @@ var (
 		"png": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
 		"gif": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
 		"tiff": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
-		"go": tcell.StyleDefault.Foreground(tcell.GetColor("#00add8")),
-		"sh": tcell.StyleDefault.Foreground(tcell.GetColor("#90e051")),
-
 	}
+
+	Bindings = map[rune][]string {
+		'~': []string{"cd", "~"},
+		'1': []string{"cd", "~/repos"},
+		'2': []string{"cd", "~/repos/rice"},
+		'3': []string{"cd", "~/.config"},
+	}
+
+	Selected []string
 )
