@@ -3,9 +3,9 @@ package config
 import "github.com/gdamore/tcell"
 
 var (
-	XBuff int = 0
-	YBuffTop int = 0
-	YBuffBottom int = 2
+	XBuff int = 1
+	YBuffTop int = 1
+	YBuffBottom int = 3
 
 	KeyRefresh rune = 'f'
 	KeyQuit rune = 'q'
@@ -27,7 +27,6 @@ var (
 		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
 		"2size": tcell.StyleDefault.Background(BarBg),
 		"3mode": tcell.StyleDefault.Background(BarBg),
-		//"3[file @]": tcell.StyleDefault.Background(BarBg),
 	}
 
 	FileOpen = map[string]string {
@@ -54,6 +53,7 @@ var (
 		'1': []string{"cd", "~/repos"},
 		'2': []string{"cd", "~/repos/rice"},
 		'3': []string{"cd", "~/.config"},
+		'v': []string{"t", "less"},
 	}
 
 	Selected []string

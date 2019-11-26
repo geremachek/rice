@@ -7,20 +7,16 @@ alias off='setterm -cursor off'
 alias c='clear'
 alias q='exit'
 alias p='sudo pacman'
-alias y='yaki'
 alias s='sudo'
 alias tarc='tar -czvf'
 alias tare='tar -xvzf'
 alias l="ls -l"
 alias ls="ls --color"
-alias tt="tt -u"
 alias rm="rb m"
 alias repos='cd ~/repos'
-alias gor='go run'
-alias gob='go build'
 alias ~="cd ~"
 alias li="license -o LICENSE gpl-3.0"
-alias cht="echo -e '\n C̵̻̘͍̲̯̩̰̲͙͓̝͇͕̩̀̃̽̀̑̾̈̅̀ḧ̶̝̬́̽t̷̛̩̪́́̓̍̉̓h̸̡͙̲͓̩̲̞̦̻͈̩̃̓̀͗̒̈́̿u̷̧̘̩̗͛̂̍̆́̿͆̂͛͌͗̈́̌l̸̢̮̖͕͇̬̟̪̜̳̻̙̇̓̉̓̔̇̌̐̓̇͆́̍̕͜͝ͅh̶͍͕̜̀̒̐̈́̄́ư̷̥̖̳̱̠͖̒̃̀͜ͅ\n'"
+alias lu="lunae"
 
 alias rice="cd ~/repos/rice"
 
@@ -28,8 +24,6 @@ alias rice="cd ~/repos/rice"
 
 alias ga="git add"
 alias gp="git push"
-
-vd="/usr/share/vim/vim81/colors"
 
 # pfetch
 
@@ -68,5 +62,6 @@ wipe() {
 	echo -n "" > ${1}
 }
 
-export PROMPT_COMMAND='printf "\e[0m"'
+# Prompt
+
 export PS1=" \e[31;4mᛡ\e[0m "

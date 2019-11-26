@@ -17,8 +17,8 @@ bindsym $mod+Shift+q kill
 
 # gaps settings
 
-gaps inner 4
-gaps outer 4
+gaps inner 5
+gaps outer 15
 
 # my dmenu config
 bindsym $mod+d exec dmenu_run -sb grey -sf blue
@@ -169,7 +169,7 @@ bindsym XF86AudioPrev exec playerctl previous
 new_window pixel 0
 default_border pixel 3
 
-exec glass
-
 bindsym $mod+i exec firefox
 floating_maximum_size 450 x 450
+
+exec hsetroot -fill /home/gmk/.w.png
