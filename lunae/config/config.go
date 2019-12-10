@@ -10,7 +10,6 @@ var (
 	KeyRefresh rune = 'f'
 	KeyQuit rune = 'q'
 	KeyDelete rune = 'd'
-	KeyGroupDelete rune = 'D'
 	KeyCopy rune = 'C'
 	KeyMove rune = 'M'
 	KeySelect rune = ' '
@@ -21,13 +20,19 @@ var (
 	KeyRight rune = 'l'
 
 	BarFg tcell.Color = tcell.ColorDefault
-	BarBg tcell.Color = tcell.GetColor("#ff0000")
+	BarBg tcell.Color = tcell.ColorDarkOliveGreen
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
 		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
 		"2size": tcell.StyleDefault.Background(BarBg),
 		"3mode": tcell.StyleDefault.Background(BarBg),
 	}
+
+	SelectType string = "arrow" // full, default, arrow
+	SelectStyle tcell.Style = tcell.StyleDefault.Background(tcell.ColorDarkOliveGreen)
+	SelectArrow string = " -> "
+	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorDarkOliveGreen).Bold(true)
+
 
 	FileOpen = map[string][]string {
 		"*": []string{"t", "vim @"},
@@ -54,6 +59,7 @@ var (
 		'2': []string{"cd", "~/repos/rice"},
 		'3': []string{"cd", "~/.config"},
 		'v': []string{"t", "less @"},
+		'w': []string{"t", "setwal @ > /dev/null &"},
 	}
 
 	Selected []string
