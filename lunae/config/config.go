@@ -1,3 +1,9 @@
+/*
+
+- L U N A E  C O N F I G -
+
+*/
+
 package config
 
 import "github.com/gdamore/tcell"
@@ -10,17 +16,22 @@ var (
 	KeyRefresh rune = 'f'
 	KeyQuit rune = 'q'
 	KeyDelete rune = 'd'
-	KeyCopy rune = 'C'
-	KeyMove rune = 'M'
-	KeySelect rune = ' '
+	KeyBulkDelete rune = 'D'
+	KeyCopy rune = 'p'
+	KeyMove rune = 'm'
+	KeySelect rune = 'c'
+	KeySelectAll rune = '*'
+	KeyDeselectAll rune = '-'
 	KeyDotToggle rune = '.'
+	KeyGoToFirst rune = 'g'
+	KeyGoToLast rune = 'G'
 	KeyLeft rune = 'h'
 	KeyDown rune = 'j'
 	KeyUp rune = 'k'
 	KeyRight rune = 'l'
 
 	BarFg tcell.Color = tcell.ColorDefault
-	BarBg tcell.Color = tcell.ColorDarkOliveGreen
+	BarBg tcell.Color = tcell.ColorIndianRed
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
 		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
@@ -28,10 +39,10 @@ var (
 		"3mode": tcell.StyleDefault.Background(BarBg),
 	}
 
-	SelectType string = "arrow" // full, default, arrow
-	SelectStyle tcell.Style = tcell.StyleDefault.Background(tcell.ColorDarkOliveGreen)
-	SelectArrow string = " -> "
-	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorDarkOliveGreen).Bold(true)
+	SelectType string = "arrow-default" // full, default, arrow
+	SelectStyle tcell.Style = tcell.StyleDefault.Bold(true)
+	SelectArrow string = "> "
+	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
 
 	FileOpen = map[string][]string {
