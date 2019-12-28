@@ -44,15 +44,16 @@ var (
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
+	Shell string = "dash"
 
 	FileOpen = map[string][]string {
-		"*": []string{"t", "vim @"},
-		"jpg": []string{"g", "sxiv @"},
-		"jpeg": []string{"g", "sxiv @"},
-		"png": []string{"g", "sxiv @"},
-		"gif": []string{"g", "sxiv @"},
-		"tiff": []string{"g", "sxiv @"},
-		"pdf": []string{"g", "mupdf @"},
+		"*": []string{"t", "vim '@'"},
+		"jpg": []string{"g", "sxiv '@'"},
+		"jpeg": []string{"g", "sxiv '@'"},
+		"png": []string{"g", "sxiv '@'"},
+		"gif": []string{"g", "sxiv '@'"},
+		"tiff": []string{"g", "sxiv '@'"},
+		"pdf": []string{"g", "mupdf '@'"},
 	}
 
 	FileColors = map[string]tcell.Style {
@@ -69,8 +70,8 @@ var (
 		'1': []string{"cd", "~/repos"},
 		'2': []string{"cd", "~/repos/rice"},
 		'3': []string{"cd", "~/.config"},
-		'v': []string{"t", "less @"},
-		'w': []string{"t", "setwal @ > /dev/null &"},
+		'v': []string{"t", "less '@'"},
+		'w': []string{"t", "setwal '@' > /dev/null &"},
 	}
 
 	Selected []string
