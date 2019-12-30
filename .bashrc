@@ -8,6 +8,7 @@ alias c='clear'
 alias q='exit'
 alias p='sudo pacman'
 alias s='sudo'
+alias co="conch"
 alias tarc='tar -czvf'
 alias tare='tar -xvzf'
 alias l="ls -l"
@@ -16,7 +17,8 @@ alias rm="rb m"
 alias repos='cd ~/repos'
 alias ~="cd ~"
 alias li="license -o LICENSE gpl-3.0"
-alias lu="lunae"
+alias wl="warlock -usb"
+alias pz="przm -b -o"
 
 alias rice="cd ~/repos/rice"
 
@@ -58,10 +60,29 @@ gh() {
 	git clone https://github.com/$1
 }
 
+# wipe a file
+
 wipe() {
 	echo -n "" > ${1}
 }
 
+# catfm
+
+fm() {
+	catfm
+	cd "$(< /tmp/kitty)"
+}
+
+# g++
+
+grn() {
+	g++ ${1} -lncurses ; ./a.out ; rm a.out
+}
+
+gr() {
+	g++ ${1} ; ./a.out ; rm a.out
+}
+
 # Prompt
 
-export PS1=" \e[31;4mᛡ\e[0m "
+export PS1=" \e[31m┅┅\e[0m "

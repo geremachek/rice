@@ -1,6 +1,6 @@
 /*
 
-- L U N A E  C O N F I G -
+- C A T F M  C O N F I G -
 
 */
 
@@ -36,13 +36,12 @@ var (
 	BarStyle = map[string]tcell.Style{
 		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
 		"2size": tcell.StyleDefault.Background(BarBg),
-		"3mode": tcell.StyleDefault.Background(BarBg),
 	}
 
 	SelectType string = "arrow-default" // full, default, arrow
 	SelectStyle tcell.Style = tcell.StyleDefault.Bold(true)
-	SelectArrow string = "> "
-	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
+	SelectArrow string = " ;; "
+	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed)
 
 	Shell string = "dash"
 
