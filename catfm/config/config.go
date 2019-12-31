@@ -34,8 +34,10 @@ var (
 	BarBg tcell.Color = tcell.ColorIndianRed
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
-		"2size": tcell.StyleDefault.Background(BarBg),
+		"1catfm@$HOST": tcell.StyleDefault.Background(BarBg).Foreground(tcell.ColorIvory).Bold(true).Underline(true),
+		"2cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
+		"3total": tcell.StyleDefault.Background(BarBg),
+		"4\"$FILE\"": tcell.StyleDefault.Background(BarBg),
 	}
 
 	SelectType string = "arrow-default" // full, default, arrow
