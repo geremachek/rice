@@ -38,6 +38,7 @@ var (
 		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
 		"2total": tcell.StyleDefault.Background(BarBg),
 		"3\"$FILE\"": tcell.StyleDefault.Background(BarBg),
+		"4size": tcell.StyleDefault.Background(BarBg),
 	}
 
 	SelectType string = "arrow-default" // full, default, arrow
