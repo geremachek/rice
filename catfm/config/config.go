@@ -9,9 +9,9 @@ package config
 import "github.com/gdamore/tcell"
 
 var (
-	XBuff int = 1
-	YBuffTop int = 1
-	YBuffBottom int = 3
+	XBuff int = 2
+	YBuffTop int = 2
+	YBuffBottom int = 4
 
 	KeyRefresh rune = 'f'
 	KeyQuit rune = 'q'
@@ -20,7 +20,7 @@ var (
 	KeyCopy rune = 'p'
 	KeyMove rune = 'm'
 	KeySelect rune = 'c'
-	KeySelectAll rune = '*'
+	KeySelectAll rune = '='
 	KeyDeselectAll rune = '-'
 	KeyDotToggle rune = '.'
 	KeyGoToFirst rune = 'g'
@@ -34,16 +34,22 @@ var (
 	BarBg tcell.Color = tcell.ColorIndianRed
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		"1catfm@$HOST": tcell.StyleDefault.Background(BarBg).Foreground(tcell.ColorIvory).Bold(true).Underline(true),
-		"2cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
-		"3total": tcell.StyleDefault.Background(BarBg),
-		"4\"$FILE\"": tcell.StyleDefault.Background(BarBg),
+		//"1catfm@$HOST": tcell.StyleDefault.Background(BarBg).Foreground(tcell.ColorBeige).Bold(true).Underline(true),
+		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
+		"2total": tcell.StyleDefault.Background(BarBg),
+		"3\"$FILE\"": tcell.StyleDefault.Background(BarBg),
 	}
 
 	SelectType string = "arrow-default" // full, default, arrow
 	SelectStyle tcell.Style = tcell.StyleDefault.Bold(true)
-	SelectArrow string = " ;; "
-	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed)
+	SelectArrow string = "> "
+	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
+
+	PipeType = "round"
+	PipeStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorDarkRed)
+	PipeText = "catfm@host"
+	PipeTextStyle = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Bold(true).Underline(true)
+
 
 	Shell string = "dash"
 
