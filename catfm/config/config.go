@@ -30,25 +30,23 @@ var (
 	KeyUp rune = 'k'
 	KeyRight rune = 'l'
 
-	BarFg tcell.Color = tcell.ColorDefault
+	BarFg tcell.Color = tcell.GetColor("#ffffb5")
 	BarBg tcell.Color = tcell.ColorIndianRed
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		//"1catfm@$HOST": tcell.StyleDefault.Background(BarBg).Foreground(tcell.ColorBeige).Bold(true).Underline(true),
 		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
 		"2total": tcell.StyleDefault.Background(BarBg),
-		"3\"$FILE\"": tcell.StyleDefault.Background(BarBg),
-		"4size": tcell.StyleDefault.Background(BarBg),
+		"3size": tcell.StyleDefault.Background(BarBg),
 	}
 
-	SelectType string = "arrow-default" // full, default, arrow
-	SelectStyle tcell.Style = tcell.StyleDefault.Bold(true)
+	SelectType string = "full" // full, default, arrow
+	SelectStyle tcell.Style = tcell.StyleDefault.Background(tcell.GetColor("#e1d7d0")).Bold(true)
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
 	PipeType = "round"
-	PipeStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorDarkRed)
-	PipeText = "catfm@host"
+	PipeStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorDefault)
+	PipeText = "user@host"
 	PipeTextStyle = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Bold(true).Underline(true)
 
 
