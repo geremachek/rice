@@ -17,8 +17,7 @@ alias rm="rb m"
 alias repos='cd ~/repos'
 alias ~="cd ~"
 alias li="license -o LICENSE gpl-3.0"
-alias wl="warlock -usb"
-alias pz="przm -b -o"
+alias pz="przm -bo"
 
 alias rice="cd ~/repos/rice"
 
@@ -68,9 +67,8 @@ wipe() {
 
 # catfm
 
-fm() {
-	catfm
-	cd "$(< /tmp/kitty)"
+catfm() {
+	/usr/bin/catfm "${@}" && cd "$(< /tmp/kitty)"
 }
 
 # g++
@@ -85,4 +83,10 @@ gr() {
 
 # Prompt
 
-export PS1=" \e[31m┅┅\e[0m "
+export PS1=" \e[31m$\e[0m "
+
+# sock
+
+alias lock="s sock -e -B -c=ffffff -b=000000 -o=d1cfb3 -C"
+alias lk="sock -e -B -c=ffffff -b=000000 -o=d1cfb3 -C -m='All terminals are locked!' -k"
+lk

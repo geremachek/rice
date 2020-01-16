@@ -2,9 +2,8 @@
 " Plug
 
 call plug#begin('~/.vim/plugged')
-Plug 'junegunn/goyo.vim'
 Plug 'PotatoesMaster/i3-vim-syntax'
-Plug 'junegunn/limelight.vim'
+Plug 'vim/killersheep'
 call plug#end()
 
 " UI
@@ -47,5 +46,3 @@ inoremap <c-o> <Esc>:call NewFile()<Enter>
 
 inoremap <c-p> <Esc>pi<Right>
 inoremap <c-u> <Esc>ui
-inoremap <c-g> <Esc>:Goyo 95%x95% <Enter>i<Right>
-let g:limelight_conceal_ctermfg = 8

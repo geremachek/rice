@@ -9,9 +9,9 @@ package config
 import "github.com/gdamore/tcell"
 
 var (
-	XBuff int = 2
-	YBuffTop int = 2
-	YBuffBottom int = 4
+	XBuff int = 1
+	YBuffTop int = 3
+	YBuffBottom int = 1
 
 	KeyRefresh rune = 'f'
 	KeyQuit rune = 'q'
@@ -30,11 +30,12 @@ var (
 	KeyUp rune = 'k'
 	KeyRight rune = 'l'
 
-	BarFg tcell.Color = tcell.GetColor("#ffffb5")
-	BarBg tcell.Color = tcell.ColorIndianRed
+	BarLocale = "top"
+	BarFg tcell.Color = tcell.ColorDarkRed
+	BarBg tcell.Color = tcell.ColorDefault
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		"1cwd": tcell.StyleDefault.Background(BarBg).Bold(true),
+		"1cwd": tcell.StyleDefault.Background(BarBg).Foreground(BarFg).Bold(true),
 		"2total": tcell.StyleDefault.Background(BarBg),
 		"3size": tcell.StyleDefault.Background(BarBg),
 	}
@@ -44,7 +45,7 @@ var (
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
-	PipeType = "round"
+	PipeType = ""
 	PipeStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorDefault)
 	PipeText = "user@host"
 	PipeTextStyle = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Bold(true).Underline(true)
@@ -78,6 +79,7 @@ var (
 		'3': []string{"cd", "~/.config"},
 		'v': []string{"t", "less '@'"},
 		'w': []string{"t", "setwal '@' > /dev/null &"},
+		'L': []string{"t", "sudo sock -e -B -c=ffffff -b=000000 -o=d1cfb3 -C -m='Session Locked!'"},
 	}
 
 	Selected []string
