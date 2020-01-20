@@ -1,8 +1,4 @@
-/*
-
-- C A T F M  C O N F I G -
-
-*/
+/* catfm - Jonah Geremachek Rongstad */
 
 package config
 
@@ -35,9 +31,10 @@ var (
 	BarBg tcell.Color = tcell.ColorDefault
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		"1cwd": tcell.StyleDefault.Background(BarBg).Foreground(BarFg).Bold(true),
-		"2total": tcell.StyleDefault.Background(BarBg),
-		"3size": tcell.StyleDefault.Background(BarBg),
+		"1view": tcell.StyleDefault.Background(BarBg),
+		"2cwd": tcell.StyleDefault.Background(BarBg).Foreground(BarFg).Bold(true),
+		"3total": tcell.StyleDefault.Background(BarBg),
+		"4size": tcell.StyleDefault.Background(BarBg),
 	}
 
 	SelectType string = "full" // full, default, arrow
@@ -52,6 +49,7 @@ var (
 
 
 	Shell string = "dash"
+	TildeHome bool = true
 
 	FileOpen = map[string][]string {
 		"*": []string{"t", "vim '@'"},
@@ -74,12 +72,13 @@ var (
 
 	Bindings = map[rune][]string {
 		'~': []string{"cd", "~"},
-		'1': []string{"cd", "~/repos"},
-		'2': []string{"cd", "~/repos/rice"},
-		'3': []string{"cd", "~/.config"},
+		'!': []string{"cd", "~/repos"},
+		'@': []string{"cd", "~/repos/rice"},
+		'#': []string{"cd", "~/.config"},
 		'v': []string{"t", "less '@'"},
 		'w': []string{"t", "setwal '@' > /dev/null &"},
-		'L': []string{"t", "sudo sock -e -B -c=ffffff -b=000000 -o=d1cfb3 -C -m='Session Locked!'"},
+		'L': []string{"t", "sudo sock -B -c=ff0000 -C -m='Session Locked!'"},
+		'b': []string{"g", "firefox '@'"},
 	}
 
 	Selected []string
