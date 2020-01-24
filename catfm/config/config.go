@@ -31,7 +31,7 @@ var (
 	BarBg tcell.Color = tcell.ColorDefault
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		"1view": tcell.StyleDefault.Background(BarBg),
+		"1 $TAB ": tcell.StyleDefault.Background(tcell.ColorPapayaWhip),
 		"2cwd": tcell.StyleDefault.Background(BarBg).Foreground(BarFg).Bold(true),
 		"3total": tcell.StyleDefault.Background(BarBg),
 		"4size": tcell.StyleDefault.Background(BarBg),
@@ -78,7 +78,7 @@ var (
 		'v': []string{"t", "less '@'"},
 		'w': []string{"t", "setwal '@' > /dev/null &"},
 		'L': []string{"t", "sudo sock -B -c=ff0000 -C -m='Session Locked!'"},
-		'b': []string{"g", "firefox '@'"},
+		'V': []string{"g", "firefox '@'"},
 	}
 
 	Selected []string
