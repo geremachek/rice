@@ -1,4 +1,4 @@
-/* catfm - Jonah Geremachek Rongstad */
+/* catfm - Jonah G. Rongstad */
 
 package config
 
@@ -6,8 +6,8 @@ import "github.com/gdamore/tcell"
 
 var (
 	XBuff int = 1
-	YBuffTop int = 3
-	YBuffBottom int = 1
+	YBuffTop int = 1
+	YBuffBottom int = 3
 
 	KeyRefresh rune = 'f'
 	KeyQuit rune = 'q'
@@ -26,30 +26,28 @@ var (
 	KeyUp rune = 'k'
 	KeyRight rune = 'l'
 
-	BarLocale = "top"
-	BarFg tcell.Color = tcell.ColorDarkRed
-	BarBg tcell.Color = tcell.ColorDefault
+	BarLocale = "bottom"
+	BarFg tcell.Color = tcell.ColorOlive
+	BarBg tcell.Color = tcell.ColorOlive
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		"1 $TAB ": tcell.StyleDefault.Background(tcell.ColorPapayaWhip),
-		"2cwd": tcell.StyleDefault.Background(BarBg).Foreground(BarFg).Bold(true),
-		"3total": tcell.StyleDefault.Background(BarBg),
-		"4size": tcell.StyleDefault.Background(BarBg),
+		"1*$TAB*": tcell.StyleDefault.Background(BarBg).Foreground(tcell.ColorBeige),
+		"2cwd": tcell.StyleDefault.Foreground(BarFg).Reverse(true),
 	}
 
-	SelectType string = "full" // full, default, arrow
-	SelectStyle tcell.Style = tcell.StyleDefault.Background(tcell.GetColor("#e1d7d0")).Bold(true)
+	SelectType string = "default" // full, default, arrow
+	SelectStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Reverse(true)
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
 	PipeType = ""
-	PipeStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorDefault)
-	PipeText = "user@host"
+	PipeStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorGrey)
+	PipeText = ""
 	PipeTextStyle = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Bold(true).Underline(true)
 
 
 	Shell string = "dash"
-	TildeHome bool = true
+	TildeHome bool = false
 
 	FileOpen = map[string][]string {
 		"*": []string{"t", "vim '@'"},
@@ -75,7 +73,7 @@ var (
 		'!': []string{"cd", "~/repos"},
 		'@': []string{"cd", "~/repos/rice"},
 		'#': []string{"cd", "~/.config"},
-		'v': []string{"t", "less '@'"},
+		'v': []string{"t", "cat -n '@' | less"},
 		'w': []string{"t", "setwal '@' > /dev/null &"},
 		'L': []string{"t", "sudo sock -B -c=ff0000 -C -m='Session Locked!'"},
 		'V': []string{"g", "firefox '@'"},
