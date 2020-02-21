@@ -1,3 +1,9 @@
-<img src="rice.png" alt="rice">
+<img src="floaty.png" alt="rice">
 
-𝚒 𝚞𝚜𝚎 𝚊𝚛𝚌𝚑 𝚋𝚝𝚠
+wm: sowm
+editor: vim
+file manager: catfm
+shell: bash/dash
+terminal: termite
+browser: firefox
+todo: alice
