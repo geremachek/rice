@@ -1,5 +1,3 @@
-stty -ixon
-
 # Aliases
 
 alias on='setterm -cursor on'
@@ -8,16 +6,16 @@ alias c='clear'
 alias q='exit'
 alias p='sudo pacman'
 alias s='sudo'
-alias co="conch"
 alias tarc='tar -czvf'
 alias tare='tar -xvzf'
 alias l="ls -l"
 alias ls="ls --color"
-alias rm="rb m"
 alias repos='cd ~/repos'
 alias ~="cd ~"
 alias li="license -o LICENSE gpl-3.0"
 alias pz="przm -bo"
+alias pea="~/repos/pea/pea"
+alias rmd="rm -rf"
 
 alias rice="cd ~/repos/rice"
 
@@ -59,34 +57,23 @@ gh() {
 	git clone https://github.com/$1
 }
 
-# wipe a file
-
-wipe() {
-	echo -n "" > ${1}
-}
-
 # catfm
 
 catfm() {
 	/usr/bin/catfm "${@}" && cd "$(< /tmp/kitty)"
 }
 
-# g++
+# Path
 
-grn() {
-	g++ ${1} -lncurses ; ./a.out ; rm a.out
-}
-
-gr() {
-	g++ ${1} ; ./a.out ; rm a.out
-}
+PATH=$PATH:~/.scripts
 
 # Prompt
 
-export PS1=" \e[31m$\e[0m "
+export PS1=" \e[31m\$\e[0m "
 
 # sock
 
-alias lock="s sock -e -B -c=ffffff -b=000000 -o=d1cfb3 -C"
-alias lk="sock -e -B -c=ffffff -b=000000 -o=d1cfb3 -C -m='All terminals are locked!' -k"
-lk
+alias lock="s sock -B -C"
+lock -k -m="All Terminals Are Locked!"
+
+stty -ixon

@@ -1,7 +1,7 @@
 [options]
 allow_bold = true
 audible_bell = false
-bold_is_bright = true
+bold_is_bright = false
 clickable_url = true
 dynamic_title = true
 font = Misc Tamsyn 10.5
@@ -31,22 +31,22 @@ cursor_shape = block
 #modify_other_keys = false
 
 # set size hints for the window
-#size_hints = false
+#size_hints = true
 
 # "off", "left" or "right"
-#scrollbar = "left"
+#scrollbar = "off"
 
 [colors]
 # If both of these are unset, cursor falls back to the foreground color,
 # and cursor_foreground falls back to the background color.
-cursor = #0000006
+cursor = #4f8dc1
 
 foreground = #1e1e1e
 #foreground_bold = #ffffff
 
-background = #d1cfb3
+background = rgba(209, 207, 179, 1)
 
-highlight = #ffffff
+highlight = #e4e4e4
 
 # black
 color0  = #282a2e

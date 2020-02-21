@@ -3,7 +3,6 @@
 
 call plug#begin('~/.vim/plugged')
 Plug 'PotatoesMaster/i3-vim-syntax'
-Plug 'vim/killersheep'
 call plug#end()
 
 " UI
@@ -11,7 +10,7 @@ call plug#end()
 set number relativenumber
 set nocompatible
 syntax on
-filetype plugin on
+filetype plugin indent on
 
 " Saving
 
@@ -46,3 +45,4 @@ inoremap <c-o> <Esc>:call NewFile()<Enter>
 
 inoremap <c-p> <Esc>pi<Right>
 inoremap <c-u> <Esc>ui
+inoremap <c-t> <Esc>:set expandtab<Enter>i

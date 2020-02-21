@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cp ~/.vimrc ~/repos/rice/.vimrc
+cp ~/.bashrc ~/repos/rice/.bashrc
+cp -r ~/.scripts ~/repos/rice/.scripts
+cp ~/.config/termite/config ~/repos/rice/termite/config

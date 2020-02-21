@@ -1,4 +1,4 @@
-<img src="floaty.png" alt="rice">
+<img src="rice.png" alt="rice">
 
 wm: sowm
 
