@@ -1,7 +1,5 @@
 # Aliases
 
-alias on='setterm -cursor on'
-alias off='setterm -cursor off'
 alias c='clear'
 alias q='exit'
 alias p='sudo pacman'
@@ -9,15 +7,12 @@ alias s='sudo'
 alias tarc='tar -czvf'
 alias tare='tar -xvzf'
 alias l="ls -l"
-alias ls="ls --color"
+alias ls="ls -F"
 alias repos='cd ~/repos'
 alias ~="cd ~"
 alias li="license -o LICENSE gpl-3.0"
 alias pz="przm -bo"
-alias pea="~/repos/pea/pea"
 alias rmd="rm -rf"
-
-alias rice="cd ~/repos/rice"
 
 # Git aliases
 
@@ -28,8 +23,8 @@ alias gp="git push"
 
 alias f="pfetch"
 alias nf="neofetch --ascii_distro darwin"
-export PF_COL3=4
-export PF_ASCII="MacOS"
+export PF_COL3=1
+export PF_ASCII="linux"
 
 # Functions
 
@@ -69,11 +64,17 @@ PATH=$PATH:~/.scripts
 
 # Prompt
 
-export PS1=" \e[31m\$\e[0m "
+export PS1=" \e[1m\$\e[0m "
 
 # sock
 
 alias lock="s sock -B -C"
 lock -k -m="All Terminals Are Locked!"
+
+# pywal
+
+alias pws="wal -n -i"
+(cat ~/.cache/wal/sequences &)
+
 
 stty -ixon

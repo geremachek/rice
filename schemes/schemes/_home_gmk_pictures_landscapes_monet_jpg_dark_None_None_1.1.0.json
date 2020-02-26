@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/monet.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#20221b",
+        "foreground": "#cfdae9",
+        "cursor": "#cfdae9"
+    },
+    "colors": {
+        "color0": "#20221b",
+        "color1": "#38939A",
+        "color2": "#60A0A2",
+        "color3": "#6D9FE2",
+        "color4": "#9FAFA0",
+        "color5": "#BEC2A5",
+        "color6": "#97B5E4",
+        "color7": "#cfdae9",
+        "color8": "#9098a3",
+        "color9": "#38939A",
+        "color10": "#60A0A2",
+        "color11": "#6D9FE2",
+        "color12": "#9FAFA0",
+        "color13": "#BEC2A5",
+        "color14": "#97B5E4",
+        "color15": "#cfdae9"
+    }
+}

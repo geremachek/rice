@@ -4,6 +4,8 @@ package config
 
 import "github.com/gdamore/tcell"
 
+
+
 var (
 	XBuff int = 1
 	YBuffTop int = 1
@@ -27,17 +29,17 @@ var (
 	KeyRight string = "l"
 
 	BarLocale = "bottom"
-	BarFg tcell.Color = tcell.ColorOlive
-	BarBg tcell.Color = tcell.ColorOlive
+	BarFg tcell.Color = tcell.ColorBeige
+	BarBg tcell.Color = tcell.GetColor("#516B9B")
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
-		"1*$TAB*": tcell.StyleDefault.Background(BarBg).Foreground(tcell.ColorBeige),
-		"2total": tcell.StyleDefault.Background(BarBg).Foreground(tcell.ColorBeige),
-		"3cwd": tcell.StyleDefault.Foreground(BarFg).Reverse(true),
+		"1*$TAB*": tcell.StyleDefault.Background(BarBg).Foreground(BarFg),
+		"2total": tcell.StyleDefault.Background(BarBg).Foreground(BarFg),
+		"3cwd": tcell.StyleDefault.Foreground(BarBg).Reverse(true),
 	}
 
 	SelectType string = "default" // full, default, arrow
-	SelectStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Reverse(true)
+	SelectStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.GetColor("#516B9B")).Reverse(true)
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
@@ -61,12 +63,6 @@ var (
 	}
 
 	FileColors = map[string]tcell.Style {
-		"[dir]": tcell.StyleDefault.Foreground(tcell.GetColor("#508cbe")).Bold(true),
-		"jpg": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
-		"jpeg": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
-		"png": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
-		"gif": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
-		"tiff": tcell.StyleDefault.Foreground(tcell.GetColor("#85678f")),
 	}
 
 	Bindings = map[string][]string {
@@ -83,3 +79,6 @@ var (
 
 	Selected []string
 )
+
+func Init() {
+}

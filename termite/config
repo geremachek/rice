@@ -4,7 +4,7 @@ audible_bell = false
 bold_is_bright = false
 clickable_url = true
 dynamic_title = true
-font = Misc Tamsyn 10.5
+font = t cherry 9
 #icon_name = terminal
 #mouse_autohide = false
 #scroll_on_output = false
@@ -41,12 +41,12 @@ cursor_shape = block
 # and cursor_foreground falls back to the background color.
 cursor = #4f8dc1
 
-foreground = #1e1e1e
+foreground = #000000
 #foreground_bold = #ffffff
 
-background = rgba(209, 207, 179, 1)
+background = #ffffff
 
-highlight = #e4e4e4
+highlight = #ffadff
 
 # black
 color0  = #282a2e

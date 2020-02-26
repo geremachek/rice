@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/.w.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0f11",
+        "foreground": "#c1cbcc",
+        "cursor": "#c1cbcc"
+    },
+    "colors": {
+        "color0": "#0d0f11",
+        "color1": "#926A58",
+        "color2": "#365E84",
+        "color3": "#637886",
+        "color4": "#778C95",
+        "color5": "#86979B",
+        "color6": "#96A5A5",
+        "color7": "#c1cbcc",
+        "color8": "#878e8e",
+        "color9": "#926A58",
+        "color10": "#365E84",
+        "color11": "#637886",
+        "color12": "#778C95",
+        "color13": "#86979B",
+        "color14": "#96A5A5",
+        "color15": "#c1cbcc"
+    }
+}

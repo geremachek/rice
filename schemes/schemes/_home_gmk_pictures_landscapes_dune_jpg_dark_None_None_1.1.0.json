@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/dune.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1e1006",
+        "foreground": "#bdccc5",
+        "cursor": "#bdccc5"
+    },
+    "colors": {
+        "color0": "#1e1006",
+        "color1": "#676B55",
+        "color2": "#6E7B65",
+        "color3": "#758773",
+        "color4": "#808F7C",
+        "color5": "#7D9784",
+        "color6": "#87A695",
+        "color7": "#bdccc5",
+        "color8": "#848e89",
+        "color9": "#676B55",
+        "color10": "#6E7B65",
+        "color11": "#758773",
+        "color12": "#808F7C",
+        "color13": "#7D9784",
+        "color14": "#87A695",
+        "color15": "#bdccc5"
+    }
+}

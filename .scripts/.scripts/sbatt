@@ -1,0 +1,14 @@
+#!/bin/bash
+
+batt=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | awk '/percentage:/{print $2}')
+
+state=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | awk '/state:/{print $2}')
+
+if [ "${state}" == "charging" ]
+then
+	t="🔌 "
+else
+	t="🔋"
+fi
+
+echo "$t$batt"

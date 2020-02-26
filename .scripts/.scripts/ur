@@ -2,5 +2,7 @@
 
 cp ~/.vimrc ~/repos/rice/.vimrc
 cp ~/.bashrc ~/repos/rice/.bashrc
+cp ~/.xinitrc ~/repos/rice/.xinitrc
 cp -r ~/.scripts ~/repos/rice/.scripts
 cp ~/.config/termite/config ~/repos/rice/termite/config
+cp -r ~/.cache/wal/schemes ~/repos/rice/schemes
