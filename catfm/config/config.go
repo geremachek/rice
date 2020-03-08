@@ -2,14 +2,14 @@
 
 package config
 
-import "github.com/gdamore/tcell"
-
-
+import (
+	"github.com/gdamore/tcell"
+)
 
 var (
-	XBuff int = 1
-	YBuffTop int = 1
-	YBuffBottom int = 3
+	XBuff int = 2
+	YBuffTop int = 2
+	YBuffBottom int = 4
 
 	KeyRefresh string = "f"
 	KeyQuit string = "q"
@@ -30,7 +30,7 @@ var (
 
 	BarLocale = "bottom"
 	BarFg tcell.Color = tcell.ColorBeige
-	BarBg tcell.Color = tcell.GetColor("#516B9B")
+	BarBg tcell.Color = tcell.GetColor("#897471")
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
 		"1*$TAB*": tcell.StyleDefault.Background(BarBg).Foreground(BarFg),
@@ -39,11 +39,11 @@ var (
 	}
 
 	SelectType string = "default" // full, default, arrow
-	SelectStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.GetColor("#516B9B")).Reverse(true)
+	SelectStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.GetColor("#897471")).Reverse(true)
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
-	PipeType = ""
+	PipeType = "thin"
 	PipeStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorGrey)
 	PipeText = ""
 	PipeTextStyle = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Bold(true).Underline(true)

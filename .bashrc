@@ -22,9 +22,8 @@ alias gp="git push"
 # pfetch
 
 alias f="pfetch"
-alias nf="neofetch --ascii_distro darwin"
 export PF_COL3=1
-export PF_ASCII="linux"
+export PF_ASCII="binix"
 
 # Functions
 
@@ -64,7 +63,7 @@ PATH=$PATH:~/.scripts
 
 # Prompt
 
-export PS1=" \e[1m\$\e[0m "
+export PS1=" \e[34m\$\e[0m "
 
 # sock
 
