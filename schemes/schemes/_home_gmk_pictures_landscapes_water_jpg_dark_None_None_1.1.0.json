@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/water.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1e2123",
+        "foreground": "#cdddd9",
+        "cursor": "#cdddd9"
+    },
+    "colors": {
+        "color0": "#1e2123",
+        "color1": "#518998",
+        "color2": "#5A97A7",
+        "color3": "#67A9B1",
+        "color4": "#77C0C1",
+        "color5": "#A2B1A8",
+        "color6": "#B7C6B8",
+        "color7": "#cdddd9",
+        "color8": "#8f9a97",
+        "color9": "#518998",
+        "color10": "#5A97A7",
+        "color11": "#67A9B1",
+        "color12": "#77C0C1",
+        "color13": "#A2B1A8",
+        "color14": "#B7C6B8",
+        "color15": "#cdddd9"
+    }
+}

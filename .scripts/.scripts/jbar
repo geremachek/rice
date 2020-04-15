@@ -1,6 +1,6 @@
 #!/bin/bash
 
 for ((;;)) {
-	echo "%{c}%{F#ff8b933f}$(sbatt) %{F-}| $(plain -u)"
-	sleep 1
-} | lemonbar -d -g x30 -F "#ff4d4555" -B "#45ffffff" -f "t cherry Wide"
+	echo " $(sbatt) | $(plain -u)"
+	sleep 0.5
+} | lemonbar -d -g x20 -F "#ffffff" -B "#45ffffff"

@@ -6,9 +6,9 @@ state=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | awk '/state:/{p
 
 if [ "${state}" == "charging" ]
 then
-	t="🔌 "
+	t="%{B#00ff00} * %{B#45ffffff}"
 else
-	t="🔋"
+	t="%{B#ffa500} ! %{B#45ffffff}"
 fi
 
-echo "$t$batt"
+echo "$t $batt"

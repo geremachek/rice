@@ -2,3 +2,5 @@
 
 hsetroot -fill ${1}
 cp ${1} ~/.w.png
+
+wal -i ${1}

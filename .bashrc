@@ -13,6 +13,7 @@ alias ~="cd ~"
 alias li="license -o LICENSE gpl-3.0"
 alias pz="przm -bo"
 alias rmd="rm -rf"
+alias pt="plain -u"
 
 # Git aliases
 
@@ -57,13 +58,23 @@ catfm() {
 	/usr/bin/catfm "${@}" && cd "$(< /tmp/kitty)"
 }
 
+# cursors
+
+thin() {
+	printf "\e[5 q"
+}
+
+block() {
+	printf "\e[1 q"
+}
+
 # Path
 
-PATH=$PATH:~/.scripts
+PATH=$PATH:~/.scripts:/usr/java/jre1.8.0_241/bin
 
 # Prompt
 
-export PS1=" \e[34m\$\e[0m "
+export PS1=" \e[34;1m♪\e[0m "
 
 # sock
 

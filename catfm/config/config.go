@@ -13,7 +13,8 @@ var (
 
 	KeyRefresh string = "f"
 	KeyQuit string = "q"
-	KeyDelete string = "d"
+	KeyDelete string = "r"
+	KeyRecycle string = "d"
 	KeyBulkDelete string = "D"
 	KeyCopy string = "p"
 	KeyMove string = "m"
@@ -38,12 +39,12 @@ var (
 		"3cwd": tcell.StyleDefault.Foreground(BarBg).Reverse(true),
 	}
 
-	SelectType string = "default" // full, default, arrow
-	SelectStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.GetColor("#897471")).Reverse(true)
+	SelectType string = "full" // full, default, arrow
+	SelectStyle tcell.Style = tcell.StyleDefault.Background(tcell.GetColor("#897471"))
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
-	PipeType = "thin"
+	PipeType = ""
 	PipeStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorGrey)
 	PipeText = ""
 	PipeTextStyle = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Bold(true).Underline(true)
@@ -51,6 +52,7 @@ var (
 
 	Shell string = "dash"
 	TildeHome bool = false
+	RecycleBin string = "/home/gmk/.cache/catfm"
 
 	FileOpen = map[string][]string {
 		"*": []string{"t", "vim '@'"},
