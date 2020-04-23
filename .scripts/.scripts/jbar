@@ -1,6 +1,6 @@
 #!/bin/bash
 
 for ((;;)) {
-	echo " $(sbatt) | $(plain -u)"
+	echo " $(sbatt) | $(plain -u) | $(date +'%A, %B %d %Y')"
 	sleep 0.5
-} | lemonbar -d -g x20 -F "#ffffff" -B "#45ffffff"
+} | lemonbar -d -g x20 -F "#000000" -B "#75ffffff" -f "Misc Tamsyn:size=10.5"

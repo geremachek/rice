@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/fuji.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#080F16",
+        "foreground": "#abbed7",
+        "cursor": "#abbed7"
+    },
+    "colors": {
+        "color0": "#080F16",
+        "color1": "#01328C",
+        "color2": "#074C95",
+        "color3": "#0256A8",
+        "color4": "#0D66B3",
+        "color5": "#2969A9",
+        "color6": "#4D77AD",
+        "color7": "#abbed7",
+        "color8": "#778596",
+        "color9": "#01328C",
+        "color10": "#074C95",
+        "color11": "#0256A8",
+        "color12": "#0D66B3",
+        "color13": "#2969A9",
+        "color14": "#4D77AD",
+        "color15": "#abbed7"
+    }
+}

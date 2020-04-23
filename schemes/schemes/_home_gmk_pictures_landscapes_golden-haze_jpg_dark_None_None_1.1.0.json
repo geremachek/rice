@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/golden-haze.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0A07",
+        "foreground": "#efdbc2",
+        "cursor": "#efdbc2"
+    },
+    "colors": {
+        "color0": "#0D0A07",
+        "color1": "#B3853B",
+        "color2": "#C08D3D",
+        "color3": "#B18D52",
+        "color4": "#D4AC6D",
+        "color5": "#D8AB69",
+        "color6": "#E4BC84",
+        "color7": "#efdbc2",
+        "color8": "#a79987",
+        "color9": "#B3853B",
+        "color10": "#C08D3D",
+        "color11": "#B18D52",
+        "color12": "#D4AC6D",
+        "color13": "#D8AB69",
+        "color14": "#E4BC84",
+        "color15": "#efdbc2"
+    }
+}

@@ -1,6 +1,6 @@
-<img src="rice.png" alt="rice">
+<img src="berry.png" alt="rice">
 
-wm: sowm
+wm: berry
 
 editor: vim
 
@@ -8,7 +8,7 @@ file manager: catfm
 
 shell: bash/dash
 
-terminal: termite
+terminal: st
 
 browser: firefox
 

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/koi.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1b21",
+        "foreground": "#afbdd7",
+        "cursor": "#afbdd7"
+    },
+    "colors": {
+        "color0": "#1c1b21",
+        "color1": "#9D5E32",
+        "color2": "#C05740",
+        "color3": "#C69522",
+        "color4": "#395593",
+        "color5": "#58689B",
+        "color6": "#8E7693",
+        "color7": "#afbdd7",
+        "color8": "#7a8496",
+        "color9": "#9D5E32",
+        "color10": "#C05740",
+        "color11": "#C69522",
+        "color12": "#395593",
+        "color13": "#58689B",
+        "color14": "#8E7693",
+        "color15": "#afbdd7"
+    }
+}

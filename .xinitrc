@@ -1,4 +1,5 @@
 hsetroot -fill /home/gmk/.w.png
-compton &
+picom &
+sxhkd -c /home/gmk/.config/berry/sxhkdrc &
 wal -R
-exec sowm
+exec berry

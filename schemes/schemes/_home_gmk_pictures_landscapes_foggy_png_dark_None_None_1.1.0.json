@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/foggy.png",
+    "alpha": "100",
+    "special": {
+        "background": "#090a0a",
+        "foreground": "#d4e1e9",
+        "cursor": "#d4e1e9"
+    },
+    "colors": {
+        "color0": "#090a0a",
+        "color1": "#6F8795",
+        "color2": "#7A95A6",
+        "color3": "#8AA5B5",
+        "color4": "#9BB7C8",
+        "color5": "#9FC0D4",
+        "color6": "#ACC7D8",
+        "color7": "#d4e1e9",
+        "color8": "#949da3",
+        "color9": "#6F8795",
+        "color10": "#7A95A6",
+        "color11": "#8AA5B5",
+        "color12": "#9BB7C8",
+        "color13": "#9FC0D4",
+        "color14": "#ACC7D8",
+        "color15": "#d4e1e9"
+    }
+}

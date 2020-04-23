@@ -2,10 +2,9 @@
 #define CONFIG_H
 
 #define MOD Mod4Mask
-#define ROUND_CORNERS 3
 
 const char* menu[]    = {"dmenu_run",      0};
-const char* term[]    = {"termite",             0};
+const char* term[]    = {"st",             0};
 const char* scrot[]   = {"scrot",            0};
 const char* briup[]   = {"light", "-A", "5", 0};
 const char* bridown[] = {"light", "-U", "5", 0};

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/headlands.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0b0b",
+        "foreground": "#e9e9e9",
+        "cursor": "#e9e9e9"
+    },
+    "colors": {
+        "color0": "#0b0b0b",
+        "color1": "#878787",
+        "color2": "#979797",
+        "color3": "#A7A7A7",
+        "color4": "#B7B7B7",
+        "color5": "#C7C7C7",
+        "color6": "#DBDBDB",
+        "color7": "#e9e9e9",
+        "color8": "#a3a3a3",
+        "color9": "#878787",
+        "color10": "#979797",
+        "color11": "#A7A7A7",
+        "color12": "#B7B7B7",
+        "color13": "#C7C7C7",
+        "color14": "#DBDBDB",
+        "color15": "#e9e9e9"
+    }
+}

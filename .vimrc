@@ -36,8 +36,8 @@ function NewTab()
 	startinsert
 endfunction
 
-inoremap <c-Left> <Esc>:tabp<Enter>i
-inoremap <c-Right> <Esc>:tabn<Enter>i
+inoremap <c-h> <Esc>:tabp<Enter>i
+inoremap <c-l> <Esc>:tabn<Enter>i
 inoremap <c-n> <Esc>:call NewTab()<Enter>
 inoremap <c-o> <Esc>:call NewFile()<Enter>
 
