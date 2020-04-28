@@ -74,7 +74,7 @@ PATH=$PATH:~/.scripts:/usr/java/jre1.8.0_241/bin
 
 # Prompt
 
-export PS1=" \e[34;1m♪\e[0m "
+export PS1=" \e[34m─\e[0m "
 
 # sock
 

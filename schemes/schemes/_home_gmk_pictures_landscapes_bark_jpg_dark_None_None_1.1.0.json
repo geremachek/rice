@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/bark.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151912",
+        "foreground": "#e3e5e3",
+        "cursor": "#e3e5e3"
+    },
+    "colors": {
+        "color0": "#151912",
+        "color1": "#88785B",
+        "color2": "#798478",
+        "color3": "#8C8871",
+        "color4": "#788886",
+        "color5": "#9CA49F",
+        "color6": "#B9C1C4",
+        "color7": "#e3e5e3",
+        "color8": "#9ea09e",
+        "color9": "#88785B",
+        "color10": "#798478",
+        "color11": "#8C8871",
+        "color12": "#788886",
+        "color13": "#9CA49F",
+        "color14": "#B9C1C4",
+        "color15": "#e3e5e3"
+    }
+}

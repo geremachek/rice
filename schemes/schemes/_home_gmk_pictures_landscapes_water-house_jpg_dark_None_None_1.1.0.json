@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/water-house.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0f0d",
+        "foreground": "#cfd5db",
+        "cursor": "#cfd5db"
+    },
+    "colors": {
+        "color0": "#0d0f0d",
+        "color1": "#728738",
+        "color2": "#728968",
+        "color3": "#8B966F",
+        "color4": "#657586",
+        "color5": "#778F99",
+        "color6": "#90A2A4",
+        "color7": "#cfd5db",
+        "color8": "#909599",
+        "color9": "#728738",
+        "color10": "#728968",
+        "color11": "#8B966F",
+        "color12": "#657586",
+        "color13": "#778F99",
+        "color14": "#90A2A4",
+        "color15": "#cfd5db"
+    }
+}

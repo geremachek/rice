@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/future.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100f13",
+        "foreground": "#cddcee",
+        "cursor": "#cddcee"
+    },
+    "colors": {
+        "color0": "#100f13",
+        "color1": "#657093",
+        "color2": "#6D9DD3",
+        "color3": "#9A9EA0",
+        "color4": "#B9C69B",
+        "color5": "#D7D7A7",
+        "color6": "#9AB3DB",
+        "color7": "#cddcee",
+        "color8": "#8f9aa6",
+        "color9": "#657093",
+        "color10": "#6D9DD3",
+        "color11": "#9A9EA0",
+        "color12": "#B9C69B",
+        "color13": "#D7D7A7",
+        "color14": "#9AB3DB",
+        "color15": "#cddcee"
+    }
+}

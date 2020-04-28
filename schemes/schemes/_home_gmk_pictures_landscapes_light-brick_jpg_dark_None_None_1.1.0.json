@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/light-brick.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A221D",
+        "foreground": "#e3ccbe",
+        "cursor": "#e3ccbe"
+    },
+    "colors": {
+        "color0": "#0A221D",
+        "color1": "#524843",
+        "color2": "#6E5249",
+        "color3": "#796357",
+        "color4": "#99695A",
+        "color5": "#BE7B62",
+        "color6": "#C08C73",
+        "color7": "#e3ccbe",
+        "color8": "#9e8e85",
+        "color9": "#524843",
+        "color10": "#6E5249",
+        "color11": "#796357",
+        "color12": "#99695A",
+        "color13": "#BE7B62",
+        "color14": "#C08C73",
+        "color15": "#e3ccbe"
+    }
+}

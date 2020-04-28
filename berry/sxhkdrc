@@ -18,6 +18,13 @@ super + s
 super + r
 	/home/gmk/.config/berry/autostart
 
+# audio
+XF86Audio{RaiseVolume,LowerVolume}
+	amixer set Master {5%+,5%-}
+
+XF86AudioMute
+	amixer set Master toggle
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -44,10 +51,10 @@ super + m
 super + f
     berryc fullscreen
 
-super +  ]
+alt + l
     berryc snap_right
 
-super + [
+alt + h
     berryc snap_left
 
 super + n

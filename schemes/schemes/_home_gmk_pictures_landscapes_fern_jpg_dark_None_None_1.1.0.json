@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/fern.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#001A33",
+        "foreground": "#e0e2d1",
+        "cursor": "#e0e2d1"
+    },
+    "colors": {
+        "color0": "#001A33",
+        "color1": "#418254",
+        "color2": "#6A906E",
+        "color3": "#8D9F77",
+        "color4": "#74978A",
+        "color5": "#95B093",
+        "color6": "#B2C7A6",
+        "color7": "#e0e2d1",
+        "color8": "#9c9e92",
+        "color9": "#418254",
+        "color10": "#6A906E",
+        "color11": "#8D9F77",
+        "color12": "#74978A",
+        "color13": "#95B093",
+        "color14": "#B2C7A6",
+        "color15": "#e0e2d1"
+    }
+}

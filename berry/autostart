@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-berryc border_width       5
+berryc border_width       3
 berryc inner_border_width 0
-berryc title_height       20
+berryc title_height       0
 berryc top_gap            0
 
 berryc focus_color         ffffff
@@ -14,6 +14,6 @@ berryc text_focus_color    ffffff
 berryc text_unfocus_color  eeeeee
 
 berryc smart_place "true"
-berryc draw_text   "true"
-berryc edge_lock   "true"
-berryc set_font    "Dina-9"
+berryc draw_text   "false"
+berryc edge_lock   "false"
+berryc set_font    "t cherry"

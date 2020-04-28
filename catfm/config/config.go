@@ -14,6 +14,7 @@ var (
 	KeyRefresh string = "f"
 	KeyQuit string = "q"
 	KeyDelete string = "r"
+	KeyRename string = "e"
 	KeyRecycle string = "d"
 	KeyBulkDelete string = "D"
 	KeyCopy string = "p"
@@ -65,6 +66,7 @@ var (
 	}
 
 	FileColors = map[string]tcell.Style {
+		"[dir]": tcell.StyleDefault.Foreground(tcell.ColorSlateGrey),
 	}
 
 	Bindings = map[string][]string {

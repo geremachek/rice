@@ -7,7 +7,6 @@ call plug#end()
 
 " UI
 
-set number relativenumber
 set nocompatible
 syntax on
 filetype plugin indent on
