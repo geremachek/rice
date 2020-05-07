@@ -32,12 +32,12 @@ var (
 
 	BarLocale = "bottom"
 	BarFg tcell.Color = tcell.ColorBeige
-	BarBg tcell.Color = tcell.GetColor("#897471")
+	BarBg tcell.Color = tcell.ColorDefault
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style{
 		"1*$TAB*": tcell.StyleDefault.Background(BarBg).Foreground(BarFg),
 		"2total": tcell.StyleDefault.Background(BarBg).Foreground(BarFg),
-		"3cwd": tcell.StyleDefault.Foreground(BarBg).Reverse(true),
+		"3cwd": tcell.StyleDefault.Foreground(BarBg),
 	}
 
 	SelectType string = "full" // full, default, arrow

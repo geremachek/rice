@@ -8,7 +8,7 @@ super + d
 
 # browser 
 super + i
-	firefox
+	brave
 
 # scrot
 super + s

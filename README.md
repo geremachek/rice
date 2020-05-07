@@ -1,4 +1,6 @@
-<img src="berry.png" alt="rice">
+<p align="center"><h1>ΙΩΝΑΣ</h1></p>
+
+<img src="grain.png" alt="rice">
 
 wm: berry
 

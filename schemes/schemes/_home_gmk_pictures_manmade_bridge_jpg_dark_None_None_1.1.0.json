@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/bridge.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121313",
+        "foreground": "#dae0e1",
+        "cursor": "#dae0e1"
+    },
+    "colors": {
+        "color0": "#121313",
+        "color1": "#758A95",
+        "color2": "#91A0A6",
+        "color3": "#ABB3B5",
+        "color4": "#C1C1BC",
+        "color5": "#ACBCC2",
+        "color6": "#B8C7CA",
+        "color7": "#dae0e1",
+        "color8": "#989c9d",
+        "color9": "#758A95",
+        "color10": "#91A0A6",
+        "color11": "#ABB3B5",
+        "color12": "#C1C1BC",
+        "color13": "#ACBCC2",
+        "color14": "#B8C7CA",
+        "color15": "#dae0e1"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/cabin-snow.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060B1A",
+        "foreground": "#edc8ac",
+        "cursor": "#edc8ac"
+    },
+    "colors": {
+        "color0": "#060B1A",
+        "color1": "#263E61",
+        "color2": "#28415E",
+        "color3": "#1E4065",
+        "color4": "#355279",
+        "color5": "#36557C",
+        "color6": "#BB6227",
+        "color7": "#edc8ac",
+        "color8": "#a58c78",
+        "color9": "#263E61",
+        "color10": "#28415E",
+        "color11": "#1E4065",
+        "color12": "#355279",
+        "color13": "#36557C",
+        "color14": "#BB6227",
+        "color15": "#edc8ac"
+    }
+}
