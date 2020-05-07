@@ -1,4 +1,4 @@
-<p align="center"><h1>ΙΩΝΑΣ</h1></p>
+<h1 align="center">ΙΩΝΑΣ</h1>
 
 <img src="grain.png" alt="rice">
 
