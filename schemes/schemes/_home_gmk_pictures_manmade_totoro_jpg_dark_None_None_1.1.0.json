@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/totoro.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#190e0b",
+        "foreground": "#ccc9bf",
+        "cursor": "#ccc9bf"
+    },
+    "colors": {
+        "color0": "#190e0b",
+        "color1": "#AC5641",
+        "color2": "#8B7358",
+        "color3": "#778B52",
+        "color4": "#A29E43",
+        "color5": "#9F986B",
+        "color6": "#8C7E87",
+        "color7": "#ccc9bf",
+        "color8": "#8e8c85",
+        "color9": "#AC5641",
+        "color10": "#8B7358",
+        "color11": "#778B52",
+        "color12": "#A29E43",
+        "color13": "#9F986B",
+        "color14": "#8C7E87",
+        "color15": "#ccc9bf"
+    }
+}

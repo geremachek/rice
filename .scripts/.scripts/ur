@@ -8,3 +8,4 @@ cp ~/.config/termite/config ~/repos/rice/termite/config
 cp ~/.config/berry/autostart ~/repos/rice/berry/autostart
 cp ~/.config/berry/sxhkdrc ~/repos/rice/berry/sxhkdrc
 cp -r ~/.cache/wal/schemes ~/repos/rice/schemes
+cp -r ~/.xmonad ~/repos/rice

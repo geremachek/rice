@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/snow-day.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0E0B",
+        "foreground": "#e3e3e2",
+        "cursor": "#e3e3e2"
+    },
+    "colors": {
+        "color0": "#0E0E0B",
+        "color1": "#7C7E81",
+        "color2": "#7E8283",
+        "color3": "#8F9091",
+        "color4": "#9E9FA1",
+        "color5": "#ABACAD",
+        "color6": "#C1BFBE",
+        "color7": "#e3e3e2",
+        "color8": "#9e9e9e",
+        "color9": "#7C7E81",
+        "color10": "#7E8283",
+        "color11": "#8F9091",
+        "color12": "#9E9FA1",
+        "color13": "#ABACAD",
+        "color14": "#C1BFBE",
+        "color15": "#e3e3e2"
+    }
+}

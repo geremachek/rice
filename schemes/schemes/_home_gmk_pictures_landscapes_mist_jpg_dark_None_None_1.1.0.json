@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/mist.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0907",
+        "foreground": "#dccfc2",
+        "cursor": "#dccfc2"
+    },
+    "colors": {
+        "color0": "#0b0907",
+        "color1": "#655A51",
+        "color2": "#746861",
+        "color3": "#88786E",
+        "color4": "#9D897A",
+        "color5": "#AD9886",
+        "color6": "#B6A18E",
+        "color7": "#dccfc2",
+        "color8": "#9a9087",
+        "color9": "#655A51",
+        "color10": "#746861",
+        "color11": "#88786E",
+        "color12": "#9D897A",
+        "color13": "#AD9886",
+        "color14": "#B6A18E",
+        "color15": "#dccfc2"
+    }
+}

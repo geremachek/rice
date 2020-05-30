@@ -1,0 +1,14 @@
+# scrot
+super + shift + s
+	scrot
+
+# audio
+XF86Audio{RaiseVolume,LowerVolume}
+	amixer set Master {5%+,5%-}
+
+XF86AudioMute
+	amixer set Master toggle
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd

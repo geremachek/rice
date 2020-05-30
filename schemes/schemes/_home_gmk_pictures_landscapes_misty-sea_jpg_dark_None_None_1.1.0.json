@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/misty-sea.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121d20",
+        "foreground": "#d5dad7",
+        "cursor": "#d5dad7"
+    },
+    "colors": {
+        "color0": "#121d20",
+        "color1": "#3E6E81",
+        "color2": "#4E7985",
+        "color3": "#699095",
+        "color4": "#9CAFAD",
+        "color5": "#BBC3BA",
+        "color6": "#C5CABE",
+        "color7": "#d5dad7",
+        "color8": "#959896",
+        "color9": "#3E6E81",
+        "color10": "#4E7985",
+        "color11": "#699095",
+        "color12": "#9CAFAD",
+        "color13": "#BBC3BA",
+        "color14": "#C5CABE",
+        "color15": "#d5dad7"
+    }
+}

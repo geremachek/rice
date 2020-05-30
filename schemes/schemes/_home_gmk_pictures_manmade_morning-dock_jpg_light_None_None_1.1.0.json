@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/morning-dock.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fefbf2",
+        "foreground": "#0E0804",
+        "cursor": "#0E0804"
+    },
+    "colors": {
+        "color0": "#fefbf2",
+        "color1": "#977549",
+        "color2": "#D48D37",
+        "color3": "#AF8B5C",
+        "color4": "#D3A569",
+        "color5": "#DAB686",
+        "color6": "#F5D197",
+        "color7": "#0E0804",
+        "color8": "#988a66",
+        "color9": "#977549",
+        "color10": "#D48D37",
+        "color11": "#AF8B5C",
+        "color12": "#D3A569",
+        "color13": "#DAB686",
+        "color14": "#F5D197",
+        "color15": "#0E0804"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/chinatown.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A100A",
+        "foreground": "#dad4d2",
+        "cursor": "#dad4d2"
+    },
+    "colors": {
+        "color0": "#0A100A",
+        "color1": "#955A49",
+        "color2": "#6C837A",
+        "color3": "#8E8676",
+        "color4": "#348584",
+        "color5": "#718F8E",
+        "color6": "#9DA5A3",
+        "color7": "#dad4d2",
+        "color8": "#989493",
+        "color9": "#955A49",
+        "color10": "#6C837A",
+        "color11": "#8E8676",
+        "color12": "#348584",
+        "color13": "#718F8E",
+        "color14": "#9DA5A3",
+        "color15": "#dad4d2"
+    }
+}

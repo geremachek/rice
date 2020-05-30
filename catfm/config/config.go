@@ -9,7 +9,7 @@ import (
 var (
 	XBuff int = 2
 	YBuffTop int = 2
-	YBuffBottom int = 4
+	YBuffBottom int = 2
 
 	KeyRefresh string = "f"
 	KeyQuit string = "q"
@@ -30,17 +30,16 @@ var (
 	KeyUp string = "k"
 	KeyRight string = "l"
 
-	BarLocale = "bottom"
+	BarLocale = ""
 	BarFg tcell.Color = tcell.ColorBeige
-	BarBg tcell.Color = tcell.ColorDefault
+	BarBg tcell.Color = tcell.GetColor("#897471")
 	BarDiv string = " "
-	BarStyle = map[string]tcell.Style{
-		"1*$TAB*": tcell.StyleDefault.Background(BarBg).Foreground(BarFg),
-		"2total": tcell.StyleDefault.Background(BarBg).Foreground(BarFg),
-		"3cwd": tcell.StyleDefault.Foreground(BarBg),
+	BarStyle = map[string]tcell.Style {
+		"1total": tcell.StyleDefault.Background(BarBg),
+		"2cwd": tcell.StyleDefault.Foreground(BarBg),
 	}
 
-	SelectType string = "full" // full, default, arrow
+	SelectType string = "default" // full, default, arrow
 	SelectStyle tcell.Style = tcell.StyleDefault.Background(tcell.GetColor("#897471"))
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
@@ -52,7 +51,7 @@ var (
 
 
 	Shell string = "dash"
-	TildeHome bool = false
+	TildeHome bool = true
 	RecycleBin string = "/home/gmk/.cache/catfm"
 
 	FileOpen = map[string][]string {
@@ -63,6 +62,7 @@ var (
 		"gif": []string{"g", "sxiv '@'"},
 		"tiff": []string{"g", "sxiv '@'"},
 		"pdf": []string{"g", "mupdf '@'"},
+		"gb": []string{"g", "vbam '@'"},
 	}
 
 	FileColors = map[string]tcell.Style {

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/crashed.png",
+    "alpha": "100",
+    "special": {
+        "background": "#090c0b",
+        "foreground": "#c0bebc",
+        "cursor": "#c0bebc"
+    },
+    "colors": {
+        "color0": "#090c0b",
+        "color1": "#565D62",
+        "color2": "#5C6265",
+        "color3": "#6B6C6D",
+        "color4": "#837D78",
+        "color5": "#89837D",
+        "color6": "#7B7F82",
+        "color7": "#c0bebc",
+        "color8": "#868583",
+        "color9": "#565D62",
+        "color10": "#5C6265",
+        "color11": "#6B6C6D",
+        "color12": "#837D78",
+        "color13": "#89837D",
+        "color14": "#7B7F82",
+        "color15": "#c0bebc"
+    }
+}

@@ -8,7 +8,7 @@ super + d
 
 # browser 
 super + i
-	brave
+	firefox
 
 # scrot
 super + s
@@ -36,8 +36,11 @@ super + shift + x
 super + {h, j, k, l}
     berryc window_move {-10 0, 0 10, 0 -10, 10 0}
 
-super + shift +  {h, j, k, l}
+super + shift + {h, j, k, l}
     berryc window_resize {-10 0, 0 10, 0 -10, 10 0}
+
+super + shift + p
+	berryc window_resize 10 10
 
 super + {1-9}
     berryc switch_workspace {0-9}

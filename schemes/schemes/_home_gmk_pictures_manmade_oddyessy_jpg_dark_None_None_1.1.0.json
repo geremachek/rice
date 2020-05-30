@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/oddyessy.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#171210",
+        "foreground": "#e1dde0",
+        "cursor": "#e1dde0"
+    },
+    "colors": {
+        "color0": "#171210",
+        "color1": "#D4A759",
+        "color2": "#7F7D8C",
+        "color3": "#AA9FA0",
+        "color4": "#CDB69D",
+        "color5": "#E1CFAA",
+        "color6": "#BCB9CA",
+        "color7": "#e1dde0",
+        "color8": "#9d9a9c",
+        "color9": "#D4A759",
+        "color10": "#7F7D8C",
+        "color11": "#AA9FA0",
+        "color12": "#CDB69D",
+        "color13": "#E1CFAA",
+        "color14": "#BCB9CA",
+        "color15": "#e1dde0"
+    }
+}

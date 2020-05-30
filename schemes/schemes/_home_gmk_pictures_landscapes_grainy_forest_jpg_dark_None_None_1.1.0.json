@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/grainy_forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#252624",
+        "foreground": "#d8d8d4",
+        "cursor": "#d8d8d4"
+    },
+    "colors": {
+        "color0": "#252624",
+        "color1": "#7F8076",
+        "color2": "#88867A",
+        "color3": "#99988F",
+        "color4": "#A09F97",
+        "color5": "#A5A59B",
+        "color6": "#B3B3AC",
+        "color7": "#d8d8d4",
+        "color8": "#979794",
+        "color9": "#7F8076",
+        "color10": "#88867A",
+        "color11": "#99988F",
+        "color12": "#A09F97",
+        "color13": "#A5A59B",
+        "color14": "#B3B3AC",
+        "color15": "#d8d8d4"
+    }
+}

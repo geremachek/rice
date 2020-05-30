@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/ibm.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#17100c",
+        "foreground": "#d7dad3",
+        "cursor": "#d7dad3"
+    },
+    "colors": {
+        "color0": "#17100c",
+        "color1": "#665A46",
+        "color2": "#6E644E",
+        "color3": "#87775B",
+        "color4": "#9A8E71",
+        "color5": "#777F88",
+        "color6": "#B1AE98",
+        "color7": "#d7dad3",
+        "color8": "#969893",
+        "color9": "#665A46",
+        "color10": "#6E644E",
+        "color11": "#87775B",
+        "color12": "#9A8E71",
+        "color13": "#777F88",
+        "color14": "#B1AE98",
+        "color15": "#d7dad3"
+    }
+}

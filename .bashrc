@@ -70,7 +70,8 @@ block() {
 
 # Path
 
-PATH=$PATH:~/.scripts:/usr/java/jre1.8.0_241/bin
+PATH=$PATH:/home/gmk/.scripts:/usr/java/jre1.8.0_241/bin
+export SMPL_PATH="~/.smpl"
 
 # Prompt
 

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/medieval.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fcfbf9",
+        "foreground": "#2A1D13",
+        "cursor": "#2A1D13"
+    },
+    "colors": {
+        "color0": "#fcfbf9",
+        "color1": "#AB8B5D",
+        "color2": "#D9A967",
+        "color3": "#EFC06E",
+        "color4": "#DBC69C",
+        "color5": "#BBCDD4",
+        "color6": "#CDD7D2",
+        "color7": "#2A1D13",
+        "color8": "#8d8b81",
+        "color9": "#AB8B5D",
+        "color10": "#D9A967",
+        "color11": "#EFC06E",
+        "color12": "#DBC69C",
+        "color13": "#BBCDD4",
+        "color14": "#CDD7D2",
+        "color15": "#2A1D13"
+    }
+}

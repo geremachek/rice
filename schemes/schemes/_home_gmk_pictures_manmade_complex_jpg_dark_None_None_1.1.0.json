@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/complex.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12100c",
+        "foreground": "#e5e2e8",
+        "cursor": "#e5e2e8"
+    },
+    "colors": {
+        "color0": "#12100c",
+        "color1": "#8B4A36",
+        "color2": "#897471",
+        "color3": "#8D7E7F",
+        "color4": "#897C85",
+        "color5": "#A6969D",
+        "color6": "#C3B2BA",
+        "color7": "#e5e2e8",
+        "color8": "#a09ea2",
+        "color9": "#8B4A36",
+        "color10": "#897471",
+        "color11": "#8D7E7F",
+        "color12": "#897C85",
+        "color13": "#A6969D",
+        "color14": "#C3B2BA",
+        "color15": "#e5e2e8"
+    }
+}

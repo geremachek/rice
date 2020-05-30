@@ -3,4 +3,4 @@
 hsetroot -fill ${1}
 cp ${1} ~/.w.png
 
-wal -b "#000000" -i ${1}
+wal -i ${1}

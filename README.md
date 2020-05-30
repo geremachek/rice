@@ -1,8 +1,8 @@
 <h1 align="center">ΙΩΝΑΣ</h1>
 
-<img src="grain.png" alt="rice">
+<img src="xmonad.png" alt="rice">
 
-wm: berry
+wm: xmonad
 
 editor: vim
 
