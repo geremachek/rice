@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/tintin.png",
+    "alpha": "100",
+    "special": {
+        "background": "#212213",
+        "foreground": "#e4ddcd",
+        "cursor": "#e4ddcd"
+    },
+    "colors": {
+        "color0": "#212213",
+        "color1": "#DDC275",
+        "color2": "#ECCD78",
+        "color3": "#657A9B",
+        "color4": "#B2ADA0",
+        "color5": "#C6BCAA",
+        "color6": "#F4D68D",
+        "color7": "#e4ddcd",
+        "color8": "#9f9a8f",
+        "color9": "#DDC275",
+        "color10": "#ECCD78",
+        "color11": "#657A9B",
+        "color12": "#B2ADA0",
+        "color13": "#C6BCAA",
+        "color14": "#F4D68D",
+        "color15": "#e4ddcd"
+    }
+}

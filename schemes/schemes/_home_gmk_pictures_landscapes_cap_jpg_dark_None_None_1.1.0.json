@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/cap.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#120c0a",
+        "foreground": "#d9d9d9",
+        "cursor": "#d9d9d9"
+    },
+    "colors": {
+        "color0": "#120c0a",
+        "color1": "#9B8877",
+        "color2": "#7D8182",
+        "color3": "#979FA2",
+        "color4": "#B2B4B6",
+        "color5": "#C3BBB5",
+        "color6": "#BEBEC0",
+        "color7": "#d9d9d9",
+        "color8": "#979797",
+        "color9": "#9B8877",
+        "color10": "#7D8182",
+        "color11": "#979FA2",
+        "color12": "#B2B4B6",
+        "color13": "#C3BBB5",
+        "color14": "#BEBEC0",
+        "color15": "#d9d9d9"
+    }
+}

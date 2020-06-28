@@ -25,6 +25,12 @@ alias gp="git push"
 alias f="pfetch"
 export PF_COL3=1
 export PF_ASCII="binix"
+export PF_INFO="ascii title os wm host uptime pkgs memory"
+
+# Ahab
+
+export AHAB_SEL="-> "
+export AHAB_ROWS=5
 
 # Functions
 

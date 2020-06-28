@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/rocket.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121510",
+        "foreground": "#dbdfe8",
+        "cursor": "#dbdfe8"
+    },
+    "colors": {
+        "color0": "#121510",
+        "color1": "#A89F9E",
+        "color2": "#C6BDBC",
+        "color3": "#B2BED9",
+        "color4": "#B9C5DD",
+        "color5": "#BBC8E1",
+        "color6": "#DEDCDF",
+        "color7": "#dbdfe8",
+        "color8": "#999ca2",
+        "color9": "#A89F9E",
+        "color10": "#C6BDBC",
+        "color11": "#B2BED9",
+        "color12": "#B9C5DD",
+        "color13": "#BBC8E1",
+        "color14": "#DEDCDF",
+        "color15": "#dbdfe8"
+    }
+}

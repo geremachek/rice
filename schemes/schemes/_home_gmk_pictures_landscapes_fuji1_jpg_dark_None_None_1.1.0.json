@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/fuji1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d1e3b",
+        "foreground": "#ebe7e1",
+        "cursor": "#ebe7e1"
+    },
+    "colors": {
+        "color0": "#0d1e3b",
+        "color1": "#97AFB2",
+        "color2": "#D7CCB8",
+        "color3": "#9FBCC1",
+        "color4": "#ABC8CC",
+        "color5": "#D6D4CA",
+        "color6": "#E4DACC",
+        "color7": "#ebe7e1",
+        "color8": "#a4a19d",
+        "color9": "#97AFB2",
+        "color10": "#D7CCB8",
+        "color11": "#9FBCC1",
+        "color12": "#ABC8CC",
+        "color13": "#D6D4CA",
+        "color14": "#E4DACC",
+        "color15": "#ebe7e1"
+    }
+}

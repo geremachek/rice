@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/jellies.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#030C34",
+        "foreground": "#b0d9f2",
+        "cursor": "#b0d9f2"
+    },
+    "colors": {
+        "color0": "#030C34",
+        "color1": "#044AD8",
+        "color2": "#0357E6",
+        "color3": "#0370F1",
+        "color4": "#0390F8",
+        "color5": "#1DA8F7",
+        "color6": "#53B6F6",
+        "color7": "#b0d9f2",
+        "color8": "#7b97a9",
+        "color9": "#044AD8",
+        "color10": "#0357E6",
+        "color11": "#0370F1",
+        "color12": "#0390F8",
+        "color13": "#1DA8F7",
+        "color14": "#53B6F6",
+        "color15": "#b0d9f2"
+    }
+}

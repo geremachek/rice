@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/modern.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#16190d",
+        "foreground": "#e4e5e6",
+        "cursor": "#e4e5e6"
+    },
+    "colors": {
+        "color0": "#16190d",
+        "color1": "#CCC6B9",
+        "color2": "#859DC3",
+        "color3": "#98ADCD",
+        "color4": "#A7B8D1",
+        "color5": "#BDC0C0",
+        "color6": "#D6D1C9",
+        "color7": "#e4e5e6",
+        "color8": "#9fa0a1",
+        "color9": "#CCC6B9",
+        "color10": "#859DC3",
+        "color11": "#98ADCD",
+        "color12": "#A7B8D1",
+        "color13": "#BDC0C0",
+        "color14": "#D6D1C9",
+        "color15": "#e4e5e6"
+    }
+}

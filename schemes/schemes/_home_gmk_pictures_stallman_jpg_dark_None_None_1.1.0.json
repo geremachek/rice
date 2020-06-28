@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/stallman.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#09100a",
+        "foreground": "#cccfce",
+        "cursor": "#cccfce"
+    },
+    "colors": {
+        "color0": "#09100a",
+        "color1": "#087F81",
+        "color2": "#15928C",
+        "color3": "#71928E",
+        "color4": "#909798",
+        "color5": "#9B9EA0",
+        "color6": "#9DA4A4",
+        "color7": "#cccfce",
+        "color8": "#8e9090",
+        "color9": "#087F81",
+        "color10": "#15928C",
+        "color11": "#71928E",
+        "color12": "#909798",
+        "color13": "#9B9EA0",
+        "color14": "#9DA4A4",
+        "color15": "#cccfce"
+    }
+}

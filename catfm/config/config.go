@@ -16,6 +16,7 @@ var (
 	KeyDelete string = "r"
 	KeyRename string = "e"
 	KeyRecycle string = "d"
+	KeyToggleSearch string = "ctrl-s"
 	KeyBulkDelete string = "D"
 	KeyCopy string = "p"
 	KeyMove string = "m"
@@ -32,11 +33,13 @@ var (
 
 	BarLocale = ""
 	BarFg tcell.Color = tcell.ColorBeige
-	BarBg tcell.Color = tcell.GetColor("#897471")
+	BarBg tcell.Color = tcell.ColorDefault
 	BarDiv string = " "
 	BarStyle = map[string]tcell.Style {
-		"1total": tcell.StyleDefault.Background(BarBg),
-		"2cwd": tcell.StyleDefault.Foreground(BarBg),
+		"1<": tcell.StyleDefault.Foreground(tcell.ColorYellow),
+		"2total": tcell.StyleDefault.Foreground(BarBg),
+		"3cwd": tcell.StyleDefault.Foreground(BarBg),
+		"4>": tcell.StyleDefault.Foreground(tcell.ColorYellow),
 	}
 
 	SelectType string = "default" // full, default, arrow
@@ -44,9 +47,9 @@ var (
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
-	PipeType = ""
-	PipeStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorGrey)
-	PipeText = ""
+	PipeType = "round"
+	PipeStyle tcell.Style = tcell.StyleDefault
+	PipeText = "catfm@host"
 	PipeTextStyle = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Bold(true).Underline(true)
 
 
@@ -63,6 +66,8 @@ var (
 		"tiff": []string{"g", "sxiv '@'"},
 		"pdf": []string{"g", "mupdf '@'"},
 		"gb": []string{"g", "vbam '@'"},
+		"mp4": []string{"g", "mpv '@'"},
+		"mp3": []string{"g", "mpv '@'"},
 	}
 
 	FileColors = map[string]tcell.Style {

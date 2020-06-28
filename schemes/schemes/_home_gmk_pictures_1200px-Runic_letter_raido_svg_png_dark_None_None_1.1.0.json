@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/1200px-Runic_letter_raido.svg.png",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#777777",
+        "cursor": "#777777"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#000000",
+        "color2": "#000000",
+        "color3": "#000000",
+        "color4": "#000000",
+        "color5": "#000000",
+        "color6": "#000000",
+        "color7": "#777777",
+        "color8": "#535353",
+        "color9": "#000000",
+        "color10": "#000000",
+        "color11": "#000000",
+        "color12": "#000000",
+        "color13": "#000000",
+        "color14": "#000000",
+        "color15": "#777777"
+    }
+}

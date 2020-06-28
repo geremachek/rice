@@ -2,6 +2,10 @@
 super + shift + s
 	scrot
 
+# enable external monitor
+super + shift + e
+	/home/gmk/.scripts/enablemon
+
 # audio
 XF86Audio{RaiseVolume,LowerVolume}
 	amixer set Master {5%+,5%-}
