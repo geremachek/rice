@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+#!/bin/bash
 
-while True:
-    print("Hello\nHello")
+for ((;;)) {
+	echo "%{c}%{F#ff8b933f}$(sbatt) %{F-}| $(plain -u)"
+	sleep 1
+} | lemonbar -d -g x30 -F "#ff4d4555" -B "#45ffffff"

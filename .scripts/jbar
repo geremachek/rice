@@ -3,4 +3,4 @@
 for ((;;)) {
 	echo " $(sbatt) | $(plain -u) | $(date +%D)"
 	sleep 0.5
-} | lemonbar -d -g x20 -F "#000000" -B "#f0ffffff" -f "t cherry:size=10.5" &
+} | lemonbar -d -g x20 -F "#000000" -B "#f0ffffff" -f "cherry:size=10.5" &

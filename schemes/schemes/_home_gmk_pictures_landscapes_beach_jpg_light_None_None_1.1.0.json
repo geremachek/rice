@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/beach.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f6f5f3",
+        "foreground": "#363F4A",
+        "cursor": "#363F4A"
+    },
+    "colors": {
+        "color0": "#f6f5f3",
+        "color1": "#3989A1",
+        "color2": "#688999",
+        "color3": "#5290A5",
+        "color4": "#6F99A9",
+        "color5": "#8B9CA5",
+        "color6": "#93A5AD",
+        "color7": "#363F4A",
+        "color8": "#78726c",
+        "color9": "#3989A1",
+        "color10": "#688999",
+        "color11": "#5290A5",
+        "color12": "#6F99A9",
+        "color13": "#8B9CA5",
+        "color14": "#93A5AD",
+        "color15": "#363F4A"
+    }
+}

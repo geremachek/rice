@@ -27,11 +27,6 @@ export PF_COL3=1
 export PF_ASCII="binix"
 export PF_INFO="ascii title os wm host uptime pkgs memory"
 
-# Ahab
-
-export AHAB_SEL="-> "
-export AHAB_ROWS=5
-
 # Functions
 
 # Add an exec to path
@@ -81,7 +76,7 @@ export SMPL_PATH="~/.smpl"
 
 # Prompt
 
-export PS1=" \e[34m─\e[0m "
+export PS1=" \e[34mξ\e[0m "
 
 # sock
 
@@ -93,5 +88,5 @@ lock -k -m="All Terminals Are Locked!"
 alias pws="wal -n -i"
 (cat ~/.cache/wal/sequences &)
 
-
+thin
 stty -ixon

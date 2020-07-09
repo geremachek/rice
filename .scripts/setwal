@@ -1,0 +1,6 @@
+#!/bin/sh
+
+hsetroot -extend ${1}
+cp ${1} ~/.w.png
+
+wal -l -i ${1}

@@ -1,6 +1,6 @@
 <h1 align="center">ΙΩΝΑΣ</h1>
 
-<img src="xmonad.png" alt="rice">
+<img src="riceroni.png" alt="rice">
 
 wm: xmonad
 
@@ -13,5 +13,3 @@ shell: bash/dash
 terminal: st
 
 browser: firefox
-
-todo: alice

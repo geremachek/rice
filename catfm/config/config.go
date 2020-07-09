@@ -13,7 +13,7 @@ var (
 
 	KeyRefresh string = "f"
 	KeyQuit string = "q"
-	KeyDelete string = "r"
+	KeyDelete string = "K"
 	KeyRename string = "e"
 	KeyRecycle string = "d"
 	KeyToggleSearch string = "ctrl-s"
@@ -43,7 +43,7 @@ var (
 	}
 
 	SelectType string = "default" // full, default, arrow
-	SelectStyle tcell.Style = tcell.StyleDefault.Background(tcell.GetColor("#897471"))
+	SelectStyle tcell.Style = tcell.StyleDefault.Reverse(true)
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
