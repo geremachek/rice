@@ -1,6 +1,6 @@
 <h1 align="center">ΙΩΝΑΣ</h1>
 
-<img src="riceroni.png" alt="rice">
+<img src="feelingblue.png" alt="rice">
 
 wm: xmonad
 
