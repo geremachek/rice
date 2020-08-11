@@ -4,7 +4,7 @@
 
 wm: xmonad
 
-editor: vim
+editor: vim (soon to be hermit when i finish writing it)
 
 file manager: catfm
 
