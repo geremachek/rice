@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/abstract.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfefd",
+        "foreground": "#302943",
+        "cursor": "#302943"
+    },
+    "colors": {
+        "color0": "#fdfefd",
+        "color1": "#F3CC75",
+        "color2": "#68ACA6",
+        "color3": "#A2AA92",
+        "color4": "#D7B28C",
+        "color5": "#E7D5A0",
+        "color6": "#A7D6C3",
+        "color7": "#302943",
+        "color8": "#939591",
+        "color9": "#F3CC75",
+        "color10": "#68ACA6",
+        "color11": "#A2AA92",
+        "color12": "#D7B28C",
+        "color13": "#E7D5A0",
+        "color14": "#A7D6C3",
+        "color15": "#302943"
+    }
+}

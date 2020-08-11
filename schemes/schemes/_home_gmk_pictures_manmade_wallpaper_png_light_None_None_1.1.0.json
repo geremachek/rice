@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/wallpaper.png",
+    "alpha": "100",
+    "special": {
+        "background": "#faf8f3",
+        "foreground": "#111717",
+        "cursor": "#111717"
+    },
+    "colors": {
+        "color0": "#faf8f3",
+        "color1": "#70786C",
+        "color2": "#979268",
+        "color3": "#3D8193",
+        "color4": "#6296A2",
+        "color5": "#A8AA9F",
+        "color6": "#C3BCA9",
+        "color7": "#111717",
+        "color8": "#877f6c",
+        "color9": "#70786C",
+        "color10": "#979268",
+        "color11": "#3D8193",
+        "color12": "#6296A2",
+        "color13": "#A8AA9F",
+        "color14": "#C3BCA9",
+        "color15": "#111717"
+    }
+}

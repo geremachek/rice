@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/bluemountain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f2f8f8",
+        "foreground": "#1E241A",
+        "cursor": "#1E241A"
+    },
+    "colors": {
+        "color0": "#f2f8f8",
+        "color1": "#918872",
+        "color2": "#0D7489",
+        "color3": "#2E7A8C",
+        "color4": "#4A7A88",
+        "color5": "#28869A",
+        "color6": "#2C8A9E",
+        "color7": "#1E241A",
+        "color8": "#667d7d",
+        "color9": "#918872",
+        "color10": "#0D7489",
+        "color11": "#2E7A8C",
+        "color12": "#4A7A88",
+        "color13": "#28869A",
+        "color14": "#2C8A9E",
+        "color15": "#1E241A"
+    }
+}

@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 
 	printf("\n");
 
-	for (int i = 33; i < 127; i++) {
+	for (int i = 33; i < 254; i++) {
 		printf(" %c ", i);
 	}
 

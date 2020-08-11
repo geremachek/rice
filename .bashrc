@@ -24,7 +24,7 @@ alias gp="git push"
 
 alias f="pfetch"
 export PF_COL3=1
-export PF_ASCII="binix"
+export PF_ASCII="cloveros"
 export PF_INFO="ascii title os wm host uptime pkgs memory"
 
 # Functions
@@ -71,12 +71,11 @@ block() {
 
 # Path
 
-PATH=$PATH:/home/gmk/.scripts:/usr/java/jre1.8.0_241/bin
-export SMPL_PATH="~/.smpl"
+PATH="$PATH:~/.local/bin:~/.scripts"
 
 # Prompt
 
-export PS1=" \e[34mξ\e[0m "
+export PS1=" \e[34m->\e[0m "
 
 # sock
 
@@ -86,7 +85,6 @@ lock -k -m="All Terminals Are Locked!"
 # pywal
 
 alias pws="wal -n -i"
-(cat ~/.cache/wal/sequences &)
+#(cat ~/.cache/wal/sequences &)
 
-thin
 stty -ixon

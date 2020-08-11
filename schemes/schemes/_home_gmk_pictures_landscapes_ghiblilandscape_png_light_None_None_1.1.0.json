@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/ghiblilandscape.png",
+    "alpha": "100",
+    "special": {
+        "background": "#faf7f2",
+        "foreground": "#20301C",
+        "cursor": "#20301C"
+    },
+    "colors": {
+        "color0": "#faf7f2",
+        "color1": "#A79266",
+        "color2": "#C8A474",
+        "color3": "#3D7988",
+        "color4": "#2F9FAF",
+        "color5": "#62A6AA",
+        "color6": "#D2B492",
+        "color7": "#20301C",
+        "color8": "#857a66",
+        "color9": "#A79266",
+        "color10": "#C8A474",
+        "color11": "#3D7988",
+        "color12": "#2F9FAF",
+        "color13": "#62A6AA",
+        "color14": "#D2B492",
+        "color15": "#20301C"
+    }
+}

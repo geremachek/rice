@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/cppanime.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fafafa",
+        "foreground": "#19120E",
+        "cursor": "#19120E"
+    },
+    "colors": {
+        "color0": "#fafafa",
+        "color1": "#ABA7AB",
+        "color2": "#C8B18D",
+        "color3": "#DABDAB",
+        "color4": "#D4C3B1",
+        "color5": "#E3CBA8",
+        "color6": "#D8D8D8",
+        "color7": "#19120E",
+        "color8": "#868686",
+        "color9": "#ABA7AB",
+        "color10": "#C8B18D",
+        "color11": "#DABDAB",
+        "color12": "#D4C3B1",
+        "color13": "#E3CBA8",
+        "color14": "#D8D8D8",
+        "color15": "#19120E"
+    }
+}

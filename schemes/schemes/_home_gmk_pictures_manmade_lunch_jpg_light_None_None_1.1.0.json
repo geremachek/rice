@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/lunch.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfdfc",
+        "foreground": "#2E2A28",
+        "cursor": "#2E2A28"
+    },
+    "colors": {
+        "color0": "#fdfdfc",
+        "color1": "#D4847E",
+        "color2": "#A8A099",
+        "color3": "#D7A095",
+        "color4": "#C3AAA3",
+        "color5": "#D1CDB8",
+        "color6": "#E7DEC2",
+        "color7": "#2E2A28",
+        "color8": "#93918f",
+        "color9": "#D4847E",
+        "color10": "#A8A099",
+        "color11": "#D7A095",
+        "color12": "#C3AAA3",
+        "color13": "#D1CDB8",
+        "color14": "#E7DEC2",
+        "color15": "#2E2A28"
+    }
+}

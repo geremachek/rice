@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/sand.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f5f5f6",
+        "foreground": "#1F2228",
+        "cursor": "#1F2228"
+    },
+    "colors": {
+        "color0": "#f5f5f6",
+        "color1": "#8E867A",
+        "color2": "#3D6594",
+        "color3": "#577193",
+        "color4": "#7089AA",
+        "color5": "#7197C9",
+        "color6": "#979A9D",
+        "color7": "#1F2228",
+        "color8": "#727377",
+        "color9": "#8E867A",
+        "color10": "#3D6594",
+        "color11": "#577193",
+        "color12": "#7089AA",
+        "color13": "#7197C9",
+        "color14": "#979A9D",
+        "color15": "#1F2228"
+    }
+}

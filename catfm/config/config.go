@@ -7,21 +7,21 @@ import (
 )
 
 var (
-	XBuff int = 2
-	YBuffTop int = 2
-	YBuffBottom int = 2
+	XBuff int = 1
+	YBuffTop int = 1
+	YBuffBottom int = 3
 
 	KeyRefresh string = "f"
 	KeyQuit string = "q"
 	KeyDelete string = "K"
 	KeyRename string = "e"
 	KeyRecycle string = "d"
-	KeyToggleSearch string = "ctrl-s"
+	KeyToggleSearch string = "S"
 	KeyBulkDelete string = "D"
 	KeyCopy string = "p"
 	KeyMove string = "m"
 	KeySelect string = " "
-	KeySelectAll string = "ctrl-a"
+	KeySelectAll string = "A"
 	KeyDeselectAll string = "-"
 	KeyDotToggle string = "."
 	KeyGoToFirst string = "g"
@@ -31,26 +31,26 @@ var (
 	KeyUp string = "k"
 	KeyRight string = "l"
 
-	BarLocale = ""
-	BarFg tcell.Color = tcell.ColorBeige
-	BarBg tcell.Color = tcell.ColorDefault
-	BarDiv string = " "
+	BarLocale = "bottom"
+	BarFg tcell.Color = tcell.ColorDefault
+	BarBg tcell.Color = tcell.ColorBlue
+	BarDiv string = ""
+
 	BarStyle = map[string]tcell.Style {
-		"1<": tcell.StyleDefault.Foreground(tcell.ColorYellow),
-		"2total": tcell.StyleDefault.Foreground(BarBg),
-		"3cwd": tcell.StyleDefault.Foreground(BarBg),
-		"4>": tcell.StyleDefault.Foreground(tcell.ColorYellow),
+		"1 ": tcell.StyleDefault.Background(BarBg),
+		"2total": tcell.StyleDefault.Foreground(BarFg).Background(BarBg).Underline(true),
+		"3 ": tcell.StyleDefault.Background(BarBg),
 	}
 
 	SelectType string = "default" // full, default, arrow
-	SelectStyle tcell.Style = tcell.StyleDefault.Reverse(true)
+	SelectStyle tcell.Style = tcell.StyleDefault.Background(tcell.GetColor("#D3D3D3"))
 	SelectArrow string = "> "
 	SelectArrowStyle tcell.Style = tcell.StyleDefault.Foreground(tcell.ColorIndianRed).Bold(true)
 
-	PipeType = "round"
+	PipeType = ""
 	PipeStyle tcell.Style = tcell.StyleDefault
-	PipeText = "catfm@host"
-	PipeTextStyle = tcell.StyleDefault.Foreground(tcell.ColorMaroon).Bold(true).Underline(true)
+	PipeText = ""
+	PipeTextStyle = tcell.StyleDefault.Foreground(tcell.ColorBlue).Bold(true).Underline(true)
 
 
 	Shell string = "dash"
@@ -71,7 +71,6 @@ var (
 	}
 
 	FileColors = map[string]tcell.Style {
-		"[dir]": tcell.StyleDefault.Foreground(tcell.ColorSlateGrey),
 	}
 
 	Bindings = map[string][]string {
@@ -81,12 +80,11 @@ var (
 		"f3": []string{"cd", "~/repos/rice"},
 		"f4": []string{"cd", "~/.config"},
 		"v": []string{"t", "cat -n '@' | less"},
-		"w": []string{"t", "setwal '@' > /dev/null &"},
+		"w": []string{"g", "wal -l -i '@'"},
 		"L": []string{"t", "sudo sock -B -c=ff0000 -C -m='Session Locked!'"},
 		"V": []string{"g", "firefox '@'"},
+		"E": []string{"g", "rm ~/.cache/catfm/*"},
 	}
-
-	Selected []string
 )
 
 func Init() {

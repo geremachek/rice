@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/blue-forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fbfbfb",
+        "foreground": "#0B121B",
+        "cursor": "#0B121B"
+    },
+    "colors": {
+        "color0": "#fbfbfb",
+        "color1": "#2B5563",
+        "color2": "#4F646D",
+        "color3": "#8C796C",
+        "color4": "#5C7589",
+        "color5": "#6E8894",
+        "color6": "#9DA1AC",
+        "color7": "#0B121B",
+        "color8": "#8a898a",
+        "color9": "#2B5563",
+        "color10": "#4F646D",
+        "color11": "#8C796C",
+        "color12": "#5C7589",
+        "color13": "#6E8894",
+        "color14": "#9DA1AC",
+        "color15": "#0B121B"
+    }
+}

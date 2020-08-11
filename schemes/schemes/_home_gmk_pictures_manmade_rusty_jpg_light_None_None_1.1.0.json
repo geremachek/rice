@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/rusty.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f6f4f2",
+        "foreground": "#1A1917",
+        "cursor": "#1A1917"
+    },
+    "colors": {
+        "color0": "#f6f4f2",
+        "color1": "#716656",
+        "color2": "#837824",
+        "color3": "#85796C",
+        "color4": "#7A874E",
+        "color5": "#9D9132",
+        "color6": "#908479",
+        "color7": "#1A1917",
+        "color8": "#766f68",
+        "color9": "#716656",
+        "color10": "#837824",
+        "color11": "#85796C",
+        "color12": "#7A874E",
+        "color13": "#9D9132",
+        "color14": "#908479",
+        "color15": "#1A1917"
+    }
+}

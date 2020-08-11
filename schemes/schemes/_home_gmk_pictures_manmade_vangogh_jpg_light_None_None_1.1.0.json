@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/vangogh.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f7f8f7",
+        "foreground": "#365A2D",
+        "cursor": "#365A2D"
+    },
+    "colors": {
+        "color0": "#f7f8f7",
+        "color1": "#708757",
+        "color2": "#919460",
+        "color3": "#728A92",
+        "color4": "#A0B2B2",
+        "color5": "#B1C0BD",
+        "color6": "#9FC0C6",
+        "color7": "#365A2D",
+        "color8": "#797d7b",
+        "color9": "#708757",
+        "color10": "#919460",
+        "color11": "#728A92",
+        "color12": "#A0B2B2",
+        "color13": "#B1C0BD",
+        "color14": "#9FC0C6",
+        "color15": "#365A2D"
+    }
+}

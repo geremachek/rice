@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/japansnow.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f7f9f8",
+        "foreground": "#242929",
+        "cursor": "#242929"
+    },
+    "colors": {
+        "color0": "#f7f9f8",
+        "color1": "#6D90B0",
+        "color2": "#348BC0",
+        "color3": "#6BA7C5",
+        "color4": "#8EA3B5",
+        "color5": "#95B7C8",
+        "color6": "#99C2CF",
+        "color7": "#242929",
+        "color8": "#7c817e",
+        "color9": "#6D90B0",
+        "color10": "#348BC0",
+        "color11": "#6BA7C5",
+        "color12": "#8EA3B5",
+        "color13": "#95B7C8",
+        "color14": "#99C2CF",
+        "color15": "#242929"
+    }
+}

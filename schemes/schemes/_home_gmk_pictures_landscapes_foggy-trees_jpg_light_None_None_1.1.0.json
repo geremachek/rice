@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/foggy-trees.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f3f4f5",
+        "foreground": "#1D2622",
+        "cursor": "#1D2622"
+    },
+    "colors": {
+        "color0": "#f3f4f5",
+        "color1": "#777D82",
+        "color2": "#7B8485",
+        "color3": "#8B9396",
+        "color4": "#99A09F",
+        "color5": "#969DA3",
+        "color6": "#9BA3A9",
+        "color7": "#1D2622",
+        "color8": "#696d73",
+        "color9": "#777D82",
+        "color10": "#7B8485",
+        "color11": "#8B9396",
+        "color12": "#99A09F",
+        "color13": "#969DA3",
+        "color14": "#9BA3A9",
+        "color15": "#1D2622"
+    }
+}

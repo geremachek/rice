@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/washed-up.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefe",
+        "foreground": "#4B5254",
+        "cursor": "#4B5254"
+    },
+    "colors": {
+        "color0": "#fefefe",
+        "color1": "#70B0C5",
+        "color2": "#A1A6A3",
+        "color3": "#C7B69A",
+        "color4": "#D4B5A5",
+        "color5": "#B5D1D9",
+        "color6": "#BED9E2",
+        "color7": "#4B5254",
+        "color8": "#979696",
+        "color9": "#70B0C5",
+        "color10": "#A1A6A3",
+        "color11": "#C7B69A",
+        "color12": "#D4B5A5",
+        "color13": "#B5D1D9",
+        "color14": "#BED9E2",
+        "color15": "#4B5254"
+    }
+}

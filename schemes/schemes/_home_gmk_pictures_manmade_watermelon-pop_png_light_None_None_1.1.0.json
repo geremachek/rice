@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/watermelon-pop.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefe",
+        "foreground": "#373B3A",
+        "cursor": "#373B3A"
+    },
+    "colors": {
+        "color0": "#fefefe",
+        "color1": "#9BA0A1",
+        "color2": "#8DCE90",
+        "color3": "#87B9DA",
+        "color4": "#A5BDCD",
+        "color5": "#B2BDC2",
+        "color6": "#CFD2D5",
+        "color7": "#373B3A",
+        "color8": "#989897",
+        "color9": "#9BA0A1",
+        "color10": "#8DCE90",
+        "color11": "#87B9DA",
+        "color12": "#A5BDCD",
+        "color13": "#B2BDC2",
+        "color14": "#CFD2D5",
+        "color15": "#373B3A"
+    }
+}

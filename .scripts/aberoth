@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# aberoth launch script
-
-java -jar /home/gmk/etc/aberoth/Aberoth.jar &

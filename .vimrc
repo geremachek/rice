@@ -8,7 +8,7 @@ call plug#end()
 " UI
 
 set nocompatible
-syntax on
+syntax off
 filetype plugin indent on
 
 " Saving
@@ -44,6 +44,5 @@ inoremap <c-o> <Esc>:call NewFile()<Enter>
 
 inoremap <c-p> <Esc>pi<Right>
 inoremap <c-u> <Esc>ui
-inoremap <c-t> <Esc>:set expandtab<Enter>i
 
 set tabstop=8

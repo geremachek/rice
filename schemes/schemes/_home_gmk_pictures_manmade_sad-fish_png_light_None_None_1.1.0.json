@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/sad-fish.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefe",
+        "foreground": "#090909",
+        "cursor": "#090909"
+    },
+    "colors": {
+        "color0": "#fefefe",
+        "color1": "#9A9590",
+        "color2": "#B1B1B1",
+        "color3": "#C6BEAB",
+        "color4": "#C9C2AF",
+        "color5": "#E7C2B2",
+        "color6": "#C1BEC0",
+        "color7": "#090909",
+        "color8": "#989796",
+        "color9": "#9A9590",
+        "color10": "#B1B1B1",
+        "color11": "#C6BEAB",
+        "color12": "#C9C2AF",
+        "color13": "#E7C2B2",
+        "color14": "#C1BEC0",
+        "color15": "#090909"
+    }
+}

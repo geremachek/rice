@@ -1,2 +1,6 @@
 *.font: cherry:size=9.8
-*.cursorshape: 6
+*.alpha: 1.0
+*.cursorColor: #d84d79
+
+*.background: #fbfbfb
+*.foreground: #000000

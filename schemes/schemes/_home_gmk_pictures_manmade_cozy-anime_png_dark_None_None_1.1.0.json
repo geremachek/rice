@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/cozy-anime.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b150f",
+        "foreground": "#e9e3dc",
+        "cursor": "#e9e3dc"
+    },
+    "colors": {
+        "color0": "#1b150f",
+        "color1": "#A77349",
+        "color2": "#C87646",
+        "color3": "#CA874C",
+        "color4": "#D0894B",
+        "color5": "#E89D58",
+        "color6": "#C3B1A1",
+        "color7": "#e9e3dc",
+        "color8": "#a39e9a",
+        "color9": "#A77349",
+        "color10": "#C87646",
+        "color11": "#CA874C",
+        "color12": "#D0894B",
+        "color13": "#E89D58",
+        "color14": "#C3B1A1",
+        "color15": "#e9e3dc"
+    }
+}

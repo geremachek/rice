@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/landscapes/rocks.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f7f9fb",
+        "foreground": "#0E0F11",
+        "cursor": "#0E0F11"
+    },
+    "colors": {
+        "color0": "#f7f9fb",
+        "color1": "#858776",
+        "color2": "#6C7988",
+        "color3": "#798797",
+        "color4": "#909EAE",
+        "color5": "#BEC2B3",
+        "color6": "#A9B7C8",
+        "color7": "#0E0F11",
+        "color8": "#7b828a",
+        "color9": "#858776",
+        "color10": "#6C7988",
+        "color11": "#798797",
+        "color12": "#909EAE",
+        "color13": "#BEC2B3",
+        "color14": "#A9B7C8",
+        "color15": "#0E0F11"
+    }
+}

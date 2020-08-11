@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/retro.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f1f7fa",
+        "foreground": "#301821",
+        "cursor": "#301821"
+    },
+    "colors": {
+        "color0": "#f1f7fa",
+        "color1": "#688C9F",
+        "color2": "#D9AF94",
+        "color3": "#D6AF9C",
+        "color4": "#CCC2BC",
+        "color5": "#9CCBD7",
+        "color6": "#A1CADB",
+        "color7": "#301821",
+        "color8": "#617987",
+        "color9": "#688C9F",
+        "color10": "#D9AF94",
+        "color11": "#D6AF9C",
+        "color12": "#CCC2BC",
+        "color13": "#9CCBD7",
+        "color14": "#A1CADB",
+        "color15": "#301821"
+    }
+}

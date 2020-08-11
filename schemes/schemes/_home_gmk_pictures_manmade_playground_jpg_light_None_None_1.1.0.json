@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gmk/pictures/manmade/playground.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f7f9ee",
+        "foreground": "#464171",
+        "cursor": "#464171"
+    },
+    "colors": {
+        "color0": "#f7f9ee",
+        "color1": "#226090",
+        "color2": "#685A8D",
+        "color3": "#BB4A8F",
+        "color4": "#96618C",
+        "color5": "#549C91",
+        "color6": "#A69F8D",
+        "color7": "#464171",
+        "color8": "#7c8457",
+        "color9": "#226090",
+        "color10": "#685A8D",
+        "color11": "#BB4A8F",
+        "color12": "#96618C",
+        "color13": "#549C91",
+        "color14": "#A69F8D",
+        "color15": "#464171"
+    }
+}
