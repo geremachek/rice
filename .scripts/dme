@@ -1,0 +1,3 @@
+#!/bin/sh
+
+dmenu -fn "CozetteVector" -nb "beige" -nf "black" -sb "black" -sf "white"

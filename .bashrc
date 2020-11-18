@@ -3,6 +3,7 @@
 alias c='clear'
 alias q='exit'
 alias p='sudo pacman'
+alias z='sudo zypper'
 alias s='sudo'
 alias tarc='tar -czvf'
 alias tare='tar -xvzf'
@@ -19,12 +20,13 @@ alias pt="plain -u"
 
 alias ga="git add"
 alias gp="git push"
+alias gc="git commit -m"
 
 # pfetch
 
 alias f="pfetch"
 export PF_COL3=1
-export PF_ASCII="cloveros"
+export PF_ASCII="opensuse"
 export PF_INFO="ascii title os wm host uptime pkgs memory"
 
 # Functions
@@ -75,16 +77,24 @@ PATH="$PATH:~/.local/bin:~/.scripts"
 
 # Prompt
 
-export PS1=" \e[34m->\e[0m "
+export PS1=" % "
 
 # sock
 
 alias lock="s sock -B -C"
-lock -k -m="All Terminals Are Locked!"
+sock -B -C -k -m="All Terminals Are Locked!"
 
 # pywal
 
 alias pws="wal -n -i"
 #(cat ~/.cache/wal/sequences &)
+
+# binds
+
+bind '"\e[H":"cd ~\n"'
+
+# rose
+
+export ROSE_FORMAT_PREFIX="  "
 
 stty -ixon

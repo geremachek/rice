@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp $1 ~/.wall.png
+feh --bg-tile $1

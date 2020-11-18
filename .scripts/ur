@@ -3,10 +3,11 @@
 cp ~/.vimrc ~/repos/rice/.vimrc
 cp ~/.bashrc ~/repos/rice/.bashrc
 cp ~/.xinitrc ~/repos/rice/.xinitrc
-rm -rf ~/repos/rice/.scripts
-cp -r ~/.scripts ~/repos/rice/
-cp ~/.config/berry/autostart ~/repos/rice/berry/autostart
-cp ~/.config/berry/sxhkdrc ~/repos/rice/berry/sxhkdrc
-cp -r ~/.cache/wal/schemes ~/repos/rice/schemes
+cp ~/.alacritty.yml ~/repos/rice/.alacritty.yml  
+
+cp -r ~/.scripts ~/repos/rice
 cp -r ~/.xmonad ~/repos/rice
+
+cp -r ~/.config/picom ~/repos/rice/.config
+
 cp ~/.Xresources ~/repos/rice/.Xresources

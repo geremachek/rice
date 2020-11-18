@@ -1,6 +1,5 @@
-*.font: cherry:size=9.8
-*.alpha: 1.0
-*.cursorColor: #d84d79
+Xft.dpi: 144
 
-*.background: #fbfbfb
-*.foreground: #000000
+sxiv.background: #e3ddc5
+sxiv.foreground: #000000
+sxiv.font: CozetteVector 9

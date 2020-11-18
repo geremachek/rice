@@ -1,15 +1,13 @@
-<h1 align="center">ΙΩΝΑΣ</h1>
+<h1 align="center">ΙΩΝΑΣ's Rice</h1>
 
-<img src="feelingblue.png" alt="rice">
+<img src="greek.png" alt="rice">
 
 wm: xmonad
 
-editor: vim (soon to be hermit when i finish writing it)
-
-file manager: catfm
+editor: vim (soon to be merlin when i finish writing it)
 
 shell: bash/dash
 
-terminal: st
+terminal: alacritty
 
 browser: firefox

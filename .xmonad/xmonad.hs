@@ -12,7 +12,7 @@ import qualified Data.Map        as M
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
 --
-myTerminal      = "st"
+myTerminal      = "alacritty"
 
 -- Whether focus follows the mouse pointer.
 myFocusFollowsMouse :: Bool
@@ -24,7 +24,7 @@ myClickJustFocuses = False
 
 -- Width of the window border in pixels.
 --
-myBorderWidth   = 4
+myBorderWidth   = 2
 
 -- modMask lets you specify which modkey you want to use. The default
 -- is mod1Mask ("left alt").  You may also consider using mod3Mask
@@ -46,8 +46,8 @@ myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
 
 -- Border colors for unfocused and focused windows, respectively.
 --
-myNormalBorderColor  = "#9eeeee"
-myFocusedBorderColor = "#9eeeee"
+myNormalBorderColor  = "#000000"
+myFocusedBorderColor = "#000000"
 
 ------------------------------------------------------------------------
 -- Key bindings. Add, modify or remove key bindings here.
@@ -60,7 +60,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm, xK_i ), spawn "firefox")
 
     -- launch dmenu
-    , ((modm,               xK_d     ), spawn "dmenu_run")
+    , ((modm,               xK_d     ), spawn "~/.scripts/dmerun")
 
     -- close focused window
     , ((modm, xK_q     ), kill)
@@ -175,7 +175,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 -- The available layouts.  Note that each layout is separated by |||,
 -- which denotes layout choice.
 --
-myLayout = gaps [(U,30), (R,10), (L,10), (D,10)] tiled ||| Mirror tiled ||| Full
+myLayout = gaps [(U,10), (R,10), (L,10), (D,10)] tiled ||| Mirror tiled ||| Full
   where
      tiled = smartSpacing 10 $ Tall nmaster delta ratio
      nmaster = 1
