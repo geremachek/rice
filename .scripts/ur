@@ -7,7 +7,8 @@ cp ~/.alacritty.yml ~/repos/rice/.alacritty.yml
 
 cp -r ~/.scripts ~/repos/rice
 cp -r ~/.xmonad ~/repos/rice
-
 cp -r ~/.config/picom ~/repos/rice/.config
+cp -r ~/.config/sxhkd ~/repos/rice/.config 
 
 cp ~/.Xresources ~/repos/rice/.Xresources
+

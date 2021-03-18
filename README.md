@@ -1,6 +1,6 @@
-<h1 align="center">ΙΩΝΑΣ's Rice</h1>
+<h1 align="center">rice</h1>
 
-<img src="greek.png" alt="rice">
+<img src="calm.png" alt="rice">
 
 wm: xmonad
 
@@ -10,4 +10,6 @@ shell: bash/dash
 
 terminal: alacritty
 
-browser: firefox
+browser: brave
+
+chat: qtox

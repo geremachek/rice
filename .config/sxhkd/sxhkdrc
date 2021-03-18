@@ -1,0 +1,11 @@
+super + Up
+	amixer set Master 5%+
+
+super + Down
+	amixer set Master 5%-
+
+super + alt + m
+	amixer set Master toggle
+
+Print
+	import $(date +%s)

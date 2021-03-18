@@ -3,7 +3,6 @@
 alias c='clear'
 alias q='exit'
 alias p='sudo pacman'
-alias z='sudo zypper'
 alias s='sudo'
 alias tarc='tar -czvf'
 alias tare='tar -xvzf'
@@ -14,7 +13,7 @@ alias ~="cd ~"
 alias li="license -o LICENSE gpl-3.0"
 alias pz="przm -bo"
 alias rmd="rm -rf"
-alias pt="plain -u"
+alias pt="date +'%H %M'"
 
 # Git aliases
 
@@ -26,7 +25,7 @@ alias gc="git commit -m"
 
 alias f="pfetch"
 export PF_COL3=1
-export PF_ASCII="opensuse"
+export PF_ASCII=""
 export PF_INFO="ascii title os wm host uptime pkgs memory"
 
 # Functions
@@ -77,12 +76,7 @@ PATH="$PATH:~/.local/bin:~/.scripts"
 
 # Prompt
 
-export PS1=" % "
-
-# sock
-
-alias lock="s sock -B -C"
-sock -B -C -k -m="All Terminals Are Locked!"
+export PS1=" \e[32m米\e[0m "
 
 # pywal
 
