@@ -76,7 +76,7 @@ PATH="$PATH:~/.local/bin:~/.scripts"
 
 # Prompt
 
-export PS1=" \e[32m米\e[0m "
+export PS1=" 𒀸  "
 
 # pywal
 

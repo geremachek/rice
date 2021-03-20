@@ -1,6 +1,6 @@
 <h1 align="center">rice</h1>
 
-<img src="calm.png" alt="rice">
+<img src="altar-of-eden.png" alt="rice">
 
 wm: xmonad
 

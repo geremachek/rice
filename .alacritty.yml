@@ -11,8 +11,8 @@ window:
 
 colors:
   primary:
-    background: '#ffffea'
-    foreground: '#000000'
+    background: '#211f1e'
+    foreground: '#b9996c'
 
   normal:
     black: '#282828'
@@ -35,7 +35,7 @@ colors:
     white:   '#ebdbb2'
 
   cursor:
-    cursor: '#990000'
+    cursor: '#b9996c'
     text: '#ffffff'
 
 cursor:
