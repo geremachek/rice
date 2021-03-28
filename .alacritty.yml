@@ -11,32 +11,33 @@ window:
 
 colors:
   primary:
-    background: '#211f1e'
-    foreground: '#b9996c'
+    background: '#d5ccba'
+    foreground: '#45373c'
 
-  normal:
-    black: '#282828'
-    red: '#cc241d'
-    green:   '#98971a'
-    yellow:  '#d79921'
-    blue:    '#458588'
-    magenta: '#b16286'
-    cyan:    '#689d6a'
-    white:   '#a89984'
-  
-  bright:
-    black:   '#928374'
-    red:     '#fb4934'					         
-    green:   '#b8bb26'
-    yellow:  '#fabd2f'
-    blue:    '#83a598'
-    magenta: '#d3869b'
-    cyan:    '#8ec07c'
-    white:   '#ebdbb2'
 
   cursor:
-    cursor: '#b9996c'
+    cursor: '#4A0000'
     text: '#ffffff'
+
+  bright:
+    black: '#5e5252'
+    blue: '#426a79'
+    cyan: '#989a9c'
+    green: '#858162'
+    magenta: '#97522c'
+    red: '#be100e'
+    white: '#d5ccba'
+    yellow: '#eaa549'
+  
+  normal:
+    black: '#20111b'
+    blue: '#426a79'
+    cyan: '#989a9c'
+    green: '#858162'
+    magenta: '#97522c'
+    red: '#be100e'
+    white: '#968c83'
+    yellow: '#eaa549'
 
 cursor:
   style: Beam

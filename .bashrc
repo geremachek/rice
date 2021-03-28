@@ -76,7 +76,7 @@ PATH="$PATH:~/.local/bin:~/.scripts"
 
 # Prompt
 
-export PS1=" 𒀸  "
+export PS1=" -- "
 
 # pywal
 
