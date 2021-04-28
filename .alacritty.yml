@@ -1,3 +1,7 @@
+cursor:
+  style:
+    shape: Block
+
 font:
   size: 10
 
@@ -14,10 +18,9 @@ colors:
     background: '#d5ccba'
     foreground: '#45373c'
 
-
   cursor:
-    cursor: '#4A0000'
-    text: '#ffffff'
+    cursor: '#A67B5B'
+    text: '#d5ccba'
 
   bright:
     black: '#5e5252'
@@ -38,7 +41,3 @@ colors:
     red: '#be100e'
     white: '#968c83'
     yellow: '#eaa549'
-
-cursor:
-  style: Beam
-  thickness: 0.35

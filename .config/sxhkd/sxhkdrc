@@ -12,3 +12,10 @@ super + p
 
 Print
 	import $(date +%s).png
+
+super + alt + k
+	setxkbmap is
+
+super + alt + shift + k
+	setxkbmap us
+

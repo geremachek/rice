@@ -14,6 +14,7 @@ alias li="license -o LICENSE gpl-3.0"
 alias pz="przm -bo"
 alias rmd="rm -rf"
 alias pt="date +'%H %M'"
+alias tsync="sudo ntpd -qg"
 
 # Git aliases
 
@@ -25,7 +26,7 @@ alias gc="git commit -m"
 
 alias f="pfetch"
 export PF_COL3=1
-export PF_ASCII=""
+export PF_ASCII="linux"
 export PF_INFO="ascii title os wm host uptime pkgs memory"
 
 # Functions
@@ -72,11 +73,11 @@ block() {
 
 # Path
 
-PATH="$PATH:~/.local/bin:~/.scripts"
+PATH="$PATH:~/.local/bin:~/.scripts:~/go/bin"
 
 # Prompt
 
-export PS1=" -- "
+export PS1=" \e[35m%\e[0m "
 
 # pywal
 
