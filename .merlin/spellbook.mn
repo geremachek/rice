@@ -1,0 +1,39 @@
+\;pen \;decay disp ;nomen
+\;disp \;new \;disp dispn ;nomen
+
+1 \;span \;peer doc ;nomen
+\;doc \;dispn pdoc ;nomen
+\;doc nl \;infuse \;disp ldoc ;nomen
+
+\;peer \;dispn ppeer ;nomen
+
+\;spot \;peek cline ;nomen
+\;cline \;dispn pcline ;nomen
+
+\;new \;tether lines ;nomen
+\;space \;tether spaces ;nomen
+
+1 \;traverse j ;nomen
+-1 \;traverse k ;nomen
+
+1 \;appear g ;nomen
+\;span \;appear G ;nomen
+
+1 \;shift l ;nomen
+-1 \;shift h ;nomen
+
+1 \;infix 0 ;nomen
+\;columns \;infix \;right $ ;nomen
+
+1 \;shave del ;nomen
+¦ \;inscribe \;pcline \;del curs ;nomen
+
+clear \;incant \;disp clear ;nomen
+
+\;doc \;orbit \;infuse dfilter ;nomen
+\;cline \;orbit \;infuse cfilter ;nomen
+
+\;burn \;inscribe replace ;nomen
+
+ᛗ merlin ;nomen
+✠ cross ;nomen

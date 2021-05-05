@@ -15,6 +15,7 @@ alias pz="przm -bo"
 alias rmd="rm -rf"
 alias pt="date +'%H %M'"
 alias tsync="sudo ntpd -qg"
+alias merlin="merlin '/home/freyja/.merlin/spellbook.mn ;spellbook'"
 
 # Git aliases
 
