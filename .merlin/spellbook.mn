@@ -45,8 +45,13 @@ scribe-notation \;nomen nscribe ;nomen
 ;new ;new ;blank ;tether break ;nomen
 \;break \;inscribe ibreak ;nomen
 
+;genesis
+\;spot \;disp : \;disp ;space \;disp atom-prompt ;nomen
+
 ᛗ merlin ;nomen
 ✠ cross ;nomen
 
 þ thorn ;nomen
 ð eth ;nomen
+
+;clear
