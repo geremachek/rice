@@ -6,7 +6,7 @@ wm: xmonad
 
 editor: vim / [merlin](https://merlinfo.github.io)
 
-shell: bash/dash
+shell: bash / dash
 
 terminal: alacritty
 

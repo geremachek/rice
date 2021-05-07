@@ -10,6 +10,11 @@
 \;spot \;peek cline ;nomen
 \;cline \;dispn pcline ;nomen
 
+\;volume \;spine \;disp
+\;space \;disp
+\;carved \;dispn
+cspine ;nomen
+
 \;new \;tether lines ;nomen
 \;space \;tether spaces ;nomen
 
@@ -32,8 +37,16 @@ clear \;incant \;disp clear ;nomen
 
 \;doc \;orbit \;infuse dfilter ;nomen
 \;cline \;orbit \;infuse cfilter ;nomen
-
 \;burn \;inscribe replace ;nomen
+
+\\;inscribe scribe-notation \;nomen \;scribe iscribe ;nomen
+scribe-notation \;nomen nscribe ;nomen
+
+;new ;new ;blank ;tether break ;nomen
+\;break \;inscribe ibreak ;nomen
 
 ᛗ merlin ;nomen
 ✠ cross ;nomen
+
+þ thorn ;nomen
+ð eth ;nomen
