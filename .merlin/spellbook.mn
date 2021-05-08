@@ -1,3 +1,5 @@
+/home/freyja/.merlin/greek.mn ;spellbook
+
 \;pen \;decay disp ;nomen
 \;disp \;new \;disp dispn ;nomen
 
@@ -33,7 +35,7 @@ cspine ;nomen
 1 \;shave del ;nomen
 ¦ \;inscribe \;pcline \;del curs ;nomen
 
-clear \;incant \;disp clear ;nomen
+clear ;incant \;disp clear ;nomen
 
 \;doc \;orbit \;infuse dfilter ;nomen
 \;cline \;orbit \;infuse cfilter ;nomen
