@@ -28,7 +28,7 @@ cspine ;nomen
 -1 \;shift h ;nomen
 
 1 \;infix 0 ;nomen
-\;columns \;infix \;right $ ;nomen
+\;columns \;infix \;l $ ;nomen
 
 1 \;shave del ;nomen
 ¦ \;inscribe \;pcline \;del curs ;nomen
@@ -44,9 +44,6 @@ scribe-notation \;nomen nscribe ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
 \;break \;inscribe ibreak ;nomen
-
-;genesis
-\;spot \;disp : \;disp ;space \;disp atom-prompt ;nomen
 
 ᛗ merlin ;nomen
 ✠ cross ;nomen
