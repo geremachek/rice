@@ -56,12 +56,6 @@ gh() {
 	git clone https://github.com/$1
 }
 
-# catfm
-
-catfm() {
-	/usr/bin/catfm "${@}" && cd "$(< /tmp/kitty)"
-}
-
 # cursors
 
 thin() {
@@ -79,15 +73,6 @@ PATH="$PATH:~/.local/bin:~/.scripts:~/go/bin"
 # Prompt
 
 export PS1=" \e[35m%\e[0m "
-
-# pywal
-
-alias pws="wal -n -i"
-#(cat ~/.cache/wal/sequences &)
-
-# binds
-
-bind '"\e[H":"cd ~\n"'
 
 # rose
 
