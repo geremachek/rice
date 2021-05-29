@@ -1,4 +1,4 @@
-/home/freyja/.merlin/greek.mn ;spellbook
+~/.merlin/greek.mn ;spellbook
 
 \;pen \;decay disp ;nomen
 \;pen ;new \;disp penn ;nomen
@@ -30,6 +30,11 @@ cspine ;nomen
 1 \;shift l ;nomen
 -1 \;shift h ;nomen
 
+5 \;shift 5l ;nomen
+-5 \;shift 5h ;nomen
+10 \;shift 10l ;nomen
+-10 \;shift 10h ;nomen
+
 1 \;infix 0 ;nomen
 \;columns \;infix \;l $ ;nomen
 
@@ -48,8 +53,18 @@ scribe-notation \;nomen nscribe ;nomen
 ;new ;new ;blank ;tether break ;nomen
 \;break \;inscribe ibreak ;nomen
 
+\;inscribe i ;nomen
+
 ᛗ merlin ;nomen
 ✠ cross ;nomen
 
 þ thorn ;nomen
 ð eth ;nomen
+
+;scribe
+echo -en \e[47m \e[49m
+;atom
+
+;incant
+
+;space ;blank ;tether \;disp atom-prompt ;nomen
