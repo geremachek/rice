@@ -60,11 +60,3 @@ scribe-notation \;nomen nscribe ;nomen
 
 þ thorn ;nomen
 ð eth ;nomen
-
-;scribe
-echo -en \e[47m \e[49m
-;atom
-
-;incant
-
-;space ;blank ;tether \;disp atom-prompt ;nomen
