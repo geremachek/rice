@@ -1,4 +1,5 @@
 ~/.merlin/greek.mn ;spellbook
+~/.merlin/runic.mn ;spellbook
 
 \;pen \;decay disp ;nomen
 \;pen ;new \;disp penn ;nomen
