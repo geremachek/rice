@@ -53,7 +53,9 @@ clear ;incant \;disp clear ;nomen
 ;new ;new ;blank ;tether break ;nomen
 \;break \;inscribe ibreak ;nomen
 
-\\;inscribe \\;ibreak scribe-notation \;nomen \;scribe iscribe ;nomen
+\\;inscribe \\;ibreak scribe-notation \;nomen \;scribe ibscribe ;nomen
+\\;inscribe scribe-notation \;nomen \;scribe iscribe ;nomen
+
 scribe-notation \;nomen nscribe ;nomen
 
 \;inscribe i ;nomen

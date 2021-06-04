@@ -3,7 +3,7 @@ cursor:
     shape: Block
 
 font:
-  size: 10.4
+  size: 10.45
 
   normal:
     family: CozetteVector
@@ -15,12 +15,13 @@ window:
 
 colors:
   primary:
-    background: '#d5ccba'
-    foreground: '#45373c'
+    background: '#ffffea'
+    foreground: '#000000'
 
   cursor:
-    cursor: '#A67B5B'
-    text: '#d5ccba'
+    cursor: '#000000'
+    text: '#ffffea'
+
 
   bright:
     black: '#5e5252'
@@ -41,3 +42,7 @@ colors:
     red: '#be100e'
     white: '#968c83'
     yellow: '#eaa549'
+
+cursor:
+    style: Beam
+    thickness: 0.25
