@@ -1,6 +1,8 @@
 ~/.merlin/greek.mn ;spellbook
 ~/.merlin/runic.mn ;spellbook
 
+\;inscribe i ;nomen
+
 \;pen \;decay disp ;nomen
 \;pen ;new \;disp penn ;nomen
 \;disp ;new \;disp dispn ;nomen
@@ -11,7 +13,7 @@ nl -ba ;space ;tether \;doc \;orbit \;infuse \;disp ldoc ;nomen
 
 \;peer \;dispn ppeer ;nomen
 
-\;spot \;peek cline ;nomen
+\;spot \;spot \;peer cline ;nomen
 \;cline \;dispn pcline ;nomen
 
 \;volume \;spine \;disp
@@ -20,7 +22,7 @@ nl -ba ;space ;tether \;doc \;orbit \;infuse \;disp ldoc ;nomen
 cspine ;nomen
 
 \;new \;tether lines ;nomen
-\;space \;tether spaces ;nomen
+\;space \;tether words ;nomen
 
 1 \;traverse j ;nomen
 -1 \;traverse k ;nomen
@@ -30,6 +32,8 @@ cspine ;nomen
 
 1 \;shift l ;nomen
 -1 \;shift h ;nomen
+
+\;genesis /home/freyja/.merlin/bin/leap \;i ;space \;i \;cline \;volume \;shelve \;cline \;orbit \;infuse \;infix leap ;nomen
 
 5 \;shift 5l ;nomen
 -5 \;shift 5h ;nomen
@@ -48,22 +52,18 @@ clear ;incant \;disp clear ;nomen
 \;cline \;orbit \;infuse cfilter ;nomen
 \;burn \;inscribe replace ;nomen
 
-\;genesis sed \;inscribe ;space \;inscribe 1 \;peek \;volume \;shelve \;dfilter \;replace sed ;nomen
+\;genesis sed \;inscribe ;space \;inscribe \;cline \;volume \;shelve \;dfilter \;replace sed ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
-\;break \;inscribe ibreak ;nomen
+\;break \;inscribe ib ;nomen
 
 \\;inscribe \\;ibreak scribe-notation \;nomen \;scribe ibscribe ;nomen
 \\;inscribe scribe-notation \;nomen \;scribe iscribe ;nomen
 
 scribe-notation \;nomen nscribe ;nomen
 
-\;inscribe i ;nomen
-
 ᛗ merlin ;nomen
 ✠ cross ;nomen
 
 þ thorn ;nomen
 ð eth ;nomen
-
-' ;space ;blank ;tether \;disp atom-prompt ;nomen

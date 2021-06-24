@@ -30,6 +30,8 @@ export PF_COL3=1
 export PF_ASCII="linux"
 export PF_INFO="ascii title os wm host uptime pkgs memory"
 
+alias neg="neofetch --ascii ~/etc/glenda.txt"
+
 # Functions
 
 # Add an exec to path
@@ -72,7 +74,7 @@ PATH="$PATH:~/.local/bin:~/.scripts:~/go/bin"
 
 # Prompt
 
-export PS1=" \e[35m%\e[0m "
+export PS1=" % "
 
 # rose
 

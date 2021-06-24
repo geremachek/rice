@@ -1,0 +1,19 @@
+#!/bin/env python
+
+import sys
+
+line = ""
+
+for l in sys.stdin:
+	if line == "":
+		line = l
+	
+	break
+
+marker = sys.argv[1]
+
+for i in range(0, len(line)):
+	if len(line) - i >= len(marker) and line[i:i+len(marker)] == marker:
+		print(i+1, end="")
+		sys.exit()
+print("1")
