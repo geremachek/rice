@@ -1,5 +1,5 @@
 	
-" UI
+" Interface
 
 set nocompatible
 syntax off

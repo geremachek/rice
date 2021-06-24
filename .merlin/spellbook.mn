@@ -35,11 +35,6 @@ cspine ;nomen
 
 \;genesis /home/freyja/.merlin/bin/leap \;i ;space \;i \;cline \;volume \;shelve \;cline \;orbit \;infuse \;infix leap ;nomen
 
-5 \;shift 5l ;nomen
--5 \;shift 5h ;nomen
-10 \;shift 10l ;nomen
--10 \;shift 10h ;nomen
-
 1 \;infix 0 ;nomen
 \;columns \;infix \;l $ ;nomen
 
@@ -55,7 +50,9 @@ clear ;incant \;disp clear ;nomen
 \;genesis sed \;inscribe ;space \;inscribe \;cline \;volume \;shelve \;dfilter \;replace sed ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
-\;break \;inscribe ib ;nomen
+\;break \;inscribe b ;nomen
+
+;blank \;trample \;del dd ;nomen
 
 \\;inscribe \\;ibreak scribe-notation \;nomen \;scribe ibscribe ;nomen
 \\;inscribe scribe-notation \;nomen \;scribe iscribe ;nomen
