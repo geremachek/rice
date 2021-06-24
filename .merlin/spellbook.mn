@@ -59,6 +59,8 @@ clear ;incant \;disp clear ;nomen
 
 scribe-notation \;nomen nscribe ;nomen
 
+ls -F ;words \;incant \;disp ls ;nomen
+
 ᛗ merlin ;nomen
 ✠ cross ;nomen
 
