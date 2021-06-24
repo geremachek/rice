@@ -10,7 +10,7 @@ for l in sys.stdin:
 	
 	break
 
-marker = sys.argv[1]
+marker = " ".join(sys.argv[1:])
 ml = len(marker)
 
 for i in range(0, len(line)):
