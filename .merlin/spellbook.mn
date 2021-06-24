@@ -47,14 +47,14 @@ clear ;incant \;disp clear ;nomen
 \;cline \;orbit \;infuse cfilter ;nomen
 \;burn \;inscribe replace ;nomen
 
-\;genesis sed \;inscribe ;space \;inscribe \;cline \;volume \;shelve \;dfilter \;replace sed ;nomen
+\;genesis sed \;i ;space \;i \;cline \;volume \;shelve \;dfilter \;replace sed ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
 \;break \;inscribe b ;nomen
 
 ;blank \;trample \;del dd ;nomen
 
-\\;inscribe \\;ibreak scribe-notation \;nomen \;scribe ibscribe ;nomen
+\\;inscribe \\;b scribe-notation \;nomen \;scribe ibscribe ;nomen
 \\;inscribe scribe-notation \;nomen \;scribe iscribe ;nomen
 
 scribe-notation \;nomen nscribe ;nomen

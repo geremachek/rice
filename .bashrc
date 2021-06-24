@@ -58,7 +58,7 @@ dexe() {
 
 # Path
 
-PATH="$PATH:~/.local/bin:~/.scripts:~/go/bin"
+export PATH="$PATH:~/.local/bin:~/.scripts:~/go/bin"
 
 # Prompt
 

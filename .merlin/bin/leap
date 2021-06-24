@@ -11,9 +11,10 @@ for l in sys.stdin:
 	break
 
 marker = sys.argv[1]
+ml = len(marker)
 
 for i in range(0, len(line)):
-	if len(line) - i >= len(marker) and line[i:i+len(marker)] == marker:
+	if len(line) - i >= ml and line[i:i+ml] == marker:
 		print(i+1, end="")
 		sys.exit()
 print("1")
