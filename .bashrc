@@ -10,6 +10,7 @@
 
 shopt -s autocd
 set -o vi
+stty -ixon
 
 # Aliases
 
@@ -24,7 +25,6 @@ alias ls="ls -F"
 alias li="license -o LICENSE gpl-3.0"
 alias pt="date +'%H %M'"
 alias tsync="sudo ntpd -qg"
-alias merlin="merlin '~/.merlin/spellbook.mn ;spellbook'"
 alias ch="chmod +x"
 
 # Git aliases
@@ -56,16 +56,9 @@ dexe() {
 	sudo rm /usr/bin/"$1"
 }
 
-# Path
+# Enviroment
 
 export PATH="$PATH:~/.local/bin:~/.scripts:~/go/bin"
-
-# Prompt
-
 export PS1=" % "
-
-# rose
-
 export ROSE_FORMAT_PREFIX="  "
-
-stty -ixon
+export SPELLBOOK="~/.merlin/spellbook.mn"
