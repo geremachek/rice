@@ -4,7 +4,7 @@
 
 wm: xmonad
 
-editor: vim / [merlin](https://merlinfo.github.io)
+editor: [merlin](https://merlinfo.github.io) + [M](https://github.com/merlinfo/M) / vim
 
 shell: bash / dash
 
@@ -12,4 +12,4 @@ terminal: alacritty
 
 browser: brave
 
-chat: qtox
+calc: [basil](https://github.com/geremachek/basil) / [rose](https://github.com/geremachek/rose)
