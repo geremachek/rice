@@ -8,6 +8,8 @@
 #    /|                                                         
 #    \|                                                         
 
+# General
+
 shopt -s autocd
 set -o vi
 stty -ixon

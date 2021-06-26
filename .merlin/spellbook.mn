@@ -57,12 +57,15 @@ clear ;incant \;disp clear ;nomen
 \\;inscribe \\;b scribe-notation \;nomen \;scribe ibscribe ;nomen
 \\;inscribe scribe-notation \;nomen \;scribe iscribe ;nomen
 
-scribe-notation \;nomen nscribe ;nomen
+scribe-notation \;nomen ns ;nomen
 
 ls -F ;words \;incant \;disp ls ;nomen
 
-ᛗ merlin ;nomen
+ᛗ M ;nomen
 ✠ cross ;nomen
 
 þ thorn ;nomen
 ð eth ;nomen
+
+𒀭 dingir ;nomen
+𒂍 E ;nomen
