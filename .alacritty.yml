@@ -3,7 +3,7 @@ cursor:
     shape: Block
 
 font:
-  size: 10.45
+  size: 11
 
   normal:
     family: CozetteVector

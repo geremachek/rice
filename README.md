@@ -1,6 +1,6 @@
-<h1 align="center">rice</h1>
+# /rice/
 
-<img src="plan9.png" alt="rice">
+<img src="cream.png" alt="rice">
 
 wm: xmonad
 
