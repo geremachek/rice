@@ -60,7 +60,7 @@ dexe() {
 
 # Enviroment
 
-export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts:$HOME/go/bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts:$HOME/go/bin:$HOME/.cargo/bin"
 export PS1=" % "
-export ROSE_FORMAT_PREFIX=" --> "
+export ROSE_FORMAT_PREFIX=" > "
 export SPELLBOOK="~/.merlin/spellbook.mn"

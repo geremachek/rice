@@ -14,7 +14,7 @@ nl -ba ;space ;tether \;doc \;orbit \;infuse \;disp ldoc ;nomen
 \;peer \;dispn ppeer ;nomen
 
 \;spot \;spot \;peer cline ;nomen
-\;cline \;dispn pcline ;nomen
+\;cline \;dispn pline ;nomen
 
 \;volume \;spine \;disp
 \;space \;disp
@@ -50,11 +50,11 @@ clear ;incant \;disp clear ;nomen
 \;genesis sed \;i ;space \;i \;cline \;volume \;shelve \;dfilter \;replace sed ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
-\;break \;inscribe \; ;nomen
+;break \;inscribe \. ;nomen
 
 ;blank \;trample \;del dd ;nomen
 
-\\;inscribe \\\; scribe-notation \;nomen \;scribe ib ;nomen
+\\;inscribe \\;. scribe-notation \;nomen \;scribe ib ;nomen
 \\;inscribe scribe-notation \;nomen \;scribe ii ;nomen
 
 scribe-notation \;nomen s ;nomen
@@ -69,3 +69,5 @@ ls -F ;words \;incant \;disp ls ;nomen
 
 𒀭 dingir ;nomen
 𒂍 E ;nomen
+
+;clear
