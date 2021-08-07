@@ -39,7 +39,7 @@ cspine ;nomen
 \;columns \;infix \;l $ ;nomen
 
 1 \;shave del ;nomen
-¦ \;inscribe \;pcline \;del curs ;nomen
+¦ \;inscribe \;pline \;del curs ;nomen
 
 clear ;incant \;disp clear ;nomen
 
@@ -68,6 +68,6 @@ ls -F ;words \;incant \;disp ls ;nomen
 ð eth ;nomen
 
 𒀭 dingir ;nomen
-𒂍 E ;nomen
+𒂍 temple ;nomen
 
 ;clear

@@ -3,10 +3,10 @@ cursor:
     shape: Block
 
 font:
-  size: 11
+  size: 12
 
   normal:
-    family: CozetteVector
+    family: scientifica
 
 window:
   padding:
@@ -19,7 +19,7 @@ colors:
     foreground: '#000000'
 
   cursor:
-    cursor: '#000000'
+    cursor: '#DAA06D'
     text: '#ffffea'
 
 
@@ -44,5 +44,5 @@ colors:
     yellow: '#eaa549'
 
 cursor:
-    style: Beam
-    thickness: 0.25
+    style: Block
+    thickness: 0.5

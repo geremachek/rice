@@ -26,7 +26,6 @@ alias l="ls -l"
 alias ls="ls -F"
 alias li="license -o LICENSE gpl-3.0"
 alias pt="date +'%H %M'"
-alias tsync="sudo ntpd -qg"
 alias ch="chmod +x"
 
 # Git aliases
@@ -61,6 +60,6 @@ dexe() {
 # Enviroment
 
 export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts:$HOME/go/bin:$HOME/.cargo/bin"
-export PS1=" % "
+export PS1=" ; "
 export ROSE_FORMAT_PREFIX=" > "
 export SPELLBOOK="~/.merlin/spellbook.mn"
