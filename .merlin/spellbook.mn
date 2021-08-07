@@ -39,7 +39,7 @@ cspine ;nomen
 \;columns \;infix \;l $ ;nomen
 
 1 \;shave del ;nomen
-¦ \;inscribe \;pline \;del curs ;nomen
+┃ \;inscribe \;pline \;del curs ;nomen
 
 clear ;incant \;disp clear ;nomen
 
