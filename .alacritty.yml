@@ -3,7 +3,7 @@ cursor:
     shape: Block
 
 font:
-  size: 12
+  size: 12.5
 
   normal:
     family: scientifica

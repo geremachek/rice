@@ -1,4 +1,3 @@
-
 " vi sux
 
 set nocompatible

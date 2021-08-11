@@ -1,5 +1,7 @@
 ~/.merlin/greek.mn ;spellbook
 ~/.merlin/runic.mn ;spellbook
+~/.merlin/symbols.mn ;spellbook
+~/.merlin/letters.mn ;spellbook
 
 \;inscribe i ;nomen
 
@@ -33,13 +35,13 @@ cspine ;nomen
 1 \;shift l ;nomen
 -1 \;shift h ;nomen
 
-\;genesis /home/freyja/.merlin/bin/leap \;i ;space \;i \;cline \;volume \;shelve \;cline \;orbit \;infuse \;infix leap ;nomen
+\;genesis leap \;i ;space \;i \;cline \;volume \;shelve \;cline \;orbit \;infuse \;infix leap ;nomen
 
 1 \;infix 0 ;nomen
 \;columns \;infix \;l $ ;nomen
 
 1 \;shave del ;nomen
-┃ \;inscribe \;pline \;del curs ;nomen
+│ \;inscribe \;pline \;del curs ;nomen
 
 clear ;incant \;disp clear ;nomen
 
@@ -50,24 +52,15 @@ clear ;incant \;disp clear ;nomen
 \;genesis sed \;i ;space \;i \;cline \;volume \;shelve \;dfilter \;replace sed ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
-;break \;inscribe \. ;nomen
+;break \;inscribe \; ;nomen
 
 ;blank \;trample \;del dd ;nomen
 
-\\;inscribe \\;. scribe-notation \;nomen \;scribe ib ;nomen
+\\;inscribe \\;; scribe-notation \;nomen \;scribe ib ;nomen
 \\;inscribe scribe-notation \;nomen \;scribe ii ;nomen
 
-scribe-notation \;nomen s ;nomen
+scribe-notation \;nomen \;scribe s ;nomen
 
 ls -F ;words \;incant \;disp ls ;nomen
-
-ᛗ M ;nomen
-✠ cross ;nomen
-
-þ thorn ;nomen
-ð eth ;nomen
-
-𒀭 dingir ;nomen
-𒂍 temple ;nomen
 
 ;clear
