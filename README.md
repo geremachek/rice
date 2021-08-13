@@ -1,6 +1,6 @@
 # /rice/
 
-<img src="salut.png" alt="rice">
+<img src="salut2.png" alt="rice">
 
 wm: xmonad
 

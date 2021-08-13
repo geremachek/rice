@@ -16,13 +16,17 @@ stty -ixon
 
 # Aliases
 
-alias c='clear'
 alias q='exit'
+alias x='exit'
+alias adieu='exit'
+
+alias l="ls -l"
+alias ls="ls -F"
+
+alias c='clear'
 alias p='sudo pacman'
 alias s='sudo'
 alias tarc='tar -czvf'
-alias l="ls -l"
-alias ls="ls -F"
 alias li="license -o LICENSE gpl-3.0"
 alias pt="date +'%H %M'"
 alias ch="chmod +x"
@@ -90,3 +94,6 @@ export PS1=" ; "
 export ROSE_FORMAT_PREFIX=" > "
 export ROSE_PROMPT="λ "
 export SPELLBOOK="~/.merlin/spellbook.mn"
+
+PLAN9=/home/freyja/.plan9port export PLAN9
+PATH=$PATH:$PLAN9/bin export PATH

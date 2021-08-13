@@ -25,6 +25,7 @@ cspine ;nomen
 
 \;new \;tether lines ;nomen
 \;space \;tether words ;nomen
+\;blank \;tether zip ;nomen
 
 1 \;traverse j ;nomen
 -1 \;traverse k ;nomen
@@ -56,10 +57,10 @@ clear ;incant \;disp clear ;nomen
 
 ;blank \;trample \;del dd ;nomen
 
-\\;inscribe \\;; scribe-notation \;nomen \;scribe ib ;nomen
-\\;inscribe scribe-notation \;nomen \;scribe ii ;nomen
+\\;inscribe \\;; scribe-nomen \;nomen \;scribe ib ;nomen
+\\;inscribe scribe-nomen \;nomen \;scribe ii ;nomen
 
-scribe-notation \;nomen \;scribe s ;nomen
+scribe-nomen \;nomen \;scribe s ;nomen
 
 ls -F ;words \;incant \;disp ls ;nomen
 
