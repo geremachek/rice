@@ -70,4 +70,11 @@ atom-nomen \;nomen \;atom a ;nomen
 
 ls -F ;words \;incant \;disp ls ;nomen
 
+\;words \;i wi ;nomen
+
 ;clear
+
+;blank  ;dispn
+;space  ;disp
+;dingir ;dispn
+;blank  ;dispn

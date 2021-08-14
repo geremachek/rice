@@ -71,6 +71,8 @@ geremachek's merlin configuration
 
 	;ls      -> calls ls(1)
 
+	;wi      -> call ;words and then ;inscribe
+
 [ visual.mn ]
 
 	;vline -> "visual line mode", tells atom-nomen to clear the screen, and call ;curs
