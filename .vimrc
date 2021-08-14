@@ -1,11 +1,13 @@
-" vi sux
+" this is my vi[m] config
+" minimal because I don't really need much :)
+" (also because of merlin)
 
 set nocompatible
 syntax off
 filetype plugin indent off
 
-inoremap <c-h> <Esc>:tabp<Enter>i
-inoremap <c-l> <Esc>:tabn<Enter>i
+noremap <c-h> :tabp<Enter>
+noremap <c-l> :tabn<Enter>
 
 set autoindent
 set tabstop=8

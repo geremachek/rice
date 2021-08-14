@@ -72,6 +72,7 @@ geremachek's merlin configuration
 	;ls      -> calls ls(1)
 
 	;wi      -> call ;words and then ;inscribe
+	;si      -> ;space ;inscribe
 
 [ visual.mn ]
 

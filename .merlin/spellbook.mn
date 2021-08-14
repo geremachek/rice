@@ -71,6 +71,7 @@ atom-nomen \;nomen \;atom a ;nomen
 ls -F ;words \;incant \;disp ls ;nomen
 
 \;words \;i wi ;nomen
+;space \;i si ;nomen
 
 ;clear
 
