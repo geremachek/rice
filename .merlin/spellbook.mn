@@ -2,6 +2,7 @@
 ~/.merlin/runic.mn ;spellbook
 ~/.merlin/symbols.mn ;spellbook
 ~/.merlin/letters.mn ;spellbook
+~/.merlin/visual.mn ;spellbook
 
 \;inscribe i ;nomen
 
@@ -42,7 +43,11 @@ cspine ;nomen
 \;columns \;infix \;l $ ;nomen
 
 1 \;shave del ;nomen
-│ \;inscribe \;pline \;del curs ;nomen
+
+│ \;inscribe icurs ;nomen
+\;icurs \;pline \;del curs ;nomen
+\;icurs \;pdoc \;del dcurs ;nomen
+\;icurs \;ldoc \;del lcurs ;nomen
 
 clear ;incant \;disp clear ;nomen
 
@@ -61,6 +66,7 @@ clear ;incant \;disp clear ;nomen
 \\;inscribe scribe-nomen \;nomen \;scribe ii ;nomen
 
 scribe-nomen \;nomen \;scribe s ;nomen
+atom-nomen \;nomen \;atom a ;nomen
 
 ls -F ;words \;incant \;disp ls ;nomen
 
