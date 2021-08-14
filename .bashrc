@@ -11,8 +11,8 @@
 # General
 
 shopt -s autocd
-set -o vi
 stty -ixon
+set -o vi
 
 # Aliases
 

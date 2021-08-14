@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# M - the standard merlin command wrapper
+
+if [ -z "$SPELLBOOK" ]; then
+	SPELLBOOK="~/.merlin/spellbook.mn"
+fi
+
+args="$SPELLBOOK ;spellbook "
+files=""
+
+for file in $@; do
+	files+="$file ;summon "
+done
+
+args+=$files
+
+merlin $args
