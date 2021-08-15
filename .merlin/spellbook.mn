@@ -72,7 +72,7 @@ null ;nomen
 \;null scribe-nomen \;nomen \;scribe s ;nomen
 \;null atom-nomen \;nomen \;atom a ;nomen
 
-\;atom A ;nomen
+\;atom-nomen \;atom A ;nomen
 
 ls -F ;words \;incant \;disp ls ;nomen
 

@@ -73,7 +73,7 @@ geremachek's merlin configuration
 	;s       -> ;scribe, but it resets sribe-nomen each time
 	;a       -> ;s, but for ;atom
 
-	;A       -> alias for ;atom
+	;A       -> alias for ;atom, also calls ;atom-nomen
 
 	;ls      -> calls ls(1)
 
