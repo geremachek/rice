@@ -1,18 +1,27 @@
 #!/bin/sh
-
 # M - the standard merlin command wrapper
+
+# set a default value for SPELLBOOK when it is empty
 
 if [ -z "$SPELLBOOK" ]; then
 	SPELLBOOK="~/.merlin/spellbook.mn"
 fi
 
+# call the ;spell book command on the config locale
+
 args="$SPELLBOOK ;spellbook "
 files=""
+
+# summon each file supplied by arguments
 
 for file in $@; do
 	files+="$file ;summon "
 done
 
+# stitch it together..
+
 args+=$files
+
+# run!
 
 merlin $args

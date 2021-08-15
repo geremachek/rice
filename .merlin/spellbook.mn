@@ -62,11 +62,17 @@ clear ;incant \;disp clear ;nomen
 
 ;blank \;trample \;del dd ;nomen
 
-\\;inscribe \\;; scribe-nomen \;nomen \;scribe ib ;nomen
-\\;inscribe scribe-nomen \;nomen \;scribe ii ;nomen
+\\;i \\;; scribe-nomen \;nomen \;scribe ib ;nomen
+\\;i scribe-nomen \;nomen \;scribe ii ;nomen
 
-scribe-nomen \;nomen \;scribe s ;nomen
-atom-nomen \;nomen \;atom a ;nomen
+\\;i \\;atom-nomen scribe-nomen \;nomen \;scribe vi ;nomen
+
+null ;nomen
+
+\;null scribe-nomen \;nomen \;scribe s ;nomen
+\;null atom-nomen \;nomen \;atom a ;nomen
+
+\;atom A ;nomen
 
 ls -F ;words \;incant \;disp ls ;nomen
 

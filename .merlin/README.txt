@@ -65,9 +65,15 @@ geremachek's merlin configuration
 
 	;ib      -> "insert break mode", each line you enter in scribe mode will be inserted into the buffer, along with a newline
 	;ii      -> "insert mode", ;ib but without the newline
-	
+
+	;vi      -> "atom insert mode", like ;ii but it also calls ;atom-nomen
+
+	;null    -> does nothing
+
 	;s       -> ;scribe, but it resets sribe-nomen each time
 	;a       -> ;s, but for ;atom
+
+	;A       -> alias for ;atom
 
 	;ls      -> calls ls(1)
 
