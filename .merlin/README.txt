@@ -1,4 +1,4 @@
-geremachek's merlin configuration
+Geremachek's Merlin configuration
 ---------------------------------
 
 - spellbook.mn // main config file
@@ -18,7 +18,9 @@ geremachek's merlin configuration
 	
 	;doc     -> push the contents of the open buffer to the stack
 	;pdoc    -> print the entire buffer
-	;ldoc    -> ;pdoc but with line numbers
+
+	;nl      -> ;doc, but with line numbers
+	;ldoc    -> ;pdoc, but it calls ;nl instead of ;doc
 
 	;ppeer   -> ;peer but it calls ;dispn afterwards
 
@@ -67,8 +69,6 @@ geremachek's merlin configuration
 	;ii      -> "insert mode", ;ib but without the newline
 
 	;vi      -> "atom insert mode", like ;ii but it also calls ;atom-nomen
-
-	;null    -> does nothing
 
 	;s       -> ;scribe, but it resets sribe-nomen each time
 	;a       -> ;s, but for ;atom

@@ -12,7 +12,9 @@
 
 1 \;span \;peer doc ;nomen
 \;doc \;dispn pdoc ;nomen
-nl -ba ;space ;tether \;doc \;orbit \;infuse \;disp ldoc ;nomen
+
+nl -ba ;space ;tether \;doc \;orbit \;infuse nl ;nomen
+\;nl \;disp ldoc ;nomen
 
 \;peer \;dispn ppeer ;nomen
 
@@ -28,6 +30,8 @@ cspine ;nomen
 \;space \;tether words ;nomen
 \;blank \;tether zip ;nomen
 
+\;volume \;shelve shut ;nomen
+
 1 \;traverse j ;nomen
 -1 \;traverse k ;nomen
 
@@ -37,7 +41,7 @@ cspine ;nomen
 1 \;shift l ;nomen
 -1 \;shift h ;nomen
 
-\;genesis leap \;i ;space \;i \;cline \;volume \;shelve \;cline \;orbit \;infuse \;infix leap ;nomen
+\;genesis leap \;i ;space \;i \;cline \;shut \;cline \;orbit \;infuse \;infix leap ;nomen
 
 1 \;infix 0 ;nomen
 \;columns \;infix \;l $ ;nomen
@@ -55,7 +59,7 @@ clear ;incant \;disp clear ;nomen
 \;cline \;orbit \;infuse cfilter ;nomen
 \;burn \;inscribe replace ;nomen
 
-\;genesis sed \;i ;space \;i \;cline \;volume \;shelve \;dfilter \;replace sed ;nomen
+\;genesis sed \;i ;space \;i \;cline \;shut \;dfilter \;replace sed ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
 ;break \;inscribe \; ;nomen
@@ -67,10 +71,8 @@ clear ;incant \;disp clear ;nomen
 
 \\;i \\;atom-nomen scribe-nomen \;nomen \;scribe vi ;nomen
 
-null ;nomen
-
-\;null scribe-nomen \;nomen \;scribe s ;nomen
-\;null atom-nomen \;nomen \;atom a ;nomen
+scribe-nomen \;nomen \;scribe s ;nomen
+atom-nomen \;nomen \;atom a ;nomen
 
 \;atom-nomen \;atom A ;nomen
 

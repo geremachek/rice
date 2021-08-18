@@ -95,5 +95,7 @@ export ROSE_FORMAT_PREFIX=" > "
 export ROSE_PROMPT="λ "
 export SPELLBOOK="~/.merlin/spellbook.mn"
 
+# Plan9 Port
+
 export PLAN9=/home/freyja/.plan9port
 export PATH=$PATH:$PLAN9/bin
