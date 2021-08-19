@@ -4,7 +4,7 @@
 # set a default value for SPELLBOOK when it is empty
 
 if [ -z "$SPELLBOOK" ]; then
-	SPELLBOOK="~/.merlin/spellbook.mn"
+	SPELLBOOK=~/.merlin/spellbook.mn
 fi
 
 # call the ;spell book command on the config locale
@@ -14,14 +14,14 @@ files=""
 
 # summon each file supplied by arguments
 
-for file in $@; do
-	files+="$file ;summon "
+for file in "$@"; do
+	files="$files$file ;summon "
 done
 
 # stitch it together..
 
-args+=$files
+args="$args$files"
 
 # run!
 
-merlin $args
+merlin "$args"

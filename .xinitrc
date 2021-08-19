@@ -10,4 +10,4 @@ export XCURSOR_SIZE=30
 xrdb .Xresources
 hsetroot -solid "#D1BEA8"
 xset s off -dpms
-exec xmonad
+exec xmonad # dwm gtfo
