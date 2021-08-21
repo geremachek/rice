@@ -47,6 +47,7 @@ cspine ;nomen
 \;columns \;infix \;l $ ;nomen
 
 1 \;shave del ;nomen
+\;del ' ;nomen
 
 │ \;inscribe icurs ;nomen
 \;icurs \;pline \;del curs ;nomen
@@ -71,8 +72,8 @@ clear ;incant \;disp clear ;nomen
 
 \\;i \\;atom-nomen scribe-nomen \;nomen \;scribe vi ;nomen
 
-scribe-nomen \;nomen \;scribe s ;nomen
-atom-nomen \;nomen \;atom a ;nomen
+scribe-nomen \;disenchant \;scribe s ;nomen
+atom-nomen \;disenchant \;atom a ;nomen
 
 \;atom-nomen \;atom A ;nomen
 

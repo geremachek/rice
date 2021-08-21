@@ -30,6 +30,7 @@ alias tarc='tar -czvf'
 alias li="license -o LICENSE gpl-3.0"
 alias pt="date +'%H %M'"
 alias ch="chmod +x"
+alias mpvnv="mpv --no-video"
 
 # Git aliases
 
@@ -97,5 +98,5 @@ export SPELLBOOK="~/.merlin/spellbook.mn"
 
 # Plan9 Port
 
-export PLAN9=/home/freyja/.plan9port
+export PLAN9=/home/freyja/plan9port
 export PATH=$PATH:$PLAN9/bin
