@@ -1,6 +1,0 @@
-#!/bin/bash
-
-for ((;;)) {
-	echo hello
-	sleep 0.5
-} | lemonbar -d -g x20

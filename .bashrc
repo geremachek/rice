@@ -30,7 +30,7 @@ alias tarc='tar -czvf'
 alias li="license -o LICENSE gpl-3.0"
 alias pt="date +'%H %M'"
 alias ch="chmod +x"
-alias mpvnv="mpv --no-video"
+alias mpva="mpv --no-video"
 
 # Git aliases
 

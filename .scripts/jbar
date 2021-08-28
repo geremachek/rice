@@ -1,6 +1,0 @@
-#!/bin/bash
-
-for ((;;)) {
-	echo " $(sbatt) | $(date +%r) "
-	sleep 0.5
-} | lemonbar -d -g 163x20+5+5 -F "#000000" -B "#f0ffffff" -f "cherry:size=10.5" &

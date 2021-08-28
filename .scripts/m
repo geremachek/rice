@@ -1,3 +1,0 @@
-#!/bin/sh
-
-merlin -i "$SPELLBOOK ;spellbook"

@@ -1,0 +1,21 @@
+super + Up
+	amixer set Master 5%+
+
+super + Down
+	amixer set Master 5%-
+
+super + alt + m
+	amixer set Master toggle
+
+super + p
+	mpv $(xclip -o -selection clipboard)
+
+Print
+	import $(date +%s).png
+
+super + alt + k
+	setxkbmap is
+
+super + alt + shift + k
+	setxkbmap us
+

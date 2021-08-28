@@ -1,6 +1,0 @@
-#!/bin/bash
-
-for ((;;)) {
-	echo " $(date +%r) "
-	sleep 0.5
-} | lemonbar -d -g x25 -F "#000000" -B "#f0ffffff" -f "SGI Rock:size=12" &

@@ -19,7 +19,7 @@ colors:
     foreground: '#000000'
 
   cursor:
-    cursor: '#9F8170'
+    cursor: '#000000'
     text: '#ffffea'
 
 
@@ -44,5 +44,5 @@ colors:
     yellow: '#eaa549'
 
 cursor:
-    style: Block
-    thickness: 0.5
+    style: Beam
+    thickness: 0.4

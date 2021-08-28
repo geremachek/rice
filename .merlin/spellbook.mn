@@ -83,8 +83,6 @@ ls -F ;words \;incant \;disp ls ;nomen
 ;space \;i si ;nomen
 
 ;clear
-
-;blank  ;dispn
-;space  ;disp
 ;dingir ;dispn
-;blank  ;dispn
+
+;mu \;disp ;space \;disp atom-prompt ;nomen

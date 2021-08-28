@@ -1,0 +1,18 @@
+#!/bin/sh
+
+cp ~/.vimrc ~/repos/rice/.vimrc
+cp ~/.bashrc ~/repos/rice/.bashrc
+cp ~/.xinitrc ~/repos/rice/.xinitrc
+cp ~/.alacritty.yml ~/repos/rice/.alacritty.yml  
+cp ~/.Xresources ~/repos/rice/.Xresources
+
+update() {
+	rm -rf "$2"/*
+	cp -r "$1" "$2"
+}
+
+update ~/.scripts ~/repos/rice/.scripts
+update ~/.xmonad ~/repos/rice/.xmonad
+update ~/.config/picom ~/repos/rice/.config/picom
+update ~/.config/sxhkd ~/repos/rice/.config 
+update ~/.merlin ~/repos/rice/.merlin

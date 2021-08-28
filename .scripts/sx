@@ -1,4 +1,0 @@
-#!/bin/sh
-
-chkstat --system --set
-startx
