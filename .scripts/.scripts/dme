@@ -1,3 +1,0 @@
-#!/bin/sh
-
-dmenu -l 5 -fn "CozetteVector" -nb "#ffffea" -nf "#000000" -sb "#eaffff" -sf "#000000"

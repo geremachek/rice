@@ -1,6 +1,0 @@
-#!/bin/sh
-
-while killall Discord
-do
-:
-done
