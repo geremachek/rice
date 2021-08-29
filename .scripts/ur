@@ -14,5 +14,5 @@ update() {
 update ~/.scripts ~/repos/rice/.scripts
 update ~/.xmonad ~/repos/rice/.xmonad
 update ~/.config/picom ~/repos/rice/.config/picom
-update ~/.config/sxhkd ~/repos/rice/.config 
+update ~/.config/sxhkd ~/repos/rice/.config/sxhkd
 update ~/.merlin ~/repos/rice/.merlin
