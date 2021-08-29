@@ -41,6 +41,7 @@ cspine ;nomen
 1 \;shift l ;nomen
 -1 \;shift h ;nomen
 
+\;appear go ;nomen
 \;genesis leap \;i ;space \;i \;cline \;shut \;cline \;orbit \;infuse \;infix leap ;nomen
 
 1 \;infix 0 ;nomen
@@ -82,7 +83,7 @@ ls -F ;words \;incant \;disp ls ;nomen
 \;words \;i wi ;nomen
 ;space \;i si ;nomen
 
-;clear
-;dingir ;dispn
+\;clear \;adieu \;a ca ;nomen
 
-;mu \;disp ;space \;disp atom-prompt ;nomen
+;clear
+;Pi ;dispn
