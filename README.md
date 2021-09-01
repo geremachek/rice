@@ -4,7 +4,7 @@
 
 wm: xmonad
 
-editor: [merlin](https://merlinfo.github.io) + [M](https://github.com/merlinfo/M) / vim
+editor: [merlin](https://merlinfo.github.io) + [aesop](https://github.com/merlinfo/aesop) / vim
 
 shell: bash / dash
 
