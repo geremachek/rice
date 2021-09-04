@@ -91,7 +91,7 @@ ext ()
 # Enviroment
 
 export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts:$HOME/go/bin:$HOME/.cargo/bin:$HOME/.merlin/bin"
-export PS1=" ; "
+export PS1="\e[35m \ \e[0m"
 export ROSE_FORMAT_PREFIX=" > "
 export ROSE_PROMPT="λ "
 export SPELLBOOK="~/.merlin/spellbook.mn"

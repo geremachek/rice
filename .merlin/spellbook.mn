@@ -85,5 +85,6 @@ ls -F ;words \;incant \;disp ls ;nomen
 
 \;clear \;adieu \;a ca ;nomen
 
+| \;disp ;space \;disp atom-prompt ;nomen
+
 ;clear
-;Pi ;dispn
