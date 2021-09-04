@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
 command="chocolate-doom -window -iwad"
 
 printf "1: Ultimate DOOM\n2: DOOM II\n\n"
 
-read -sn1
+read -rsn1
 
 if [ "$REPLY" = "1" ]; then
 	$command ~/games/DOOM.WAD &
