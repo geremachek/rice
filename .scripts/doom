@@ -11,5 +11,5 @@ if [ "$REPLY" = "1" ]; then
 elif [ "$REPLY" = "2" ]; then
 	$command ~/games/DOOM2.WAD &
 else
-	printf "Invalid selection!"
+	printf "Invalid selection!\n" 1>&2 
 fi
