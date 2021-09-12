@@ -44,5 +44,5 @@ colors:
     yellow: '#eaa549'
 
 cursor:
-    style: Beam
+    style: Block
     thickness: 0.4

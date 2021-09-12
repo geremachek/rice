@@ -28,10 +28,16 @@ END \;nomen set-end ;nomen
 \;BEGIN \;dec-var \;set-begin dec-begin ;nomen
 \;END   \;dec-var \;set-end dec-end ;nomen
 
-\;inc-begin \;inc-end + ;nomen
-\;dec-begin \;dec-end - ;nomen
+\;inc-begin \;inc-end \;j + ;nomen
+\;dec-begin \;dec-end \;k - ;nomen
 
 \;BEGIN \;END \;peer grab-win ;nomen
 
 \;icurs \;grab-win \;del \;dispn pwin ;nomen
 \;icurs \;nl \;del \;genesis \;grab-win \;shut \;dispn plwin ;nomen
+
+\;genesis \;vld e ;nomen
+\;genesis \;lwin ew ;nomen
+
+\;summon \;vld o ;nomen
+\;summon \;lwin ow ;nomen
