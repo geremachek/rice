@@ -2,4 +2,4 @@ Xft.dpi: 144
 
 sxiv.background: #e3ddc5
 sxiv.foreground: #000000
-sxiv.font: scientifica 12.5
+sxiv.font: monospace 12.5
