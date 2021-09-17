@@ -31,6 +31,8 @@ END \;nomen set-end ;nomen
 \;inc-begin \;inc-end \;j + ;nomen
 \;dec-begin \;dec-end \;k - ;nomen
 
+\;+ = ;nomen
+
 \;BEGIN \;END \;peer grab-win ;nomen
 
 \;icurs \;grab-win \;del \;dispn pwin ;nomen

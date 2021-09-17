@@ -85,9 +85,10 @@ ls -F ;words \;incant \;disp ls ;nomen
 
 \;clear \;adieu \;a ca ;nomen
 
+copy \;infuse \;decay copy ;nomen
+glue \;incant glue ;nomen
+
 ;space \;disp 
 ;mu \;disp
 ;space \;disp
 atom-prompt ;nomen
-
-;clear
