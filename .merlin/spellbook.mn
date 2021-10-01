@@ -5,6 +5,11 @@
 ~/.merlin/visual.mn ;spellbook
 
 \;inscribe i ;nomen
+\;i \;h sti ;nomen
+
+\;new \;tether lines ;nomen
+\;space \;tether words ;nomen
+\;blank \;tether zip ;nomen
 
 \;pen \;decay disp ;nomen
 \;pen ;new \;disp penn ;nomen
@@ -13,7 +18,7 @@
 1 \;span \;peer doc ;nomen
 \;doc \;dispn pdoc ;nomen
 
-nl -ba ;space ;tether \;doc \;orbit \;infuse nl ;nomen
+nl -ba -nln ;space ;tether \;doc \;orbit \;infuse nl ;nomen
 \;nl \;disp ldoc ;nomen
 
 \;peer \;dispn ppeer ;nomen
@@ -22,13 +27,9 @@ nl -ba ;space ;tether \;doc \;orbit \;infuse nl ;nomen
 \;cline \;dispn pline ;nomen
 
 \;volume \;spine \;disp
-\;space \;disp
+;space \;disp
 \;carved \;dispn
 cspine ;nomen
-
-\;new \;tether lines ;nomen
-\;space \;tether words ;nomen
-\;blank \;tether zip ;nomen
 
 \;volume \;shelve shut ;nomen
 
