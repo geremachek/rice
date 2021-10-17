@@ -38,8 +38,10 @@ END \;nomen set-end ;nomen
 \;icurs \;grab-win \;del \;dispn pwin ;nomen
 \;icurs \;nl \;del \;genesis \;grab-win \;shut \;dispn plwin ;nomen
 
-\;genesis \;vld e ;nomen
+\;genesis \;vld el ;nomen
 \;genesis \;lwin ew ;nomen
+
+\;genesis \;vdoc e ;nomen
 
 \;summon \;vld o ;nomen
 \;summon \;lwin ow ;nomen

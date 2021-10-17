@@ -1,8 +1,9 @@
-~/.merlin/greek.mn ;spellbook
-~/.merlin/runic.mn ;spellbook
+~/.merlin/greek.mn   ;spellbook
+~/.merlin/runic.mn   ;spellbook
 ~/.merlin/symbols.mn ;spellbook
 ~/.merlin/letters.mn ;spellbook
-~/.merlin/visual.mn ;spellbook
+~/.merlin/visual.mn  ;spellbook
+~/.merlin/ergo.mn    ;spellbook
 
 \;inscribe i ;nomen
 \;i \;h sti ;nomen
@@ -18,7 +19,7 @@
 1 \;span \;peer doc ;nomen
 \;doc \;dispn pdoc ;nomen
 
-nl -ba -nln ;space ;tether \;doc \;orbit \;infuse nl ;nomen
+nl -ba ;space ;tether \;doc \;orbit \;infuse nl ;nomen
 \;nl \;disp ldoc ;nomen
 
 \;peer \;dispn ppeer ;nomen
@@ -49,9 +50,8 @@ cspine ;nomen
 \;columns \;infix \;l $ ;nomen
 
 1 \;shave del ;nomen
-\;del ' ;nomen
 
-│ \;inscribe icurs ;nomen
+┆ \;inscribe icurs ;nomen
 \;icurs \;pline \;del curs ;nomen
 \;icurs \;pdoc \;del dcurs ;nomen
 \;icurs \;ldoc \;del lcurs ;nomen
@@ -83,6 +83,7 @@ ls -F ;words \;incant \;disp ls ;nomen
 
 \;words \;i wi ;nomen
 ;space \;i si ;nomen
+;tab \;i ti ;nomen
 
 \;clear \;adieu \;a ca ;nomen
 
