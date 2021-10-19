@@ -5,9 +5,7 @@ import sys
 line = ""
 
 for l in sys.stdin:
-	if line == "":
-		line = l
-	
+	line = l
 	break
 
 marker = " ".join(sys.argv[1:])

@@ -3,5 +3,10 @@
 \;k c ;nomen
 \;l v ;nomen
 
+-5 \;shift    Z ;nomen
+5 \;traverse  X ;nomen
+-5 \;traverse C ;nomen
+5 \;shift     V ;nomen
+
 \;del ' ;nomen
 

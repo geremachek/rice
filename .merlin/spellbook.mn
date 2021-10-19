@@ -6,7 +6,6 @@
 ~/.merlin/ergo.mn    ;spellbook
 
 \;inscribe i ;nomen
-\;i \;h sti ;nomen
 
 \;new \;tether lines ;nomen
 \;space \;tether words ;nomen
@@ -62,12 +61,17 @@ clear ;incant \;disp clear ;nomen
 \;cline \;orbit \;infuse cfilter ;nomen
 \;burn \;inscribe replace ;nomen
 
-\;genesis sed \;i ;space \;i \;cline \;shut \;dfilter \;replace sed ;nomen
+;blank \;trample bt ;nomen
+
+\;genesis sed \;i ;space \;i \;cline \;shut sed ;nomen
+
+\;sed \;cfilter \;bt \;i lsed ;nomen
+\;sed \;dfilter \;replace dsed ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
 ;break \;inscribe \; ;nomen
 
-;blank \;trample \;del dd ;nomen
+\;bt \;del dd ;nomen
 
 \\;i \\;; scribe-nomen \;nomen \;scribe ib ;nomen
 \\;i scribe-nomen \;nomen \;scribe ii ;nomen
@@ -89,6 +93,8 @@ ls -F ;words \;incant \;disp ls ;nomen
 
 copy \;infuse \;decay copy ;nomen
 glue \;incant glue ;nomen
+
+\;infuse | ;nomen
 
 * \;disp
 atom-prompt ;nomen
