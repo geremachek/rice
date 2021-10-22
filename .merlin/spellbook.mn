@@ -55,7 +55,7 @@ cspine ;nomen
 \;icurs \;pdoc \;del dcurs ;nomen
 \;icurs \;ldoc \;del lcurs ;nomen
 
-clear ;incant \;disp clear ;nomen
+exclear ;incant \;disp clear ;nomen
 
 \;doc \;orbit \;infuse dfilter ;nomen
 \;cline \;orbit \;infuse cfilter ;nomen
@@ -95,6 +95,9 @@ copy \;infuse \;decay copy ;nomen
 glue \;incant glue ;nomen
 
 \;infuse | ;nomen
+\;incant ! ;nomen
 
 * \;disp
 atom-prompt ;nomen
+
+;clear

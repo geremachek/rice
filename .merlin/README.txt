@@ -58,11 +58,14 @@ Geremachek's Merlin configuration
 	;cfilter -> ;dfilter, but for the current line
 	;replace -> replace the buffer with an item from the stack
 
-	;sed     -> call sed(1) on the current buffer
+	;sed     -> call sed(1)
+	;lsed    -> call sed on the current line
+	;dsed    -> call sed on the entire buffer
 
 	;break   -> a line break
 	;;       -> insert a line break into the buffer
 
+	;bt      -> clear the current line
 	;dd      -> delete a line
 
 	;ib      -> "insert break mode", each line you enter in scribe mode will be inserted into the buffer, along with a newline
@@ -79,6 +82,14 @@ Geremachek's Merlin configuration
 
 	;wi      -> call ;words and then ;inscribe
 	;si      -> ;space ;inscribe
+	;ti      -> insert tab
+
+	;ca      -> clear and exit
+
+	;copy    -> copy text
+	;glue    -> paste text
+
+	;|       -> infuse alias
 
 [ visual.mn ]
 
