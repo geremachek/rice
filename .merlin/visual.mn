@@ -1,12 +1,10 @@
-clear ;incant \;disp clear-win ;nomen
-bottom ;incant \;disp bottom ;nomen
 
-\\;clear-win \\;curs \\;bottom \atom-nomen \;nomen vline ;nomen
-\\;clear-win \\;dcurs \\;bottom atom-nomen \;nomen vdoc ;nomen
-\\;clear-win \\;lcurs \\;bottom atom-nomen \;nomen vld ;nomen
+\\;clear-win \\;curs \\;go-bottom \atom-nomen \;nomen vline ;nomen
+\\;clear-win \\;dcurs \\;go-bottom atom-nomen \;nomen vdoc ;nomen
+\\;clear-win \\;lcurs \\;go-bottom atom-nomen \;nomen vld ;nomen
 
-\\;clear-win \\;pwin \\;bottom atom-nomen \;nomen win ;nomen
-\\;clear-win \\;plwin \\;bottom atom-nomen \;nomen lwin ;nomen
+\\;clear-win \\;pwin \\;go-bottom atom-nomen \;nomen win ;nomen
+\\;clear-win \\;plwin \\;go-bottom atom-nomen \;nomen lwin ;nomen
 
 1 BEGIN ;nomen
 10 END ;nomen

@@ -4,6 +4,7 @@
 ~/.merlin/letters.mn ;spellbook
 ~/.merlin/visual.mn  ;spellbook
 ~/.merlin/ergo.mn    ;spellbook
+~/.merlin/exclear.mn ;spellbook
 
 \;inscribe i ;nomen
 
@@ -55,8 +56,6 @@ cspine ;nomen
 \;icurs \;pdoc \;del dcurs ;nomen
 \;icurs \;ldoc \;del lcurs ;nomen
 
-exclear ;incant \;disp clear ;nomen
-
 \;doc \;orbit \;infuse dfilter ;nomen
 \;cline \;orbit \;infuse cfilter ;nomen
 \;burn \;inscribe replace ;nomen
@@ -89,7 +88,7 @@ ls -F ;words \;incant \;disp ls ;nomen
 ;space \;i si ;nomen
 ;tab \;i ti ;nomen
 
-\;clear \;adieu \;a ca ;nomen
+\;reset \;adieu \;a q ;nomen
 
 copy \;infuse \;decay copy ;nomen
 glue \;incant glue ;nomen
@@ -100,4 +99,5 @@ glue \;incant glue ;nomen
 * \;disp
 atom-prompt ;nomen
 
+;init
 ;clear

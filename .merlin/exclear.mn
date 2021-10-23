@@ -1,0 +1,20 @@
+;scribe
+printf \033[?1049h
+;atom
+
+;incant \;disp init ;nomen
+
+;scribe
+printf \033[?1049l
+;atom
+
+;incant \;disp reset ;nomen
+
+bottom ;incant bottom ;nomen
+
+clear ;incant \;disp clear-win ;nomen
+\;bottom \;disp go-bottom ;nomen
+
+\;clear-win \;go-bottom clear ;nomen
+
+bottom \;incant bottom \;nomen fit ;nomen

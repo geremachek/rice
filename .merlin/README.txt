@@ -7,6 +7,8 @@ Geremachek's Merlin configuration
 - runic.mn     // rune nomens
 - letters.mn   // alternate latin alphabet symbols
 - symbols.mn   // symbol definitions
+- ergo.mn      // more ergonomic keybinds
+- exclear.mn   // ex-like terminal settings
 - bin/         // executables used by nomens
 
 [ spellbook.mn ]
@@ -52,8 +54,6 @@ Geremachek's Merlin configuration
 	;dcurs   -> shows where the cursor is in the file
 	;lcurs   -> ;dcurs with line numbers
 
-	;clear   -> clear the screen
-
 	;dfilter -> use a command to "filter" the current buffer, pushing it to the stack
 	;cfilter -> ;dfilter, but for the current line
 	;replace -> replace the buffer with an item from the stack
@@ -84,7 +84,7 @@ Geremachek's Merlin configuration
 	;si      -> ;space ;inscribe
 	;ti      -> insert tab
 
-	;ca      -> clear and exit
+	;q      -> clear and exit
 
 	;copy    -> copy text
 	;glue    -> paste text
