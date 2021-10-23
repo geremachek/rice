@@ -100,4 +100,4 @@ glue \;incant glue ;nomen
 atom-prompt ;nomen
 
 ;init
-;clear
+;go-bottom
