@@ -96,6 +96,10 @@ glue \;incant glue ;nomen
 \;infuse | ;nomen
 \;incant ! ;nomen
 
+sh \;| sh ;nomen
+
+\;cline \;sh \;bt \;i @ ;nomen
+
 * \;disp
 atom-prompt ;nomen
 

@@ -90,6 +90,10 @@ Geremachek's Merlin configuration
 	;glue    -> paste text
 
 	;|       -> infuse alias
+	;!       -> incant alias
+
+	;sh      -> send an atom to the shell
+	;@       -> pipe current line into sh and then insert the result, clearing the current line
 
 [ visual.mn ]
 
