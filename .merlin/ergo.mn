@@ -3,10 +3,16 @@
 \;k c ;nomen
 \;l v ;nomen
 
--5 \;shift    Z ;nomen
-5 \;traverse  X ;nomen
--5 \;traverse C ;nomen
-5 \;shift     V ;nomen
+5 fnav ;nomen
+-5 bnav ;nomen
+
+fnav \;nomen set-fnav ;nomen
+bnav \;nomen set-bnav ;nomen 
+
+\;bnav \;shift    Z ;nomen
+\;fnav \;traverse X ;nomen
+\;bnav \;traverse C ;nomen
+\;fnav \;shift    V ;nomen
 
 \;del ' ;nomen
-
+\;fnav \;shave " ;nomen

@@ -50,6 +50,7 @@ cspine ;nomen
 \;columns \;infix \;l $ ;nomen
 
 1 \;shave del ;nomen
+\;l \;del , ;nomen
 
 ┆ \;inscribe icurs ;nomen
 \;icurs \;pline \;del curs ;nomen
