@@ -1,6 +1,6 @@
-# /rice/
+# Ἑ
 
-<img src="salut2.png" alt="rice">
+<img src="9.png" alt="rice">
 
 wm: xmonad
 
