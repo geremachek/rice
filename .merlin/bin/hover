@@ -1,19 +1,19 @@
-#!/bin/env python3
+#!/bin/sh
+# do not use
 
-import sys
+line="$1"
+length="$2"
+window="$3"
 
-args = sys.argv[1:]
+top=$(( line - window ))
+bottom=$(( line + window ))
 
-if len(args) >= 3:
-	line = int(args[0])
-	length = int(args[1])
-	expanse = int(args[2])
+if [ $window -ge "$line" ]; then
+	top=1
+fi
 
-	index_1 = line - expanse if expanse < line else 1
-	
-	second = line + expanse
-	index_2 = second if second <= length else length
+if [ $bottom -gt "$length" ]; then
+	bottom=$length
+fi
 
-	print("{} {} ;peer".format(index_1, index_2))
-else:
-	print("hover: not enough arguments", file=sys.stderr)
+printf "%s %s ;peer" "$top" "$bottom"
