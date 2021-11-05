@@ -2,6 +2,8 @@
 
 import sys
 
+# read stdin
+
 line = ""
 
 for l in sys.stdin:
@@ -11,8 +13,13 @@ for l in sys.stdin:
 marker = " ".join(sys.argv[1:])
 ml = len(marker)
 
+# search for the string
+
 for i in range(0, len(line)):
 	if len(line) - i >= ml and line[i:i+ml] == marker:
 		print(i+1, end="")
 		sys.exit()
+
+# by default go the first char
+
 print("1")

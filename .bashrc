@@ -21,9 +21,9 @@ alias p='sudo pacman'
 alias s='sudo'
 alias tarc='tar -czvf'
 alias li="license -o LICENSE gpl-3.0"
-alias pt="date +'%H %M'"
 alias ch="chmod +x"
 alias mpva="mpv --no-video"
+alias m="aesop"
 
 # Git aliases
 

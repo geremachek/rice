@@ -44,13 +44,13 @@ cspine ;nomen
 -1 \;shift h ;nomen
 
 \;appear go ;nomen
-\;genesis leap \;i ;space \;i \;cline \;shut \;cline \;orbit \;infuse \;infix leap ;nomen
+\;genesis leap \;i \;si \;cline \;shut \;cline \;orbit \;infuse \;infix leap ;nomen
 
 1 \;infix 0 ;nomen
 \;columns \;infix \;l $ ;nomen
 
 1 \;shave del ;nomen
-\;l \;del , ;nomen
+\;l \;del . ;nomen
 
 ┆ \;inscribe icurs ;nomen
 \;icurs \;pline \;del curs ;nomen

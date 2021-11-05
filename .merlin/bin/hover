@@ -1,0 +1,19 @@
+#!/bin/env python3
+
+import sys
+
+args = sys.argv[1:]
+
+if len(args) >= 3:
+	line = int(args[0])
+	length = int(args[1])
+	expanse = int(args[2])
+
+	index_1 = line - expanse if expanse < line else 1
+	
+	second = line + expanse
+	index_2 = second if second <= length else length
+
+	print("{} {} ;peer".format(index_1, index_2))
+else:
+	print("hover: not enough arguments", file=sys.stderr)
