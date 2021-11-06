@@ -2,7 +2,7 @@
 ~/.merlin/runic.mn   ;spellbook
 ~/.merlin/symbols.mn ;spellbook
 ~/.merlin/letters.mn ;spellbook
-~/.merlin///visual.mn  ;spellbook
+~/.merlin/visual.mn  ;spellbook
 ~/.merlin/ergo.mn    ;spellbook
 ~/.merlin/exclear.mn ;spellbook
 
