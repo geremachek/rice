@@ -3,11 +3,11 @@
 \;k c ;nomen
 \;l v ;nomen
 
-5 FNAV ;nomen
--5 BNAV ;nomen
+5 FNAV ;bottle
+-5 BNAV ;bottle
 
-FNAV \;nomen set-fnav ;nomen
-BNAV \;nomen set-bnav ;nomen 
+FNAV \;bottle set-fnav ;nomen
+BNAV \;bottle set-bnav ;nomen 
 
 \;BNAV \;shift    Z ;nomen
 \;FNAV \;traverse X ;nomen

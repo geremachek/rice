@@ -6,8 +6,8 @@
 \\;clear-win \\;pwin \\;go-bottom atom-nomen \;nomen win ;nomen
 \\;clear-win \\;plwin \\;go-bottom atom-nomen \;nomen lwin ;nomen
 
-10 WINDOW ;nomen
-WINDOW \;nomen set-win ;nomen
+10 WINDOW ;bottle
+WINDOW \;bottle set-win ;nomen
 
 \;i \;si isi ;nomen
 
