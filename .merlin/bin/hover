@@ -1,5 +1,4 @@
 #!/bin/sh
-# do not use
 
 line="$1"
 length="$2"

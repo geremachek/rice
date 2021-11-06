@@ -4,7 +4,6 @@
 \\;clear-win \\;lcurs \\;go-bottom atom-nomen \;nomen vld ;nomen
 
 \\;clear-win \\;pwin \\;go-bottom atom-nomen \;nomen win ;nomen
-\\;clear-win \\;plwin \\;go-bottom atom-nomen \;nomen lwin ;nomen
 
 10 WINDOW ;bottle
 WINDOW \;bottle set-win ;nomen
@@ -26,12 +25,8 @@ hovering ;nomen
 \;genesis \;$ gen-end ;nomen
 
 \;icurs \;hovering \;del \;dispn pwin ;nomen
-\;icurs \;nl \;del \;genesis \;hovering \;shut \;dispn plwin ;nomen
 
 \;genesis \;vld el ;nomen
-\;genesis \;lwin ew ;nomen
-
 \;genesis \;vdoc e ;nomen
 
 \;summon \;vld o ;nomen
-\;summon \;lwin ow ;nomen

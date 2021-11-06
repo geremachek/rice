@@ -105,6 +105,8 @@ sh \;| sh ;nomen
 
 \;cline \;sh \;bt \;i @ ;nomen
 
+\;pin saved \;bottle \;0 \;ti \;saved \;infix \;l indent ;nomen
+
 ;omega \;disp
 atom-prompt ;nomen
 
