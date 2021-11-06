@@ -2,7 +2,7 @@
 ~/.merlin/runic.mn   ;spellbook
 ~/.merlin/symbols.mn ;spellbook
 ~/.merlin/letters.mn ;spellbook
-~/.merlin/visual.mn  ;spellbook
+~/.merlin///visual.mn  ;spellbook
 ~/.merlin/ergo.mn    ;spellbook
 ~/.merlin/exclear.mn ;spellbook
 
@@ -73,10 +73,14 @@ cspine ;nomen
 
 \;bt \;del dd ;nomen
 
-\\;i \\;; scribe-nomen \;nomen \;scribe ib ;nomen
-\\;i scribe-nomen \;nomen \;scribe ii ;nomen
+scribe-nomen \\;nomen \\;scribe meta-scribe ;nomen
+\\\;i \\\;; i-b ;nomen
 
-\\;i \\;atom-nomen scribe-nomen \;nomen \;scribe vi ;nomen
+;i-b ;meta-scribe ib ;nomen
+\\;i ;meta-scribe ii ;nomen
+
+\\;i \\;atom-nomen ;meta-scribe vi ;nomen
+;i-b \\;atom-nomen ;meta-scribe vib ;nomen
 
 scribe-nomen \;disenchant \;scribe s ;nomen
 atom-nomen \;disenchant \;atom a ;nomen
@@ -101,7 +105,7 @@ sh \;| sh ;nomen
 
 \;cline \;sh \;bt \;i @ ;nomen
 
-* \;disp
+;omega \;disp
 atom-prompt ;nomen
 
 ;init

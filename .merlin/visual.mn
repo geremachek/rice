@@ -7,6 +7,7 @@
 \\;clear-win \\;plwin \\;go-bottom atom-nomen \;nomen lwin ;nomen
 
 10 WINDOW ;nomen
+WINDOW \;nomen set-win ;nomen
 
 \;i \;si isi ;nomen
 
