@@ -1,12 +1,14 @@
-~/.merlin/greek.mn   ;spellbook
-~/.merlin/runic.mn   ;spellbook
-~/.merlin/symbols.mn ;spellbook
-~/.merlin/letters.mn ;spellbook
-~/.merlin/visual.mn  ;spellbook
-~/.merlin/ergo.mn    ;spellbook
-~/.merlin/exclear.mn ;spellbook
+~/.merlin/greek.mn    ;spellbook
+~/.merlin/runic.mn    ;spellbook
+~/.merlin/symbols.mn  ;spellbook
+~/.merlin/letters.mn  ;spellbook
+~/.merlin/visual.mn   ;spellbook
+~/.merlin/ergo.mn     ;spellbook
+~/.merlin/exclear.mn  ;spellbook
+~/.merlin/brackets.mn ;spellbook
 
 \;inscribe i ;nomen
+\;genesis gn ;nomen
 
 \;new \;tether lines ;nomen
 \;space \;tether words ;nomen

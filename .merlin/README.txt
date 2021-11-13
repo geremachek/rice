@@ -9,11 +9,13 @@ Geremachek's Merlin configuration
 - symbols.mn   // symbol definitions
 - ergo.mn      // more ergonomic keybinds
 - exclear.mn   // ex-like terminal settings
+- brackets.mn  // fancy bracket handling
 - bin/         // executables used by nomens
 
 [ spellbook.mn ]
 
 	;i       -> ;inscribe alias
+	;gn      -> ;genesis alias
 	;disp    -> display and remove an item off of the stack
 	;penn    -> ;pen but with a newline
 	;dispn   -> ;disp but with a newline
