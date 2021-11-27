@@ -17,8 +17,8 @@ alias l="ls -l"
 alias ls="ls -F"
 
 alias c='clear'
-alias p='sudo pacman'
-alias s='sudo'
+alias s="sudo -p ?"
+alias p='s pacman'
 alias tarc='tar -czvf'
 alias li="license -o LICENSE gpl-3.0"
 alias ch="chmod +x"

@@ -24,7 +24,7 @@
 nl -ba ;space ;tether \;doc \;orbit \;infuse nl ;nomen
 \;nl \;disp ldoc ;nomen
 
-\;peer \;dispn ppeer ;nomen
+\;peer \;dispn pp ;nomen
 
 \;spot \;spot \;peer cline ;nomen
 \;cline \;dispn pline ;nomen
@@ -53,6 +53,8 @@ cspine ;nomen
 
 1 \;shave del ;nomen
 \;l \;del . ;nomen
+
+\;. \;i \;h rep ;nomen
 
 ┆ \;inscribe icurs ;nomen
 \;icurs \;pline \;del curs ;nomen
@@ -109,8 +111,9 @@ sh \;| sh ;nomen
 
 \;pin saved \;bottle \;0 \;ti \;saved \;infix \;l indent ;nomen
 
-;omega \;disp
-atom-prompt ;nomen
+nilus \;infuse nilus ;nomen
+
+;omega \;disp atom-prompt ;nomen
 
 ;init
 ;go-bottom
