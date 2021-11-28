@@ -54,7 +54,7 @@ cspine ;nomen
 1 \;shave del ;nomen
 \;l \;del . ;nomen
 
-\;. \;i \;h rep ;nomen
+\;. \;i \;h r ;nomen
 
 ┆ \;inscribe icurs ;nomen
 \;icurs \;pline \;del curs ;nomen
@@ -113,7 +113,21 @@ sh \;| sh ;nomen
 
 nilus \;infuse nilus ;nomen
 
-;omega \;disp atom-prompt ;nomen
+;scribe
+printf \033[7m
+;atom
+;!
+
+;omega
+
+;scribe
+printf \033[27m
+;atom
+;!
+
+;zip
+
+\;disp atom-prompt ;nomen
 
 ;init
 ;go-bottom

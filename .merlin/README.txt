@@ -51,6 +51,8 @@ Geremachek's Merlin configuration
 	;$       -> go to the end of a line
 
 	;del     -> delete one character 
+	;.       -> delete the character in front of the cursor
+	;r       -> replace the character in front of the cursor
 
 	;curs    -> shows where the cursor is on the current line
 	;dcurs   -> shows where the cursor is in the file
