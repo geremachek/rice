@@ -15,4 +15,5 @@ if [ $bottom -gt "$length" ]; then
 	bottom=$length
 fi
 
-printf "%s %s ;peer" "$top" "$bottom"
+printf "%s WIN_TOP ;bottle %s WIN_BOT ;bottle\n" "$top" "$bottom"
+printf ";WIN_TOP ;WIN_BOT ;peer"

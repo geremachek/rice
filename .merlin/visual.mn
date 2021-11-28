@@ -3,12 +3,14 @@
 \;clear-win \;lcurs \;go-bottom vld-nomen ;nomen
 
 \;clear-win \;pwin \;go-bottom win-nomen ;nomen
+\;clear-win \;pswin \;go-bottom swin-nomen ;nomen
 
 \\;vline-nomen atom-nomen \;bottle vline ;nomen
 \\;vdoc-nomen atom-nomen \;bottle vdoc ;nomen
 \\;vld-nomen atom-nomen \;bottle vld ;nomen
 
 \\;win-nomen atom-nomen \;bottle win ;nomen
+\\;swin-nomen atom-nomen \;bottle swin ;nomen
 
 10 WINDOW ;bottle
 WINDOW \;bottle set-win ;nomen
@@ -30,6 +32,7 @@ hovering ;nomen
 \;genesis \;$ gen-end ;nomen
 
 \;icurs \;hovering \;del \;dispn pwin ;nomen
+\;icurs \;WIN_TOP \;WIN_BOT \;peer \;del \;dispn pswin ;nomen
 
 \;genesis \;vld el ;nomen
 \;genesis \;vdoc e ;nomen
