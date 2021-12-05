@@ -1,6 +1,6 @@
 # 🌿
 
-<img src="9.png" alt="rice">
+![Merlin](9.png "Merlin")
 
 wm: xmonad
 

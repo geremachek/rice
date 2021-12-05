@@ -56,7 +56,7 @@ cspine ;nomen
 
 \;. \;i \;h r ;nomen
 
-┆ \;inscribe icurs ;nomen
+┋ \;inscribe icurs ;nomen
 \;icurs \;pline \;del curs ;nomen
 \;icurs \;pdoc \;del dcurs ;nomen
 \;icurs \;ldoc \;del lcurs ;nomen
@@ -105,9 +105,9 @@ glue \;incant glue ;nomen
 \;infuse | ;nomen
 \;incant ! ;nomen
 
-sh \;| sh ;nomen
+sh \;| she ;nomen
 
-\;cline \;sh \;bt \;i @ ;nomen
+\;cline \;she \;bt \;i @ ;nomen
 
 \;pin saved \;bottle \;0 \;ti \;saved \;infix \;l indent ;nomen
 
