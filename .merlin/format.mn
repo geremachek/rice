@@ -1,0 +1,5 @@
+AFTER_NEW ;nomen
+
+• bullet ;nomen
+
+;bullet AFTER_NEW \;bottle set-bullet ;nomen

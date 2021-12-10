@@ -1,14 +1,7 @@
-;scribe
-printf \033[?1049h
-;atom
+\;escape \;orbit \;blank \;tether \\;disp make-escape ;nomen
 
-;incant \;disp init ;nomen
-
-;scribe
-printf \033[?1049l
-;atom
-
-;incant \;disp reset ;nomen
+[?1049h ;make-escape init ;nomen
+[?1049l ;make-escape reset ;nomen
 
 bottom ;incant bottom ;nomen
 

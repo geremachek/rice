@@ -73,7 +73,7 @@ cspine ;nomen
 \;sed \;dfilter \;replace dsed ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
-;break \;inscribe \; ;nomen
+;break \;i \; ;nomen
 
 \;bt \;del dd ;nomen
 
