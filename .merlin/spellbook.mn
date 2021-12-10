@@ -113,21 +113,7 @@ sh \;| she ;nomen
 
 nilus \;infuse nilus ;nomen
 
-;scribe
-printf \033[7m
-;atom
-;!
-
-;omega
-
-;scribe
-printf \033[27m
-;atom
-;!
-
-;zip
-
-\;disp atom-prompt ;nomen
+;alpha \;disp atom-prompt ;nomen
 
 ;init
 ;go-bottom
