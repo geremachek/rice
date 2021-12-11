@@ -1,9 +1,9 @@
-\;clear-win \;curs \;go-bottom vline-nomen ;nomen
-\;clear-win \;dcurs \;go-bottom vdoc-nomen ;nomen
-\;clear-win \;lcurs \;go-bottom vld-nomen ;nomen
+\;clear-win \;go-bottom \;curs vline-nomen ;nomen
+\;clear-win \;go-bottom \;dcurs vdoc-nomen ;nomen
+\;clear-win \;go-bottom \;lcurs vld-nomen ;nomen
 
-\;clear-win \;pwin \;go-bottom win-nomen ;nomen
-\;clear-win \;pswin \;go-bottom swin-nomen ;nomen
+\;clear-win \;go-bottom \;pwin win-nomen ;nomen
+\;clear-win \;go-bottom \;pswin swin-nomen ;nomen
 
 \\;vline-nomen atom-nomen \;bottle vline ;nomen
 \\;vdoc-nomen atom-nomen \;bottle vdoc ;nomen

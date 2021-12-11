@@ -113,7 +113,7 @@ sh \;| she ;nomen
 
 nilus \;infuse nilus ;nomen
 
-;alpha \;disp atom-prompt ;nomen
+* \;disp atom-prompt ;nomen
 
 ;init
 ;go-bottom
