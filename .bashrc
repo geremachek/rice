@@ -24,6 +24,8 @@ alias ch="chmod +x"
 alias mpva="mpv --no-video"
 alias m="aesop"
 
+alias rm="rm -i"
+
 # Git aliases
 
 alias ga="git add"

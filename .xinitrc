@@ -8,6 +8,6 @@ sxhkd &
 xsetroot -xcf /usr/share/icons/Adwaita/cursors/left_ptr 25
 export XCURSOR_SIZE=30
 xrdb .Xresources
-hsetroot -solid "#e9d7ab"
+hsetroot -solid "#8F9779"
 xset s off -dpms
 exec xmonad # dwm gtfo

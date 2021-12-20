@@ -9,6 +9,7 @@
 
 \;inscribe i ;nomen
 \;genesis gn ;nomen
+\;focus f ;nomen
 
 \;new \;tether lines ;nomen
 \;space \;tether words ;nomen
@@ -56,7 +57,7 @@ cspine ;nomen
 
 \;. \;i \;h r ;nomen
 
-┋ \;inscribe icurs ;nomen
+┆ \;inscribe icurs ;nomen
 \;icurs \;pline \;del curs ;nomen
 \;icurs \;pdoc \;del dcurs ;nomen
 \;icurs \;ldoc \;del lcurs ;nomen
