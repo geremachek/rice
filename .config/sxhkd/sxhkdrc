@@ -4,7 +4,7 @@ super + Up
 super + Down
 	amixer set Master 5%-
 
-super + alt + m
+super + ctrl + m
 	amixer set Master toggle
 
 super + p
@@ -13,9 +13,5 @@ super + p
 Print
 	import ~/etc/grabs/$(date +%s).png
 
-super + alt + k
-	setxkbmap is
-
-super + alt + shift + k
-	setxkbmap us
-
+super + Escape
+	pkill -USR1 -x sxhkd

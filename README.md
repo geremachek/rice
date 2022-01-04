@@ -1,6 +1,6 @@
 # 🌿
 
-![Merlin](hello-world.png "Merlin")
+![Merlin](plan9.png "Merlin")
 
 wm: xmonad
 

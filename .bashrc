@@ -45,7 +45,7 @@ alias neo="neofetch --ascii_distro arch_old"
 
 export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts:$HOME/go/bin:$HOME/.cargo/bin:$HOME/.merlin/bin"
 export PS1=" % "
-export ROSE_FORMAT_PREFIX=" > "
+export ROSE_FORMAT_PREFIX=" → "
 export ROSE_PROMPT="λ "
 export SPELLBOOK="~/.merlin/spellbook.mn"
 
