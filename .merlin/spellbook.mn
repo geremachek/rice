@@ -6,6 +6,7 @@
 ~/.merlin/ergo.mn     ;spellbook
 ~/.merlin/exclear.mn  ;spellbook
 ~/.merlin/brackets.mn ;spellbook
+~/.merlin/format.mn   ;spellbook
 
 \;inscribe i ;nomen
 \;genesis gn ;nomen
@@ -18,6 +19,8 @@
 \;pen \;decay disp ;nomen
 \;pen ;new \;disp penn ;nomen
 \;disp ;new \;disp dispn ;nomen
+
+\;dispn P ;nomen
 
 1 \;span \;peer doc ;nomen
 \;doc \;dispn pdoc ;nomen
@@ -76,7 +79,7 @@ cspine ;nomen
 \;sed \;dfilter \;replace dsed ;nomen
 
 ;new ;new ;blank ;tether break ;nomen
-;break \;i \; ;nomen
+;break \;i \;fmi \; ;nomen
 
 \;bt \;del dd ;nomen
 

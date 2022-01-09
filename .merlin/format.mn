@@ -1,5 +1,13 @@
 AFTER_NEW ;nomen
 
-• bullet ;nomen
+AFTER_NEW \;bottle fms ;nomen
+AFTER_NEW \;disenchant fmc ;nomen
+\;AFTER_NEW \;i fmi ;nomen
 
-;bullet AFTER_NEW \;bottle set-bullet ;nomen
+;scribe
+• 
+;atom
+
+bullet ;nomen
+
+;bullet \;fms set-bullet ;nomen
