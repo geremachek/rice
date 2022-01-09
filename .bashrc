@@ -22,7 +22,8 @@ alias tarc='tar -czvf'
 alias li="license -o LICENSE gpl-3.0"
 alias ch="chmod +x"
 alias mpva="mpv --no-video"
-alias m="aesop"
+alias m="ukko"
+alias v="vim"
 
 alias rm="rm -i"
 
