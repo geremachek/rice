@@ -1,4 +1,4 @@
-AFTER_NEW ;nomen
+;blank AFTER_NEW ;nomen
 
 AFTER_NEW \;bottle fms ;nomen
 AFTER_NEW \;disenchant fmc ;nomen
