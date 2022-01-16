@@ -10,6 +10,8 @@ Liquorice Merlin
 - ergo.mn      // more ergonomic keybinds
 - exclear.mn   // ex-like terminal settings
 - brackets.mn  // fancy bracket handling
+- format.mn    // indentation and bullet formatting
+- stack.mn     // visual stack mode 
 - bin/         // executables used by nomens
 
 [ spellbook.mn ]

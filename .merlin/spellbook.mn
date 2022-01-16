@@ -7,6 +7,7 @@
 ~/.merlin/exclear.mn  ;spellbook
 ~/.merlin/brackets.mn ;spellbook
 ~/.merlin/format.mn   ;spellbook
+~/.merlin/stack.mn    ;spellbook
 
 \;inscribe i ;nomen
 \;genesis gn ;nomen
