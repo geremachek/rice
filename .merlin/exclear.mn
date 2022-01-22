@@ -5,7 +5,7 @@
 
 bottom ;incant bottom ;nomen
 
-clear ;incant \;disp clear-win ;nomen
+[2J ;make-escape clear-win ;nomen
 \;bottom \;disp go-bottom ;nomen
 
 \;clear-win \;go-bottom clear ;nomen
