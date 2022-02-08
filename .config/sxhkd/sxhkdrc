@@ -11,7 +11,7 @@ super + p
 	mpv $(xclip -o -selection clipboard)
 
 Print
-	import ~/etc/grabs/$(date +%s).png
+	import ~/grabs/$(date +%s).png
 
 super + Escape
 	pkill -USR1 -x sxhkd

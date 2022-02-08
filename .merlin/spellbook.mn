@@ -1,13 +1,16 @@
-~/.merlin/greek.mn    ;spellbook
-~/.merlin/runic.mn    ;spellbook
-~/.merlin/symbols.mn  ;spellbook
-~/.merlin/letters.mn  ;spellbook
-~/.merlin/visual.mn   ;spellbook
-~/.merlin/ergo.mn     ;spellbook
-~/.merlin/exclear.mn  ;spellbook
-~/.merlin/brackets.mn ;spellbook
-~/.merlin/format.mn   ;spellbook
-~/.merlin/stack.mn    ;spellbook
+~/.merlin/greek.mn     ;spellbook
+~/.merlin/runic.mn     ;spellbook
+~/.merlin/symbols.mn   ;spellbook
+~/.merlin/letters.mn   ;spellbook
+~/.merlin/visual.mn    ;spellbook
+~/.merlin/ergo.mn      ;spellbook
+~/.merlin/exclear.mn   ;spellbook
+~/.merlin/brackets.mn  ;spellbook
+~/.merlin/format.mn    ;spellbook
+~/.merlin/stack.mn     ;spellbook
+~/.merlin/clipboard.mn ;spellbook
+
+CLONE \;bottle \;CLONE \;CLONE clone ;nomen
 
 \;inscribe i ;nomen
 \;genesis gn ;nomen
@@ -21,6 +24,7 @@
 \;pen ;new \;disp penn ;nomen
 \;disp ;new \;disp dispn ;nomen
 
+\;disp p ;nomen
 \;dispn P ;nomen
 
 1 \;span \;peer doc ;nomen
@@ -29,10 +33,12 @@
 nl -ba ;space ;tether \;doc \;orbit \;infuse nl ;nomen
 \;nl \;disp ldoc ;nomen
 
-\;peer \;dispn pp ;nomen
+\;clone \;peer gl ;nomen
 
-\;spot \;spot \;peer cline ;nomen
-\;cline \;dispn pl ;nomen
+\;gl \;dispn pl ;nomen
+
+\;spot \;gl cline ;nomen
+\;cline \;dispn pcl ;nomen
 
 \;cline L ;nomen
 
@@ -63,10 +69,10 @@ cspine ;nomen
 
 \;. \;i \;h r ;nomen
 
-┋ CURSOR ;nomen
+_ CURSOR ;nomen
 
 \;CURSOR \;inscribe icurs ;nomen
-\;icurs \;pl \;del curs ;nomen
+\;icurs \;pcl \;del curs ;nomen
 \;icurs \;pdoc \;del dcurs ;nomen
 \;icurs \;ldoc \;del lcurs ;nomen
 
@@ -108,7 +114,6 @@ ls -F ;words \;incant \;disp ls ;nomen
 
 \;reset \;adieu \;a q ;nomen
 
-copy \;infuse \;decay copy ;nomen
 glue \;incant glue ;nomen
 
 \;infuse | ;nomen
@@ -124,8 +129,8 @@ nilus \;infuse nilus ;nomen
 
 ;tab \;disp p-tab ;nomen
 
-\;p-tab ;space \;disp atom-prompt ;nomen
-\;p-tab ;iota \;disp scribe-prompt ;nomen
+;space \;disp \;p-tab atom-prompt ;nomen
+. \;disp \;p-tab scribe-prompt ;nomen
 
 ;init
 ;go-bottom

@@ -13,9 +13,9 @@ xrdb .Xresources
 hsetroot -solid "#777777"
 xset s off -dpms
 
-# ⍝ ⍺*⎕
+# Ελ
 
-setxkbmap -layout us,apl -variant ,dyalog -option grp:lswitch
+setxkbmap -layout us,gr -option grp:lswitch
 
 # remap caps lock to escape
 
