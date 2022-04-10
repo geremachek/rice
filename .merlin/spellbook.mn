@@ -69,7 +69,7 @@ cspine ;nomen
 
 \;. \;i \;h r ;nomen
 
-_ CURSOR ;nomen
+| CURSOR ;nomen
 
 \;CURSOR \;inscribe icurs ;nomen
 \;icurs \;pcl \;del curs ;nomen
@@ -127,10 +127,9 @@ sh \;| she ;nomen
 
 nilus \;infuse nilus ;nomen
 
-;tab \;disp p-tab ;nomen
+\;carve w ;nomen
 
-;space \;disp \;p-tab atom-prompt ;nomen
-. \;disp \;p-tab scribe-prompt ;nomen
+atom-prompt ;disenchant
 
 ;init
 ;go-bottom

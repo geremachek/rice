@@ -11,3 +11,4 @@ AFTER_NEW \;disenchant fmc ;nomen
 bullet ;nomen
 
 ;bullet \;fms set-bullet ;nomen
+;blank \;fms fmr ;nomen
