@@ -1,0 +1,9 @@
+#!/bin/sh
+
+TEMP="/tmp/coining.tmp"
+
+echo "$1" > $TEMP
+
+$EDITOR $TEMP
+
+mv "$1" "$(cat /tmp/coining.tmp)"

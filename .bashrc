@@ -49,6 +49,7 @@ export PS1=" % "
 export ROSE_FORMAT_PREFIX=" → "
 export ROSE_PROMPT="λ "
 export SPELLBOOK="~/.merlin/spellbook.mn"
+export EDITOR="ukko"
 
 # Plan9 Port
 

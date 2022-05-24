@@ -10,7 +10,7 @@ xsetroot -xcf /usr/share/icons/Adwaita/cursors/left_ptr 25
 export XCURSOR_SIZE=30
 
 xrdb .Xresources
-hsetroot -solid "#777777"
+hsetroot -solid "#d2bfaa"
 xset s off -dpms
 
 # Ελ

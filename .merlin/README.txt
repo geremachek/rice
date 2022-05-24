@@ -31,7 +31,7 @@ Liquorice Merlin
 	;ppeer   -> ;peer but it calls ;dispn afterwards
 
 	;cline   -> push the current line to the stack
-	;pline   -> print the current line
+	;T       -> print the current line
 
 	;cspine  -> display the name of the current buffer, including a write indicator
 
