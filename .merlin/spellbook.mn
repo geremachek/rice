@@ -72,7 +72,7 @@ cspine ;nomen
 | CURSOR ;nomen
 
 \;CURSOR \;inscribe icurs ;nomen
-\;icurs \;pcl \;del curs ;nomen
+\;icurs \;T \;del curs ;nomen
 \;icurs \;pdoc \;del dcurs ;nomen
 \;icurs \;ldoc \;del lcurs ;nomen
 
