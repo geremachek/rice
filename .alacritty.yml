@@ -15,7 +15,7 @@ colors:
     foreground: '#000000'
 
   cursor:
-    cursor: '#000000'
+    cursor: '#daa06d'
     text: '#ffffea'
 
 
