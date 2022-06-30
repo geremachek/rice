@@ -2,7 +2,7 @@
 ~/.merlin/runic.mn     ;spellbook
 ~/.merlin/symbols.mn   ;spellbook
 ~/.merlin/letters.mn   ;spellbook
-~/.merlin/visual.mn    ;spellbook
+~/.merlin/window.mn    ;spellbook
 ~/.merlin/ergo.mn      ;spellbook
 ~/.merlin/exclear.mn   ;spellbook
 ~/.merlin/brackets.mn  ;spellbook
@@ -13,8 +13,10 @@
 CLONE \;bottle \;CLONE \;CLONE clone ;nomen
 
 \;inscribe i ;nomen
-\;genesis gn ;nomen
+\;genesis n ;nomen
 \;focus f ;nomen
+\;carve w ;nomen
+\;summon o ;nomen
 
 \;new \;tether lines ;nomen
 \;space \;tether words ;nomen
@@ -69,7 +71,7 @@ cspine ;nomen
 
 \;. \;i \;h r ;nomen
 
-| CURSOR ;nomen
+@ CURSOR ;nomen
 
 \;CURSOR \;inscribe icurs ;nomen
 \;icurs \;T \;del curs ;nomen
@@ -112,6 +114,8 @@ ls -F ;words \;incant \;disp ls ;nomen
 ;space \;i si ;nomen
 ;tab \;i ti ;nomen
 
+\;i \;si isi ;nomen
+
 \;reset \;adieu \;a q ;nomen
 
 glue \;incant glue ;nomen
@@ -127,9 +131,7 @@ sh \;| she ;nomen
 
 nilus \;infuse nilus ;nomen
 
-\;carve w ;nomen
-
-: \;disp atom-prompt ;nomen
+* \;disp atom-prompt ;nomen
 
 ;init
 ;go-bottom

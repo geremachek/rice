@@ -1,8 +1,9 @@
 Liquorice Merlin
 ----------------
+VERY OUT OF DATE
 
 - spellbook.mn // main config file
-- visual.mn    // "visual" mode nomens
+- window.mn    // view sections of the file more easily
 - greek.mn     // greek character nomens
 - runic.mn     // rune nomens
 - letters.mn   // alternate latin alphabet symbols
@@ -100,9 +101,3 @@ Liquorice Merlin
 
 	;she     -> send an atom to the shell
 	;@       -> pipe current line into sh and then insert the result, clearing the current line
-
-[ visual.mn ]
-
-	;vline -> "visual line mode", tells atom-nomen to clear the screen, and call ;curs
-	;vdoc  -> "visual document mode", ;vline but it calls ;dcurs instead of normal ;curs
-	;vld   -> "visual line document mode", ;vdoc but with line numbers

@@ -1,8 +1,8 @@
 font:
-  size: 9.5
+  size: 11.5
 
   normal:
-    family: Go Mono
+    family: Scientifica
 
 window:
   padding:
@@ -40,5 +40,5 @@ colors:
     yellow: '#eaa549'
 
 cursor:
-    style: Block
-    thickness: 0.3
+    style: Beam
+    thickness: 0.5
