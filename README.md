@@ -1,10 +1,10 @@
 # 🌿
 
-![Merlin](plan9.png "Merlin")
+![Merlin](emacs.png "Merlin")
 
 wm: xmonad
 
-editor: [merlin](https://merlinfo.github.io) + [ukko](https://github.com/merlinfo/ukko) / vim
+editor: [merlin](https://merlinfo.github.io) + [ukko](https://github.com/merlinfo/ukko) / [emacs](https://github.com/geremachek/lilith)
 
 shell: bash / dash
 
