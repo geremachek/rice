@@ -1,14 +1,16 @@
-~/.merlin/greek.mn     ;spellbook
-~/.merlin/runic.mn     ;spellbook
-~/.merlin/symbols.mn   ;spellbook
-~/.merlin/letters.mn   ;spellbook
-~/.merlin/window.mn    ;spellbook
-~/.merlin/ergo.mn      ;spellbook
-~/.merlin/exclear.mn   ;spellbook
-~/.merlin/brackets.mn  ;spellbook
-~/.merlin/format.mn    ;spellbook
-~/.merlin/stack.mn     ;spellbook
-~/.merlin/clipboard.mn ;spellbook
+~/.merlin/greek.mn      ;spellbook
+~/.merlin/runic.mn      ;spellbook
+~/.merlin/symbols.mn    ;spellbook
+~/.merlin/letters.mn    ;spellbook
+~/.merlin/egyptology.mn ;spellbook
+~/.merlin/window.mn     ;spellbook
+~/.merlin/ergo.mn       ;spellbook
+~/.merlin/exclear.mn    ;spellbook
+~/.merlin/brackets.mn   ;spellbook
+~/.merlin/format.mn     ;spellbook
+~/.merlin/stack.mn      ;spellbook
+~/.merlin/clipboard.mn  ;spellbook
+
 
 CLONE \;bottle \;CLONE \;CLONE clone ;nomen
 
@@ -22,31 +24,26 @@ CLONE \;bottle \;CLONE \;CLONE clone ;nomen
 \;space \;tether words ;nomen
 \;blank \;tether zip ;nomen
 
-\;pen \;decay disp ;nomen
-\;pen ;new \;disp penn ;nomen
-\;disp ;new \;disp dispn ;nomen
-
-\;disp p ;nomen
-\;dispn P ;nomen
+\;pen \;decay p ;nomen
+\;pen ;new \;p pp ;nomen
+\;p ;new \;p P ;nomen
 
 1 \;span \;peer doc ;nomen
-\;doc \;dispn pdoc ;nomen
+\;doc \;P pdoc ;nomen
 
 nl -ba ;space ;tether \;doc \;orbit \;infuse nl ;nomen
-\;nl \;disp ldoc ;nomen
+\;nl \;p ldoc ;nomen
 
 \;clone \;peer gl ;nomen
 
-\;gl \;dispn pl ;nomen
+\;gl \;P pl ;nomen
 
-\;spot \;gl cline ;nomen
-\;cline \;dispn T ;nomen
+\;spot \;gl L ;nomen
+\;L \;P T ;nomen
 
-\;cline L ;nomen
-
-\;volume \;spine \;disp
-;space \;disp
-\;carved \;dispn
+\;volume \;spine \;p
+;space \;p
+\;carved \;P
 cspine ;nomen
 
 \;volume \;shelve shut ;nomen
@@ -61,7 +58,7 @@ cspine ;nomen
 -1 \;shift h ;nomen
 
 \;appear go ;nomen
-\;genesis leap \;i \;si \;cline \;shut \;cline \;orbit \;infuse \;infix leap ;nomen
+\;genesis leap \;i \;si \;L \;shut \;L \;orbit \;infuse \;infix leap ;nomen
 
 1 \;infix 0 ;nomen
 \;columns \;infix \;l $ ;nomen
@@ -79,12 +76,12 @@ cspine ;nomen
 \;icurs \;ldoc \;del lcurs ;nomen
 
 \;doc \;orbit \;infuse dfilter ;nomen
-\;cline \;orbit \;infuse cfilter ;nomen
+\;L \;orbit \;infuse cfilter ;nomen
 \;burn \;inscribe replace ;nomen
 
 ;blank \;trample bt ;nomen
 
-\;genesis sed \;i ;space \;i \;cline \;shut sed ;nomen
+\;genesis sed \;i ;space \;i \;L \;shut sed ;nomen
 
 \;sed \;cfilter \;bt \;i lsed ;nomen
 \;sed \;dfilter \;replace dsed ;nomen
@@ -108,7 +105,7 @@ atom-nomen \;disenchant \;atom a ;nomen
 
 \;atom-nomen \;atom A ;nomen
 
-ls -F ;words \;incant \;disp ls ;nomen
+ls -F ;words \;incant \;p ls ;nomen
 
 \;words \;i wi ;nomen
 ;space \;i si ;nomen
@@ -125,13 +122,13 @@ glue \;incant glue ;nomen
 
 sh \;| she ;nomen
 
-\;cline \;she \;bt \;i @ ;nomen
+\;L \;she \;bt \;i @ ;nomen
 
 \;pin saved \;bottle \;0 \;ti \;saved \;infix \;l indent ;nomen
 
 nilus \;infuse nilus ;nomen
 
-* \;disp atom-prompt ;nomen
+* \;p atom-prompt ;nomen
 
 ;init
 ;go-bottom

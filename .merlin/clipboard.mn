@@ -1,7 +1,7 @@
 ;blank CLIPBOARD ;nomen
 
 CLIPBOARD \;bottle copy ;nomen
-\;cline \;copy ersatz ;nomen
+\;L \;copy ersatz ;nomen
 
 \;CLIPBOARD paste ;nomen
 \;CLIPBOARD \;inscribe pastein ;nomen

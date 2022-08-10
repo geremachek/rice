@@ -1,0 +1,27 @@
+#!/bin/sh
+# this isn't mine, i got it from someone in a chatroom
+
+row1() {
+    m="0"
+    printf "\e[38;5;$((m*8))m██\e[48;5;$((m*8+1))m\e[m"
+    for n in {1..6};do
+        printf "\e[38;5;$((n+m*8))m██\e[48;5;$((n+m*8+1))m\e[m"
+    done
+    printf "\e[m\e[38;5;$((m*8+7))m██\e[m"
+}
+
+row2() {
+    m="1"
+    printf "\e[38;5;$((m*8))m██\e[38;5;$((m*8+1))m\e[48;5;$((m*8))m\e[m"
+    for n in {1..6};do
+        printf "\e[38;5;$((n+m*8))m██\e[38;5;$((n+m*8+1))m\e[48;5;$((n+m*8))m\e[m"
+    done
+    printf "\e[m\e[38;5;$((m*8+7))m██\e[m"
+}
+
+for n in {0..4}; do
+    row1
+    printf "\n"
+    row2
+    printf "\n"
+done

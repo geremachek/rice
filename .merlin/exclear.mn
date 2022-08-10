@@ -1,4 +1,4 @@
-\;escape \;orbit \;blank \;tether \\;disp make-escape ;nomen
+\;escape \;orbit \;blank \;tether \\;p make-escape ;nomen
 
 [?1049h ;make-escape init ;nomen
 [?1049l ;make-escape reset ;nomen
@@ -6,7 +6,7 @@
 bottom ;incant bottom ;nomen
 
 [2J ;make-escape clear-win ;nomen
-\;bottom \;disp go-bottom ;nomen
+\;bottom \;p go-bottom ;nomen
 
 \;clear-win \;go-bottom clear ;nomen
 

@@ -15,5 +15,5 @@ hovering ;nomen
 
 \;genesis \;$ gen-end ;nomen
 
-\;hovering \;dispn W ;nomen
-\;WIN_TOP \;WIN_BOT \;peer \;dispn WS ;nomen
+\;hovering \;P W ;nomen
+\;WIN_TOP \;WIN_BOT \;peer \;P WS ;nomen
