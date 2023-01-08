@@ -11,6 +11,7 @@
 ~/.merlin/stack.mn      ;spellbook
 ~/.merlin/clipboard.mn  ;spellbook
 
+
 CLONE \;bottle \;CLONE \;CLONE clone ;nomen
 
 \;inscribe i ;nomen
@@ -67,14 +68,12 @@ cspine ;nomen
 
 \;. \;i \;h r ;nomen
 
-| CURSOR ;nomen
+@ CURSOR ;nomen
 
 \;CURSOR \;inscribe icurs ;nomen
 \;icurs \;T \;del curs ;nomen
 \;icurs \;pdoc \;del dcurs ;nomen
 \;icurs \;ldoc \;del lcurs ;nomen
-
-\;spot ;space ;blank \;stitch \;p ;space \;p \;curs vit ;nomen
 
 \;doc \;orbit \;infuse dfilter ;nomen
 \;L \;orbit \;infuse cfilter ;nomen
@@ -125,13 +124,11 @@ sh \;| she ;nomen
 
 \;L \;she \;bt \;i @ ;nomen
 
-\;pin SAVED \;bottle \;0 \;ti \;SAVED \;infix \;l indent ;nomen
+\;pin saved \;bottle \;0 \;ti \;saved \;infix \;l indent ;nomen
 
 nilus \;infuse nilus ;nomen
 
-\\;vit atom-nomen \;bottle line-mode ;nomen
-
-: \;p atom-prompt ;nomen
+* \;p atom-prompt ;nomen
 
 ;init
 ;go-bottom
