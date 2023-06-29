@@ -1,0 +1,3 @@
+#!/bin/sh
+
+acme -c 1 -b -f ~/plan9port/font/lucsans/unicode.10.font

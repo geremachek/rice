@@ -1,10 +1,10 @@
 # 🌿
 
-![Merlin](osiris.png "Merlin")
+![acme](acme.png "acme")
 
 wm: xmonad
 
-editor: [merlin](https://merlinfo.github.io) + [ukko](https://github.com/merlinfo/ukko) / [emacs](https://github.com/geremachek/lilith)
+editor: [merlin](https://merlinfo.github.io) + [ukko](https://github.com/merlinfo/ukko) / acme
 
 shell: bash / dash
 

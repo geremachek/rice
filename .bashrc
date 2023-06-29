@@ -12,8 +12,8 @@ alias q='exit'
 alias x='exit'
 alias adieu='exit'
 
-alias l="ls -l"
-alias ls="ls -F"
+alias l="ls -l --group-directories-first"
+alias ls="ls -F --group-directories-first"
 
 alias c='clear'
 alias s="sudo -p ?"
@@ -50,6 +50,7 @@ export ROSE_FORMAT_PREFIX=" → "
 export ROSE_PROMPT="λ "
 export SPELLBOOK="~/.merlin/spellbook.mn"
 export EDITOR="ukko"
+export acmeshell="bash"
 
 # Plan9 Port
 
