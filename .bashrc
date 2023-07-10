@@ -25,8 +25,6 @@ alias mpva="mpv --no-video"
 alias m="ukko"
 alias v="vim"
 
-alias rm="rm -i"
-
 # Git aliases
 
 alias ga="git add"

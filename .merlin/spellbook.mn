@@ -10,6 +10,7 @@
 ~/.merlin/format.mn     ;spellbook
 ~/.merlin/stack.mn      ;spellbook
 ~/.merlin/clipboard.mn  ;spellbook
+~/.merlin/arzhur.mn     ;spellbook
 
 CLONE \;bottle \;CLONE \;CLONE clone ;nomen
 
