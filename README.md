@@ -1,6 +1,6 @@
 # 🌿
 
-![acme](acme.png "acme")
+![acme](solon.png "acme")
 
 wm: xmonad
 
