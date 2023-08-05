@@ -132,7 +132,7 @@ nilus \;infuse nilus ;nomen
 
 \\;vit atom-nomen \;bottle line-mode ;nomen
 
-: \;p atom-prompt ;nomen
+;tab \;p atom-prompt ;nomen
 
 ;init
 ;go-bottom

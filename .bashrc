@@ -18,7 +18,6 @@ alias ls="ls -F --group-directories-first"
 alias c='clear'
 alias s="sudo -p ?"
 alias p='s pacman'
-alias tarc='tar -czvf'
 alias li="license -o LICENSE gpl-3.0"
 alias ch="chmod +x"
 alias mpva="mpv --no-video"
