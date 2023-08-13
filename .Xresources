@@ -1,5 +1,8 @@
-Xft.dpi: 144
+Xft.dpi: 130
 
 sxiv.background: #e3ddc5
 sxiv.foreground: #000000
 sxiv.font: Source Code Variable 12.5
+
+Xcursor.size: 16
+Xcursor.theme: Adwaita

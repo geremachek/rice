@@ -1,6 +1,8 @@
 # 🌿
 
-![acme](solon.png "acme")
+![laptop](laptop.png "laptop")
+
+os: ubuntu
 
 wm: xmonad
 
@@ -11,7 +13,5 @@ shell: bash / dash
 terminal: alacritty
 
 browser: brave
-
-calc: [basil](https://github.com/geremachek/basil) / [rose](https://github.com/geremachek/rose)
 
 font: Go Mono and Scientifica

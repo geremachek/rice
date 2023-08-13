@@ -1,0 +1,3 @@
+#!/bin/sh
+
+acme -c 1 -b -f /mnt/font/GoMono/11a/font

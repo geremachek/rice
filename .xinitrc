@@ -3,11 +3,11 @@
 # start picom, sxhkd, xmonad, etc.
 # set wallpaper, cursor size, etc.
 
-picom --config ~/.config/picom/picom.conf &
+picom -b --config ~/.config/picom/picom.conf &
 sxhkd &
+fontsrv &
 
-xsetroot -xcf /usr/share/icons/Adwaita/cursors/left_ptr 25
-export XCURSOR_SIZE=30
+xsetroot -cursor_name left_ptr
 
 xrdb .Xresources
 hsetroot -solid "#d2bfaa"

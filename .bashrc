@@ -3,7 +3,7 @@
 # General
 
 shopt -s autocd
-stty -ixon
+[[ $- == *i* ]] && stty -ixon
 set -o vi
 
 # Aliases
@@ -17,7 +17,7 @@ alias ls="ls -F --group-directories-first"
 
 alias c='clear'
 alias s="sudo -p ?"
-alias p='s pacman'
+alias a='s apt'
 alias li="license -o LICENSE gpl-3.0"
 alias ch="chmod +x"
 alias mpva="mpv --no-video"
@@ -51,5 +51,6 @@ export acmeshell="bash"
 
 # Plan9 Port
 
-export PLAN9=/home/freyja/plan9port
+export PLAN9=~/plan9port
 export PATH=$PATH:$PLAN9/bin
+. "$HOME/.cargo/env"

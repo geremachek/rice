@@ -1,1 +1,14 @@
-$ ghc --make xmonad.hs -i -ilib -fforce-recomp -main-is main -dynamic -v0 -outputdir /home/freyja/.xmonad/build-x86_64-linux -o /home/freyja/.xmonad/xmonad-x86_64-linux
+
+xmonad.hs:149:14: warning: [-Wdeprecations]
+    In the use of ‘smartSpacing’ (imported from XMonad.Layout.Spacing):
+    Deprecated: "Use spacingRaw instead."
+    |
+149 |      tiled = smartSpacing 10 $ Tall nmaster delta ratio
+    |              ^^^^^^^^^^^^
+
+xmonad.hs:170:1: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+    |
+170 |         --handleEventHook = handleEventHook def <+> fullscreenEventHook,
+    | ^^^^^^^^

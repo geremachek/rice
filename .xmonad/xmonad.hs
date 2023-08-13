@@ -9,6 +9,8 @@ import XMonad.Layout.Spacing
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
 
+import XMonad.Hooks.EwmhDesktops
+
 myTerminal      = "alacritty"
 
 -- Whether focus follows the mouse pointer.
@@ -20,7 +22,7 @@ myClickJustFocuses :: Bool
 myClickJustFocuses = False
 
 -- Width of the window border in pixels.
-myBorderWidth   = 5
+myBorderWidth   = 1
 myModMask       = mod4Mask
 
 myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
@@ -33,7 +35,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch a terminal
     [ ((modm, xK_Return), spawn $ XMonad.terminal conf)
 
-    , ((modm, xK_i ), spawn "brave")
+    , ((modm, xK_i ), spawn "brave-browser")
 
     -- launch dmenu
     , ((modm,               xK_d     ), spawn "~/.scripts/dmerun")
@@ -156,7 +158,7 @@ myManageHook = composeAll
     , resource  =? "desktop_window" --> doIgnore
     , resource  =? "kdesktop"       --> doIgnore ]
 
-myEventHook = mempty
+myEventHook = handleEventHook def <+> fullscreenEventHook
 
 myLogHook = return ()
 
@@ -164,7 +166,9 @@ myStartupHook = return ()
 
 main = xmonad defaults
 
-defaults = def {
+defaults = ewmh def {
+	--handleEventHook = handleEventHook def <+> fullscreenEventHook,
+
       -- simple stuff
         terminal           = myTerminal,
         focusFollowsMouse  = myFocusFollowsMouse,

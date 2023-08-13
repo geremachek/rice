@@ -1,0 +1,3 @@
+#!/bin/sh
+
+upower -e | grep BAT | xargs upower -i | grep percentage | awk '{print $2}'

@@ -1,11 +1,11 @@
-super + Up
-	amixer set Master 5%+
+super + {Up, Down, ctrl + m}
+	amixer -D pulse sset Master {5%+, 5%-, toggle}
 
-super + Down
-	amixer set Master 5%-
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+	amixer -D pulse sset Master {5%+, 5%-, toggle}
 
-super + ctrl + m
-	amixer set Master toggle
+XF86MonBrightness{Up,Down}
+	xbacklight -display acpi_video0 {-inc 5, -dec 5}	
 
 super + p
 	mpv $(xclip -o -selection clipboard)
