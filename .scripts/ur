@@ -6,6 +6,8 @@ cp ~/.xinitrc ~/repos/rice/.xinitrc
 cp ~/.alacritty.yml ~/repos/rice/.alacritty.yml  
 cp ~/.Xresources ~/repos/rice/.Xresources
 
+cp ~/repos/2bwm/config.h ~/repos/rice/config.h
+
 update() {
 	rm -rf "$2"/*
 	cp -r "$1"/* "$2"
