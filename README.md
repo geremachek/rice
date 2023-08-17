@@ -1,6 +1,6 @@
-# 🌿
+# { digital anthropology }
 
-![STRONGER]("bedbed.png" "STRONGER")
+![STRONGER](bedbed.png "STRONGER")
 
 os: ubuntu
 
