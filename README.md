@@ -1,10 +1,10 @@
 # 🌿
 
-![laptop](laptop.png "laptop")
+![STRONGER]("bedbed.png" "STRONGER")
 
 os: ubuntu
 
-wm: xmonad
+wm: 2bwm
 
 editor: [merlin](https://merlinfo.github.io) + [ukko](https://github.com/merlinfo/ukko) / acme
 

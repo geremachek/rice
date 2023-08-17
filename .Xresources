@@ -2,7 +2,9 @@ Xft.dpi: 130
 
 sxiv.background: #e3ddc5
 sxiv.foreground: #000000
-sxiv.font: Source Code Variable 12.5
+sxiv.font: Go Mono 12.5
 
 Xcursor.size: 16
 Xcursor.theme: Adwaita
+
+twobwm.enable_compton: true

@@ -32,7 +32,6 @@ alias gc="git commit -m"
 
 # fetch
 
-alias f="pfetch"
 export PF_COL3=1
 export PF_ASCII="linux"
 export PF_INFO="ascii title os wm host uptime pkgs memory"

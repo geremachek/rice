@@ -1,0 +1,5 @@
+#!/bin/sh
+# simple status script
+
+bat | tr -d '\n'
+printf " | " && pt
