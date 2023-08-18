@@ -19,7 +19,7 @@ static const uint8_t offsets[] = {0,0,0,0};
  *2)fixedcol         3)unkilcol
  *4)fixedunkilcol    5)outerbordercol
  *6)emptycol         */
-static const char *colors[] = {"#55aaaa","#9eeeee","#000000","#ff6666","#cc9933","#ffffea","#000000"};
+static const char *colors[] = {"#55aaaa","#9eeeee","#eaeaff","#ff6666","#cc9933","#ffffea","#000000"};
 /* if this is set to true the inner border and outer borders colors will be swapped */
 static const bool inverted_colors = false;
 ///---Cursor---///
@@ -40,7 +40,7 @@ static const uint8_t borders[] = {4,8,8,5};
 #define LOOK_INTO "WM_NAME"
 static const char *ignore_names[] = {"bar", "xclock"};
 ///--Menus and Programs---///
-static const char *menucmd[]   = { "", NULL };
+static const char *menucmd[]   = { "~/.scripts/dmerun", NULL };
 ///--Custom foo---///
 static void halfandcentered(const Arg *arg)
 {

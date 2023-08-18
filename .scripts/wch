@@ -1,0 +1,6 @@
+#!/bin/sh
+
+tput civis
+trap "tput cnorm" INT
+
+watch -t "$@"
