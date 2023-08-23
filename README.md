@@ -1,6 +1,6 @@
 # { digital anthropology }
 
-![STRONGER](bedbed.png "STRONGER")
+![girl](girl.png "girl")
 
 os: ubuntu
 

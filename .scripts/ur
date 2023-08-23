@@ -5,8 +5,8 @@ cp ~/.bashrc ~/repos/rice/.bashrc
 cp ~/.xinitrc ~/repos/rice/.xinitrc
 cp ~/.alacritty.yml ~/repos/rice/.alacritty.yml  
 cp ~/.Xresources ~/repos/rice/.Xresources
-
 cp ~/repos/2bwm/config.h ~/repos/rice/config.h
+cp ~/plan9port/plumb/basic ~/repos/rice/plumbing
 
 update() {
 	rm -rf "$2"/*
@@ -17,4 +17,5 @@ update ~/.scripts ~/repos/rice/.scripts
 update ~/.xmonad ~/repos/rice/.xmonad
 update ~/.config/picom ~/repos/rice/.config/picom
 update ~/.config/sxhkd ~/repos/rice/.config/sxhkd
+update ~/.config/zathura ~/repos/rice/.config/zathura
 update ~/.merlin ~/repos/rice/.merlin
