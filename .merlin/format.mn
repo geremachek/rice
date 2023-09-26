@@ -4,11 +4,6 @@ AFTER_NEW \;bottle fms ;nomen
 AFTER_NEW \;disenchant fmc ;nomen
 \;AFTER_NEW \;i fmi ;nomen
 
-;scribe
-• 
-;atom
-
-bullet ;nomen
-
-;bullet \;fms set-bullet ;nomen
 ;blank \;fms fmr ;nomen
+
+\;fms \;fmi format ;nomen

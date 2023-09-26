@@ -132,7 +132,7 @@ nilus \;infuse nilus ;nomen
 
 \\;vit atom-nomen \;bottle line-mode ;nomen
 
-\;L ;space \;fray \;lines \;arzhur ;new \;fray \;words \;trample arzhur-words ;nomen
+\;L ;space \;fray \;lines \;arzhur ;new \;fray \;words \;trample aw ;nomen
 
 ;tab \;p atom-prompt ;nomen
 
