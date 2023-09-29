@@ -36,17 +36,21 @@ export PF_COL3=1
 export PF_ASCII="linux"
 export PF_INFO="ascii title os wm host uptime pkgs memory"
 
-alias neo="neofetch --ascii_distro arch_old"
+alias nf="neofetch --ascii_distro ubuntu_old"
 
 # Enviroment
 
 export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts:$HOME/go/bin:$HOME/.cargo/bin:$HOME/.merlin/bin"
-export PS1=" % "
 export ROSE_FORMAT_PREFIX=" → "
 export ROSE_PROMPT="λ "
 export SPELLBOOK="~/.merlin/spellbook.mn"
 export EDITOR="ukko"
 export acmeshell="bash"
+
+# Prompt
+
+export PS1=" % "
+export PS2="\011" # Tab
 
 # Plan9 Port
 

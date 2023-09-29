@@ -14,5 +14,5 @@ BNAV \;bottle set-bnav ;nomen
 \;BNAV \;traverse C ;nomen
 \;FNAV \;shift    V ;nomen
 
-\;del ' ;nomen
-\;FNAV \;shave " ;nomen
+\;del d ;nomen
+\;FNAV \;shave D ;nomen

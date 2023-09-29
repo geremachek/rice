@@ -5,8 +5,10 @@
 {} \;ih { ;nomen
 <> \;ih < ;nomen
 
-// \;ih ipa ;nomen
+// \;ih / ;nomen
 
-"" \;ih qu ;nomen
-'' \;ih sq ;nomen
-`` \;ih gr ;nomen
+"" \;ih " ;nomen
+'' \;ih ' ;nomen
+`` \;ih ` ;nomen
+
+“” \;ih '' ;nomen

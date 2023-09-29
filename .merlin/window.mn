@@ -5,7 +5,7 @@ WINDOW \;bottle set-win ;nomen
 
 hover \;genesis
 \;$
-\;si \;isi \;isi
+\;si \;is \;is
 \;WINDOW \;i
 
 \;doc \;incant

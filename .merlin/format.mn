@@ -6,4 +6,4 @@ AFTER_NEW \;disenchant fmc ;nomen
 
 ;blank \;fms fmr ;nomen
 
-\;fms \;fmi format ;nomen
+\;fms \;fmi fmt ;nomen
