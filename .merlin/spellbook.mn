@@ -12,6 +12,7 @@
 ~/repos/arzhur/arzhur.mn ;spellbook
 
 CLONE \;bottle \;CLONE \;CLONE clone ;nomen
+\;clone u ;nomen
 
 \;inscribe i ;nomen
 \;genesis n ;nomen
@@ -69,7 +70,7 @@ status ;nomen
 
 \;. \;i \;h r ;nomen
 
-| CURSOR ;nomen
+$ CURSOR ;nomen
 
 \;CURSOR \;inscribe icurs ;nomen
 \;icurs \;T \;del curs ;nomen

@@ -40,7 +40,7 @@ alias nf="neofetch --ascii_distro ubuntu_old"
 
 # Enviroment
 
-export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts:$HOME/go/bin:$HOME/.cargo/bin:$HOME/.merlin/bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts:$HOME/go/bin:/usr/local/go/bin:$HOME/.cargo/bin:$HOME/.merlin/bin"
 export ROSE_FORMAT_PREFIX=" → "
 export ROSE_PROMPT="λ "
 export SPELLBOOK="~/.merlin/spellbook.mn"
@@ -57,3 +57,11 @@ export PS2="\011" # Tab
 export PLAN9=~/plan9port
 export PATH=$PATH:$PLAN9/bin
 . "$HOME/.cargo/env"
+
+# Print a random Egyptian exercise 
+
+rg="$HOME/repos/random-gardiner"
+
+cd $rg
+"$rg/random-gardiner"
+cd ~
