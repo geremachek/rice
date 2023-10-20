@@ -1,6 +1,6 @@
 # { digital anthropology }
 
-![girl](girl.png "girl")
+![could she](could-she.png "could she")
 
 os: ubuntu
 

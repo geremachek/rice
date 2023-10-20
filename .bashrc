@@ -57,11 +57,3 @@ export PS2="\011" # Tab
 export PLAN9=~/plan9port
 export PATH=$PATH:$PLAN9/bin
 . "$HOME/.cargo/env"
-
-# Print a random Egyptian exercise 
-
-rg="$HOME/repos/random-gardiner"
-
-cd $rg
-"$rg/random-gardiner"
-cd ~

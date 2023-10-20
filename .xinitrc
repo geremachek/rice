@@ -11,7 +11,7 @@ plumber &
 xsetroot -cursor_name left_ptr
 
 xrdb .Xresources
-hsetroot -solid "#BEDBED"
+hsetroot -solid darkgray
 xset s off -dpms
 
 setxkbmap -layout us,gr -option grp:lswitch

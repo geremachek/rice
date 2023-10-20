@@ -1,3 +1,3 @@
 #!/bin/sh
 
-dmenu -l 10 -fn "Go Mono:size=8" -nb "#ffffea" -nf "#000000" -sb "#eaffff" -sf "#000000"
+dmenu -l 10 -fn "Go Mono:size=8" -nb "#efffef" -nf "#000000" -sb "#428a42" -sf "#ffffff"
