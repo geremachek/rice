@@ -5,7 +5,7 @@ super + d
 	~/.scripts/dmerun
 
 super + i
-	brave-browser
+	~/.scripts/browser
 
 super + {Up, Down, ctrl + m}
 	amixer -D pulse sset Master {5%+, 5%-, toggle}

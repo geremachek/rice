@@ -1,0 +1,15 @@
+(
+  Uruk,
+  (
+    Programs,
+    (Alacritty, EXEC, alacritty),
+    (Acme, EXEC, "/home/inanna/.scripts/macme"),
+    (Brave, EXEC, "brave-browser")
+  ),
+  ("Window List Menu", WINDOWS_MENU),
+  ("Workspace Menu", WORKSPACE_MENU),
+  (Run..., EXEC, "%A(Run,Type command to run)"),
+  (Preferences, EXEC, WPrefs),
+  (Exit, EXIT),
+  ("Exit session", SHUTDOWN)
+)

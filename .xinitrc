@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# start picom, sxhkd, xmonad, etc.
+# start picom, sxhkd, windowmaker, etc.
 # set wallpaper, cursor size, etc.
 
 picom -b --config ~/.config/picom/picom.conf &
@@ -11,7 +11,6 @@ plumber &
 xsetroot -cursor_name left_ptr
 
 xrdb .Xresources
-hsetroot -solid darkgray
 xset s off -dpms
 
 setxkbmap -layout us,gr -option grp:lswitch
@@ -24,5 +23,4 @@ xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 
 rm ~/acme.dump
 
-2bwm&
-exec macme
+exec wmaker

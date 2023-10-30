@@ -1,0 +1,4 @@
+{
+  BoldSystemFont = "Go Mono:slant=0:weight=80:width=100:pixelsize=12";
+  SystemFont = "Go Mono:slant=0:weight=80:width=100:pixelsize=12";
+}

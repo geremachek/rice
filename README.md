@@ -1,10 +1,10 @@
 # { digital anthropology }
 
-![could she](could-she.png "could she")
+![windowmaker](wm.png "windowmaker")
 
 os: ubuntu
 
-wm: 2bwm
+wm: windowmaker
 
 editor: [merlin](https://merlinfo.github.io) + [ukko](https://github.com/merlinfo/ukko) / acme
 
