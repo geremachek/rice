@@ -1,5 +1,5 @@
 super + Return
-	alacritty
+	mlterm
 
 super + d
 	~/.scripts/dmerun

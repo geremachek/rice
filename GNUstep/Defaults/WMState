@@ -1,49 +1,4 @@
 {
-  Dock = {
-    AutoRaiseLower = No;
-    Applications = (
-      {
-        Forced = No;
-        Name = Logo.WMDock;
-        BuggyApplication = No;
-        AutoLaunch = No;
-        Lock = Yes;
-        Position = "0,0";
-        Command = "/usr/bin/WPrefs";
-      },
-      {
-        Forced = No;
-        Name = "x-terminal-emulator.XTerm";
-        BuggyApplication = No;
-        AutoLaunch = No;
-        Lock = No;
-        Position = "0,1";
-        Command = "x-terminal-emulator";
-      }
-    );
-    Applications1080 = (
-      {
-        Forced = No;
-        Name = Logo.WMDock;
-        BuggyApplication = No;
-        AutoLaunch = No;
-        Lock = Yes;
-        Position = "0,0";
-        Command = "/usr/bin/WPrefs";
-      },
-      {
-        Forced = No;
-        Name = "x-terminal-emulator.XTerm";
-        BuggyApplication = No;
-        AutoLaunch = No;
-        Lock = No;
-        Position = "0,1";
-        Command = "x-terminal-emulator";
-      }
-    );
-    Position = "-64,0";
-    Lowered = Yes;
-  };
   Clip = {
     Forced = No;
     Name = Logo.WMClip;
@@ -54,7 +9,6 @@
     Lock = No;
     Command = "-";
   };
-  Drawers = ();
   Workspaces = (
     {
       Clip = {
@@ -77,6 +31,28 @@
         Lowered = Yes;
       };
       Name = "Workspace 2";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 3";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 4";
     }
   );
 }

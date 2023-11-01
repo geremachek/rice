@@ -2,10 +2,13 @@
   Uruk,
   (
     Programs,
-    (Alacritty, EXEC, alacritty),
+    (Mlterm, EXEC, mlterm),
     (Acme, EXEC, "/home/inanna/.scripts/macme"),
-    (Brave, EXEC, "brave-browser")
+    (Merlin, EXEC, "/home/inanna/.scripts/uw"),
+    (Brave, EXEC, "brave-browser"),
+    (PCManFM, EXEC, pcmanfm)
   ),
+  (Power, (Shutdown, EXEC, "shutdown now"), (Reboot, EXEC, reboot)),
   ("Window List Menu", WINDOWS_MENU),
   ("Workspace Menu", WORKSPACE_MENU),
   (Run..., EXEC, "%A(Run,Type command to run)"),

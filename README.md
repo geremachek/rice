@@ -10,7 +10,7 @@ editor: [merlin](https://merlinfo.github.io) + [ukko](https://github.com/merlinf
 
 shell: bash / dash
 
-terminal: alacritty
+terminal: mlterm / alacritty
 
 browser: brave
 

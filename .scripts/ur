@@ -20,3 +20,4 @@ update ~/.config/sxhkd ~/repos/rice/.config/sxhkd
 update ~/.config/zathura ~/repos/rice/.config/zathura
 update ~/.merlin ~/repos/rice/.merlin
 update ~/GNUstep ~/repos/rice/GNUstep
+update ~/.mlterm ~/repos/rice/.mlterm

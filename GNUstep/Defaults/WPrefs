@@ -2,9 +2,9 @@
   TextureList = ();
   NoXSetStuff = NO;
   ColorList = (
-    "#a9a9a9",
-    "#a9a9a9",
-    "#525252",
+    "#ffffff",
+    "#ffffff",
+    "#505050",
     "#848484",
     "#adadad",
     "#d6d6d6",

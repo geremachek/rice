@@ -6,5 +6,3 @@ sxiv.font: Go Mono 12.5
 
 Xcursor.size: 16
 Xcursor.theme: Adwaita
-
-twobwm.enable_compton: true

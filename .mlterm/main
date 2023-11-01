@@ -1,0 +1,11 @@
+use_auto_detect = false
+auto_detect_encodings = UTF-8,EUC-JP,SJIS
+bg_color = #ffffffffeaea
+fontsize = 14
+bel_mode = sound|visual
+receive_string_via_ucs = true
+blink_cursor = true
+use_ot_layout = false
+scrollbar_view_name = next
+cursor_fg_color = #ffffffffffff
+cursor_bg_color = #dadaa0a06d6d

@@ -1,0 +1,9 @@
+Nov  1 11:11:52[83068] Failed to exec /usr/lib/x86_64-linux-gnu/mlterm/mlimgloader.
+Nov  1 11:12:31[83797] ERROR(No such file or directory): Failed to exec /usr/lib/x86_64-linux-gnu/mlterm/mlterm-menu.
+Nov  1 11:12:53[84140] ERROR(No such file or directory): Failed to exec /usr/lib/x86_64-linux-gnu/mlterm/mlconfig.
+Nov  1 11:12:53[84171] ERROR(No such file or directory): Failed to exec /usr/lib/x86_64-linux-gnu/mlterm/mlconfig.
+Nov  1 11:12:54[84172] ERROR(No such file or directory): Failed to exec /usr/lib/x86_64-linux-gnu/mlterm/mlterm-menu.
+Nov  1 11:12:58[84232] ERROR(No such file or directory): Failed to exec /usr/lib/x86_64-linux-gnu/mlterm/mlconfig.
+Nov  1 11:13:04[84330] ERROR(No such file or directory): Failed to exec /usr/lib/x86_64-linux-gnu/mlterm/mlconfig.
+Nov  1 11:13:05[84331] ERROR(No such file or directory): Failed to exec /usr/lib/x86_64-linux-gnu/mlterm/mlconfig.
+Nov  1 11:16:15[85949] Font(id d1) width(8) is not matched with standard width(7).
