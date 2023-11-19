@@ -1,6 +1,6 @@
 # { digital anthropology }
 
-![Window Maker](grimes.png "Window Maker")
+![Window Maker](brown.png "Window Maker")
 
 os: ubuntu
 
