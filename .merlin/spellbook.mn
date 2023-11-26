@@ -9,10 +9,13 @@
 ~/.merlin/format.mn      ;spellbook
 ~/.merlin/stack.mn       ;spellbook
 ~/.merlin/clipboard.mn   ;spellbook
+~/.merlin/comments.mn    ;spellbook
 ~/repos/arzhur/arzhur.mn ;spellbook
 
 CLONE \;bottle \;CLONE \;CLONE clone ;nomen
 \;clone u ;nomen
+
+CODA ;nomen
 
 \;inscribe i ;nomen
 \;genesis n ;nomen
@@ -117,7 +120,7 @@ ls -F ;words \;incant \;p ls ;nomen
 
 \;i \;si is ;nomen
 
-\;reset \;adieu \;a q ;nomen
+\;reset \;adieu \;CODA q ;nomen
 
 glue \;incant glue ;nomen
 
@@ -137,6 +140,7 @@ nilus \;infuse nilus ;nomen
 \;L ;space \;fray \;lines \;arzhur ;new \;fray \;words \;trample aw ;nomen
 
 ;tab \;p atom-prompt ;nomen
+;tab ;space ;zip \;p scribe-prompt ;nomen
 
 ;init
 ;go-bottom

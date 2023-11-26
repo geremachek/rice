@@ -13,4 +13,5 @@ Liquorice Merlin
 - format.mn     // indentation and bullet formatting
 - stack.mn      // visual stack mode 
 - clipboard.mn  // internal clipboard
+- comments.mn   // implementation of inline comments
 - bin/          // executables used by nomens
