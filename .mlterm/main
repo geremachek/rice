@@ -9,5 +9,7 @@ use_ot_layout = false
 scrollbar_view_name = next
 cursor_fg_color = #ffffffffffff
 cursor_bg_color = #dadaa0a06d6d
+use_ansi_colors = true
 use_variable_column_width = true
 type_engine = xft
+scrollbar_mode = none
